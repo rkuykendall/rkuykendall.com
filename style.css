@@ -1,0 +1,226 @@
+
+/* ==============================
+      Meyer CSS Reset
+   ============================== */
+
+/*
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+noscript {
+	color: #fff;
+	background-color: #333;
+	display: inline-block;
+	padding: 1px 2px;
+ }
+
+
+/* ==============================
+      Elements
+   ============================== */
+
+body {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1em;
+  color: black;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  line-height: 1em;
+  font-weight: 600;
+}
+h2 {
+  font-size: 30px;
+  line-height: 1em;
+  margin-bottom: 10px;
+	margin-top: 25px;
+  font-weight: 600;
+}
+
+
+header h2 {
+  font-size: 25px;
+  line-height: 1em;
+  color: #848484;
+  margin: -5px 0 15px 0;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 1em;
+  font-weight: 600;
+  margin: 30px 0 10px 0;
+}      
+h4 {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+}      
+h5, h6 {
+	font-weight: bold;
+}
+
+p, blockquote, cite {
+  line-height: 1.4em;
+  max-width: 40em;
+  margin-bottom: 15px;
+}
+blockquote {
+	padding: 15px;
+	padding-bottom: 5px;
+	border-left: 2px dotted black;
+}
+p img {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+blockquote cite {
+  display: block;
+  font-style: italic;
+
+  line-height: 1.4em;
+  /* font-size: 0.8em; */
+  color: #aaa;
+  text-align: right;
+  max-width: none;
+  margin: -15px 0 0 1em;
+}
+
+strong {
+	font-weight: 600;
+}
+
+em {
+	font-style: italic;
+}
+
+
+a {
+  color: #06C;
+  text-decoration: none;
+  }
+  a:hover {
+    color: #03C;
+    text-decoration: underline;
+  }
+  a:visited, a:active {
+    color: #63C;
+  }
+  a img,
+	a:link img {
+  	border-bottom: 5px solid #06C;
+  }
+  a:hover img {
+  	border-bottom: 5px solid #03C;
+  }
+  a:visited img, a:active img {
+  	border-bottom: 5px solid #63C;
+}
+
+ol, ul {
+	display: block;
+	margin-bottom: 15px;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+ol li,
+ul li {
+  line-height: 1.2em;
+  margin-bottom: 5px;
+}
+
+footer {
+	background-color: #f6f6f6;
+	padding: 0 20px 20px 20px;
+	margin: 80px -20px;
+}
+
+div#disqus_thread {
+  padding: 20px 0 0 0;
+}
+
+header, #sections {
+}
+
+
+
+li.twit-date {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+li.twit-date ul {
+	font-weight: normal;
+    max-width: 34em;
+}
+
+
+#logo {
+  border: none;
+  background-color: #06C;
+  margin: 0 0 5% 0;
+}
+a:hover #logo {
+	background-color: #000;
+}
+@media only screen and (min-width: 900px) {
+  #logo {
+    float: right;
+    margin: 0 0 5% 5%;
+  }
+}
