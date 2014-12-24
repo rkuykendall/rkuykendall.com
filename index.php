@@ -4,15 +4,22 @@
 ?>
 
     <header>
-      <?php print $logo; ?>
-      <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll</h1>
-      <h2>Columbia University, NYC</h2>
+      <style>
+      h1 em {
+        font-size: 45%;
+        color: #bbb;
+        font-weight: 200;
+      }
+      </style>
+        <?php print $logo; ?>
+      <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1> 
+      <h2>Columbia University, New York City</h2>
     </header>
     <section>
       <p>
         Texas State University &mdash; Computer Science B.Sc. and Honors Studies minor '12.
         <br /> Columbia University in the City of New York &mdash; Computer Science M.Sc. SEAS '15.
-        <br /> <a href="Kuykendall-CV.pdf">Resume</a> (pdf), last updated October 2013</a>.
+        <br /> <a href="Kuykendall-CV.pdf">Resume</a> (pdf), last updated September 2014</a>.
       </p>
         
       <p></p>
@@ -23,6 +30,8 @@
       <section>
         <h3>I love building web applications.</h3>
         <ul>
+          <li><a href="http://mapworldnews.com">Map World News</a> (<a href="https://github.com/rkuykendall/IRIS-News">github</a>) &mdash; World news visualization through location extraction and sentiment analysis. Written in Python and Flask 2013-2014.</li>
+          <li><a href="http://rkuykendall.com/webslinger/">Web Slinger</a> (<a href="https://github.com/rkuykendall/HTML5ComicBookReader">github</a>) &mdash; HTMl5 Comic Book Reader, written in javascript with jQuery in 2013. Forked from an existing project.</li>
           <li><a href="http://simplici7y.com">Simplici7y</a> (<a href="https://github.com/rkuykendall/Simplici7y">github</a>) &mdash; File sharing for the <a href="http://source.bungie.org">Aleph One</a> community. Written in Ruby on Rails in 2007, updated in 2011.</li>
           <li><a href="http://dani365.com/years/2008/months/6">Dani 365</a> &mdash; Photo sharing site and &ldquo;365&rdquo; photo-a-day project. Written in Ruby on Rails in 2008.
           <li><a href="http://www.pfhorums.com">The Pfhorums</a> &mdash; Forum for <a href="http://source.bungie.org">Aleph One</a> open source project, founded in 2005, managed but not coded.</li>

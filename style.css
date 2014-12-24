@@ -77,7 +77,13 @@ h1 {
   margin-bottom: 5px;
   line-height: 1em;
   font-weight: 600;
+  }
+  h1 em {
+    font-size: 45%;
+    color: #bbb;
+    font-weight: 200;
 }
+
 h2 {
   font-size: 30px;
   line-height: 1em;
@@ -212,11 +218,10 @@ li.twit-date ul {
 
 #logo {
   border: none;
-  background-color: #06C;
   margin: 0 0 5% 0;
 }
-a:hover #logo {
-	background-color: #000;
+#logo:hover path {
+	fill: #000;
 }
 @media only screen and (min-width: 900px) {
   #logo {
