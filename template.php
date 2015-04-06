@@ -23,7 +23,7 @@ EOT;
 $logo = <<<EOT
   <a href="/">
   <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      x="0px" y="0px" width="200px" height="200px" viewBox="0 0 397 397" enable-background="new 0 0 397 397" xml:space="preserve">
+      x="0px" y="0px" width="175px" height="175px" viewBox="0 0 397 397" enable-background="new 0 0 397 397" xml:space="preserve">
     
       <g>
       	<path fill="#0066CC" d="M391.454,151.775l-41.821,48.97l30.148,78.722C390.843,254.74,397,227.34,397,198.5

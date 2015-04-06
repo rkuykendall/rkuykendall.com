@@ -30,16 +30,16 @@
       <section>
         <h3>I love building web applications.</h3>
         <ul>
-          <li><a href="http://mapworldnews.com">Map World News</a> (<a href="https://github.com/rkuykendall/IRIS-News">github</a>) &mdash; World news visualization through location extraction and sentiment analysis. Written in Python and Flask 2013-2014.</li>
-          <li><a href="http://rkuykendall.com/webslinger/">Web Slinger</a> (<a href="https://github.com/rkuykendall/HTML5ComicBookReader">github</a>) &mdash; HTMl5 Comic Book Reader, written in javascript with jQuery in 2013. Forked from an existing project.</li>
-          <li><a href="http://simplici7y.com">Simplici7y</a> (<a href="https://github.com/rkuykendall/Simplici7y">github</a>) &mdash; File sharing for the <a href="http://source.bungie.org">Aleph One</a> community. Written in Ruby on Rails in 2007, updated in 2011.</li>
-          <li><a href="http://dani365.com/years/2008/months/6">Dani 365</a> &mdash; Photo sharing site and &ldquo;365&rdquo; photo-a-day project. Written in Ruby on Rails in 2008.
-          <li><a href="http://www.pfhorums.com">The Pfhorums</a> &mdash; Forum for <a href="http://source.bungie.org">Aleph One</a> open source project, founded in 2005, managed but not coded.</li>
+          <li>2014 <a href="http://mapworldnews.com">Map World News</a> (<a href="https://github.com/rkuykendall/IRIS-News">github</a>) &mdash; Visualization, location extraction, and sentiment analysis in Python.</li>
+          <li>2013 <a href="http://rkuykendall.com/webslinger/">Web Slinger</a> (<a href="https://github.com/rkuykendall/HTML5ComicBookReader">github</a>) &mdash; Web Browser Comic Book Reader, forked from existing project in HTML5 and JS.</li>
+          <li>2008 <a href="http://dani365.com/years/2008/months/6">Dani 365</a> &mdash; Photo sharing site and &ldquo;365&rdquo; photo-a-day project in Ruby on Rails.
+          <li>2007 <a href="http://simplici7y.com">Simplici7y</a> (<a href="https://github.com/rkuykendall/Simplici7y">github</a>) &mdash; File sharing for the <a href="http://source.bungie.org">Aleph One</a> community, in Ruby on Rails.</li>
+          <li>2005 <a href="http://www.pfhorums.com">The Pfhorums</a> &mdash; Forum for <a href="http://source.bungie.org">Aleph One</a> open source project, active for 10 years.</li>
         </ul>
       </section>
       
     <section>
-      <h3>I write articles and <a href="/design">enjoy design</a>.</h3>
+      <h3>I like to write about nerdy stuff.</h3>
       <ul>
         <?php include("./articles/listing.php"); ?>
       </ul>
@@ -65,7 +65,6 @@
         <li>Phone &mdash; 
           &#43;&#49;&#32;&#40;&#50;&#49;&#48;&#41;&#32;&#50;&#48;&#52;&#45;&#56;&#51;&#57;&#49;
         </li>
-        <li>Location &mdash; 135th &amp; Broadway</li>
         <li>AIM &mdash; 
           <script>
             <!--
@@ -93,6 +92,7 @@
             // -->
           </script>
           <noscript>Encrypted Address</noscript>
+          <li>Location &mdash; 135th &amp; Broadway, New York City</li>
         </li>
       </ul>
     </section>
