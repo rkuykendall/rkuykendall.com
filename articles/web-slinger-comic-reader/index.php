@@ -1,7 +1,8 @@
+<?php include('vars.php'); ?>
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title><?php include("title.html") ?> - Robert Kuykendall</title>
+    <title><?= $title ?> - Robert Kuykendall</title>
     <meta name="Description" content="<?php include("short.html") ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
@@ -44,8 +45,8 @@
     <header>
       <a href="http://rkuykendall.com/"><img alt="" id="logo" src="/logo.png" /></a>
       <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>.</p>
-      <h1><?php include("title.html") ?></h1>
-      <h2><?php include 'date.php'; echo date("l, F jS, Y", $published); ?> </h2>
+      <h1><?= $title ?></h1>
+      <h2><?= date("l, F jS, Y", $published); ?> </h2>
     </header>
     
     <section>

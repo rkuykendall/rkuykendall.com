@@ -1,7 +1,9 @@
+<?php include('vars.php') ?>
+
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title><?php include("title.html") ?> - Robert Kuykendall</title>
+    <title><?= $title ?> - Robert Kuykendall</title>
     <meta name="Description" content="Graduating Computer Science student at Texas State University in San Marcos, looking to do research on the web, ubiquitous computing, and interaction design.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
@@ -75,9 +77,9 @@
   <body>
 
     <header>
-      <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>.</p>
-      <h1><?php include("title.html") ?></h1>
-      <h2><?php include 'date.php'; echo date("l, F jS, Y", $published); ?> </h2>
+      <p>Written by <a href="/">Robert Kuykendall</a>.</p>
+      <h1><?= $title; ?></h1>
+      <h2><?= date("l, F jS, Y", $published); ?> </h2>
     </header>
 
     <blockquote><strong>Hi new viewer.</strong> I know what you're wondering: <em>&ldquo;how does he keep his nostrils so clean?&rdquo;</em></blockquote>

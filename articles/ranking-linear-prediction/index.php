@@ -1,8 +1,8 @@
+<?php include('vars.php'); ?>
 <!DOCTYPE HTML>
 <html>
   <head> 
-    <title><?php include("title.html") ?> - Robert Kuykendall</title>
-    <meta name="Description" content="<?php include("short.html") ?>">
+    <title><?= $title ?> - Robert Kuykendall</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
   
@@ -36,8 +36,8 @@
 
     <header>
       <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>; Advisor <a href="http://cs.txstate.edu/~dt19/">Associate Professor Dan Tamir</a>.</p>
-      <h1><?php include 'title.html'; ?></h1>
-      <h2><?php include 'date.php'; echo date("l, F jS, Y", $published); ?> </h2>
+      <h1><?= $title ?></h1>
+      <h2><?= date("l, F jS, Y", $published); ?> </h2>
     </header>
     
     <blockquote>In the fall of 2012 I completed my undergraduate honors thesis as part of my minor in Honors studies from Texas State University. After uploading the <a href="Kuykendall-Ranking_Linear_Prediction.pdf">official pdf of my final thesis</a>, I transcribed the document for the web below.</blockquote>

@@ -2,6 +2,7 @@
 <html>
   <head>
     <?php
+      include('vars.php');
     
       function spoiler($text)
       {
@@ -54,7 +55,7 @@
     
       ?>
     
-    <title><?php include("title.html") ?> - Robert Kuykendall</title>
+    <title><?= $title ?> - Robert Kuykendall</title>
     <!-- <meta name="Description" content=""> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
@@ -148,8 +149,8 @@
 
     <header>
       <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>.</p>
-      <h1><?php include("title.html") ?></h1>
-      <h2><?php include 'date.php'; echo date("l, F jS, Y", $published); ?> </h2>
+      <h1><?= $title ?></h1>
+      <h2><?= date("l, F jS, Y", $published); ?> </h2>
     </header>
     
     <section>
