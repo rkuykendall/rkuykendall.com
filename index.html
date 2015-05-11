@@ -41,7 +41,13 @@ title: Home
     <section>
       <h3>I like to write about nerdy stuff.</h3>
       <ul>
-        <?php include("./articles/listing.php"); ?>
+        {% for post in site.posts %}
+          <li> 
+            <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
+            &mdash;
+            <time class="post__date" datetime="2012-08-17" pubdate="">{{ post.date | date_to_long_string }}</time>
+          </li>
+        {% endfor %}
       </ul>
     </section>
       
