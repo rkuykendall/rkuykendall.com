@@ -40,7 +40,7 @@ date: 2013-03-12
           if ( $num < 0+$d ) { $class += " low"; }
 
           $icon  = '<a href="http://gallifreymatrix.wikia.com/wiki/The_Mighty_200" class="'+$class+'">#';
-          $icon += pad(3, $num);
+          $icon += pad($num, 3);
           $icon += "</a>";
           return $icon;
         });
