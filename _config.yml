@@ -1,1 +1,3 @@
 permalink: /articles/:title
+exclude:
+  - assets
