@@ -31,14 +31,13 @@ date: 2013-04-18
 </style>
 
 <header>
-  <a href="http://rkuykendall.com/"><img alt="" id="logo" src="/logo.png" /></a>
   <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>.</p>
   <h1>{{page.title}}</h1>
   <h2>{{page.date | date_to_long_string}}</h2>
 </header>
 
 <section>
-  <a href="http://rkuykendall.com/webslinger/"><img src="images/full-spread.jpg" /></a>
+  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
   <a href="http://rkuykendall.com/webslinger/" class="button">Link to <i>Web Slinger</i> Comic Book Reader</a>
 
   <h2>Raymond's Comic Book Reader</h2>
@@ -54,12 +53,12 @@ date: 2013-04-18
 
   <p>I continued searching, and was surprised to find faster reader with a better uploader attached to an developer tutorial titled &ldquo;<a href="http://www.raymondcamden.com/index.cfm/2012/5/29/Building-an-HTML5-Comic-Book-Reader">Building an HTML5 Comic Book Reader</a>&rdquo; by <a href="http://www.raymondcamden.com/page.cfm/about-me">Raymond Camden</a>. Raymond's comic reader was only a weekend project, and had all the same interface problems as All Comics, but It was fast and open for improvements. </p>
 
-  <a href="http://www.raymondcamden.com/demos/2012/may/28/"><img src="images/comicviewer.png" /></a>
+  <a href="http://www.raymondcamden.com/demos/2012/may/28/"><img src="/assets/web-slinger-comic-reader/images/comicviewer.png" /></a>
 
   <h2>Framework &amp; Style Updates</h2>
   <p>Once I had the code running locally, I upgraded the versions of Bootstrap and jQuery, moved the title to a navbar, and switched to a dark theme. I cleaned up the copy and made small changes to familiarize myself with the source code. Once I began to understand the control flow, I was able to move the controls to the navbar to be cleaner and more compact.</p>
 
-  <a href="http://rkuykendall.com/webslinger/"><img src="images/start-page.jpg" /></a> <br />
+  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/start-page.jpg" /></a> <br />
 
   <h2>Adding Missing Features</h2>
   <p>Once I had the code updated, cleaned, and understood, adding features was quick and easy:
@@ -68,7 +67,7 @@ date: 2013-04-18
     <li><strong>Keyboard controls</strong> were added using <a href="https://github.com/jeresig/jquery.hotkeys">jquery.hotkeys</a>, maintained by jQuery author John Resig.</li>
     <li><strong>Two page spread</strong> took longer, as it required a rewrite of the comic page display code.</li>
   </ol>
-  <a href="http://rkuykendall.com/webslinger/"><img src="images/full-spread.jpg" /></a>
+  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
 
   <h2>Hitting a Wall</h2>
   <p>The only feature I was unable to add was Dropbox support. Dropbox was how I got my CBZ files onto the iMac to begin with, and integrating it into the UI via the <a href="https://www.dropbox.com/developers/chooser">Dropbox Chooser</a> looked simple. However, Dropbox requires that you request user files from your server, and not through Javascript in the browser:</p>
@@ -85,7 +84,7 @@ date: 2013-04-18
   <h2 style="font-style: italic">&ldquo;END?&rdquo;</h2>
   <p>I hope somebody finds this project useful, reads a few comics, or even adds a feature. However, even if nobody ever sees this page, I've built a great comic experience for myself. Next time I'm in front of a big pretty iMac and can't install any software, my friendly neighborhood web-slinger will be there to save the day.</p>
 
-  <img src="images/single-page-responsive.jpg" />
+  <img src="/assets/web-slinger-comic-reader/images/single-page-responsive.jpg" />
 
 </section>
 
