@@ -53,7 +53,7 @@
         background-clip: text;
       }
     </style>
-    <script src="/javascript/jquery-1.8.2.min.js"></script>
+    <script src="/assets/javascript/jquery-1.8.2.min.js"></script>
     <script>
       $(document).ready(function() {
         $('.box').each(function ( i, box ) {

@@ -99,6 +99,6 @@
 		var pageTracker = _gat._getTracker("UA-11153057-4");
 		pageTracker._trackPageview();
 		} catch(err) {}</script>
-    <script src="/javascript/retina/retina.js"></script>
+    <script src="/assets/javascript/retina/retina.js"></script>
    </body>
 </html>
