@@ -1,0 +1,309 @@
+---
+layout: default
+title: Slightly better ranking through linear prediction of ratings
+date: 2012-12-14
+---
+
+<header>
+  <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>; Advisor <a href="http://cs.txstate.edu/~dt19/">Associate Professor Dan Tamir</a>.</p>
+  <h1>{{page.title}}</h1>
+  <h2>{{page.date | date_to_long_string}}</h2>
+</header>
+
+<blockquote>In the fall of 2012 I completed my undergraduate honors thesis as part of my minor in Honors studies from Texas State University. After uploading the <a href="/assets/ranking-linear-prediction/figures/Kuykendall-Ranking_Linear_Prediction.pdf">official pdf of my final thesis</a>, I transcribed the document for the web below.</blockquote>
+
+<h3>Abstract</h3>
+
+<p>The most common methods of ranking rated content do not account for the trend of ratings. However, the perception of quality for rated content may shift over time.  We explore incorporating linear prediction of ratings into the calculation of ranking, using linear predictive coefficients. The difference between the mean of predictions and future values was compared to difference between the mean of current and future values. The results show promise and provide motivation for future research.</p>
+
+
+<h3>Foreword</h3>
+
+	<p>My interest in rated content began in 2007 with a personal web project involving user created game modifications. After adding the ability for users to submit ratings, I wanted to display a list of everything on the site ranked by user reviews, so that new users could easily find the best content that we had to offer. To do this, I ranked every item by the mean of it’s user reviews. Unfortunately, the best content on the site had a mean rating of a very high four, and as soon as a new item was submitted and received a 5 star rating, it jumped to the top of the list. The item would soon settle lower as new ratings were submitted, but I saw this as a bug. Clearly, a new item with a single five star rating was not the best content available, or even as likely to be good as an item with a large number of four star reviews. To remedy this, I developed a very lightweight formula to increase or reduce the ranking of items based not only the mean of their ratings, but the number of ratings. I would not recommend it for any sizable audience, but it worked perfectly on a small project. Since then, I became fascinated with the problems and solutions of ranking rated content around the web.</p>
+
+	<p>$$ W = M + ( M - 2.5 ) * ( N / 10.0 ) $$</p>
+
+	<p><p>For curious minds, I have included the formula above. $W$ represents the new ranking number, $M$ represents the mean of the item ratings, and $N$ represents the total number of ratings for that item. I used 2.5 as the divider between positive and negative reception. Any item with a mean above 2.5 was ranked higher with more reviews, and any item with a mean below 2.5 was ranked lower with more reviews.</p></p>
+
+
+<h3>Introduction</h3>
+
+	<blockquote>
+        When we post and then tag pictures, we are teaching the Machine. Each time we forge a link, we teach it an idea. Think of the 100 Billion times <em>per day</em> humans click on a Web page, teaching the Machine. The machine is us.
+
+        <cite>&mdash; <a href="http://www.youtube.com/watch?v=NLlGopyXT_g" title="M. Wesch. (2007, Mar.) The machine is us/ing us. [Online].">The Machine is Us/ing Us</a></cite>
+    </blockquote>
+
+	<p>Ratings and rankings are ubiquitous online. Almost every Facebook post and YouTube video users see has been ranked as important enough to bring to their attention. Every comment written or video played acts as a rating which spreads that content to other users. As the amount of content generated daily continues to grow, so does the importance and necessity of user ratings and robust ranking.</p>
+
+	<h4>Background</h4>
+
+		<p>Ratings, such as &ldquo;4/5 Stars&rdquo; are often used to quantitatively represent user perception of quality. Ratings indicate &ldquo;how much&rdquo; a user likes something, in a way that can be quickly and easily compared to the experience of other users. Content is ranked against other content, on lists such as &ldquo;Best Books on World War II,&rdquo; by reducing vast numbers of ratings to a single number. For example, a list of books might be ranked by the mean of hundreds of ratings for each book.</p>
+
+		<p>Research into improving the ranking of rated content has dealt with several issues in a number of ways. One problem is that new content has fewer ratings than established content, which can present a bias towards established content if ranking considers the total number of reviews. Researchers have worked to <a href="http://www.csulb.edu/journals/jecr/issues/20103/paper3.pdf" title="R. C. Zhang and T. Tran, 'Helpful or unhelpful: A linear approach for ranking product reviews.' JOURNAL OF ELECTRONIC COMMERCE RESEARCH, vol. 11, no. 3, pp. 220–230, 2010. [Online].">predict the future ratings of new content by comparing it established content</a>, or by <a href="http://arxiv.org/abs/0811.0405" title="G. Szabó and B. A. Huberman, 'Predicting the popularity of online content,'CoRR, vol. abs/0811.0405, 2008.">comparing the way content has received early ratings to the early ratings of established content</a>. The reputation of users has also been used to improve rankings, based on <a href="http://dx.doi.org/10.1109/CSE.2009.109" title="C.-F. Hsu, E. Khabiri, and J. Caverlee, 'Ranking comments on the social web,' in Proceedings of the 2009 International Conference on Computational Science and Engineering - Volume 04, ser. CSE ’09. Washington, DC, USA: IEEE Computer Society, 2009, pp. 90–97.">attributes such as activity level</a>, or <a href="http://arxiv.org/abs/0811.0405" title="G. Szabó and B. A. Huberman, 'Predicting the popularity of online content,'CoRR, vol. abs/0811.0405, 2008.">their ratings of other content</a>.</p>
+
+	<h4>The Problem</h4>
+
+		<p>In situations where the trend of product ratings indicates a change in user perceptions of quality, the ranking of products should reflect this more clearly than the mean of all ratings can accomplish. For example, if a book is extremely well received at first, but its popularity fades very quickly, then all the positive ratings it has received earlier may be misrepresenting its current popularity.</p>
+
+		<p>By reflecting the moving trends of product ratings more accurately, the ranking of products can more accurately represent the current feelings of users. Financial opportunities and content quality suffer when the trends of products or content are not taken into account in the ranking or presentation.</p>
+
+	<h4>Possible Solution</h4>
+
+		<p>Linear predictive coding can be used to predict future ratings based on existing ratings. Predicted ratings can then be incorporated into content ranking to bring the results closer to future rankings.</p>
+
+<h3>Background</h3>
+	<p>This paper concentrates on the ratings, and ranking, of online content. Additionally, it leverages the use of the linear predictive coding.</p>
+
+	<h4>Ratings and Rankings</h4>
+
+		 <!-- [What are ratings?] -->
+		<p>In the simplest terms, a <strong>rating</strong> signifies &ldquo;how much&rdquo; people like something, and <strong>ranking</strong> proposes an ordering of opinions that can be used to evaluate which of two things is better.</p>
+
+		<p>A <strong>rating</strong> is a classification which represents the comparative assessment of one item against many others. Film critics often include a rating, such as &ldquo;Two Thumbs Up&rdquo; or &ldquo;4/5 Stars,&rdquo; with their film reviews. A rating of &ldquo;Two Thumbs Up&rdquo; is just one outcome among &ldquo;One Thumb Up,&rdquo; and &ldquo;Two Thumbs Down.&rdquo; This can be represented mathematically as the range ${0..2}$. Alternatively, &ldquo;4/5 Stars&rdquo; is not as good as &ldquo;5/5 Stars,&rdquo; but not as bad as &ldquo;1/5 Stars,&rdquo; on the range ${1..5}$. Ratings can also be much simpler, such as the Facebook &ldquo;Like&rdquo; button which can only be true or false, ${0..1}$.</p>
+
+
+		<!-- [How Rating Systems are Used] -->
+		<p>The most basic way for using collected ratings to inform users is to simply display each individual rating. When users browse rated content, such as products online, a selection of ratings can give them a general idea of the public reception for that product. Additionally, if the user knows other members of a site, ratings from those members can be brought to their attention. However, if two products are being directly compared, it is useful to develop a method of quantifying all of the ratings, in such a way that they can be quickly and easily compared to all the ratings of other products. This quantification governs the way that the products are ranked based on their ratings.</p>
+
+		<!-- [Ranking] -->
+		<p>The <strong>ranking</strong> of a set is an ordering such that the first item in the set is the most preferred of all the items, and every item is preferred less or as much as the one before. The most common ranking of a set of rated content is by the arithmetic mean of all the ratings for a product. For example, if a product has ratings ${2,2,3}$, the mean would be 2.33, and that product would be ranked before another product with ratings ${2,2,2,3}$ and a mean of 2.25.</p>
+
+	<h4>Linear Prediction</h4>
+
+		<p>Linear prediction is a way of predicting the future values of a signal. Generally, linear prediction is applied to <em>discrete time signals</em>, which do not have continuous values, but are instead a series of samples at a set interval. For example, time is continuous. When a singer sings, every instant, no matter how small, is different from the instant before it and the instant after it. However, when that song is recorded at 44,000 Hz, or one sample every 1/44,000th of a second, the resulting recording is a discrete time signal. A simpler discrete time signal would be temperature readings, sampled once every hour from the continuous values of a mercury thermometer.</p>
+
+		<h5>Linear Predictive Coding (LPC)</h5>
+
+			<p>One popular method of prediction is linear predictive coding, or LPC. LPC works by computing a set of $n$ numbers to be coefficients, each of which are multiplied by the $n$ previous values of a signal to predict the next value. This calculation can be represented by the following formula:</p>
+
+			<p>$$ \widehat{x}(n) = \sum_{i=0}^p a_i x(n-i) $$</p>
+
+			<p>where $\widehat{x}(n)$ represents the predicted value, $a_i$ represents the $i$th coefficient in the set, and $x(n-i)$ represents the $i$th previous value. The following the same equation in pseudo code:</p>
+
+			<p>$$ Value[current+1] = \sum_{i=0}^x Coefficient[i] * Value[current-i] $$</p>
+
+			<p>For example, the coefficients ${0.4,0.6}$ could be used to predict the next value in the signal ${0,2,0,2,0,2,0,2}$ by multiplying the last value by 0.4, and the second-to-last value by 0.6 ( $0.4*2+0.6*0$ ) to get a predicted value of 0.8. However, It is clear that the next value of that signal will almost definitely be 0, not 0.8. Better coefficients for this signal would be ${0,1}$, which would completely disregard the last value and rely on only the second-to-last value, predicting correctly that the next value in the signal would be a 0.</p>
+
+			<p>The coefficients used are the key to the accuracy of this prediction. One method for fitting the model is to find the coefficients which can predict past values with the least sum of squared errors on a set of training data. This is expected to reduce the squared errors of the predictions on future data.</p>
+
+<h3>Related Work</h3>
+
+	<!-- Helpful Or Unhelpful: A Linear Approach For Ranking Product Reviews -->
+
+	<p>There has been significant work on leveraging rated content online. Amazon product ratings, of one to five stars, are only one part of a user’s review of a product. The full reviews can themselves be rated by other users as &ldquo;Helpful&rdquo; or &ldquo;Unhelpful.&rdquo; This allows Amazon to weed out unhelpful product reviews and highlight helpful product reviews. However, new reviews must be rated by users before Amazon knows if they are helpful or not. &ldquo;<a href="http://www.csulb.edu/journals/jecr/issues/20103/paper3.pdf" title="R. C. Zhang and T. Tran, “Helpful or unhelpful: A linear approach for ranking product reviews.” JOURNAL OF ELECTRONIC COMMERCE RESEARCH, vol. 11, no. 3, pp. 220–230, 2010.">Helpful or Unhelpful: a Linear Approach for Ranking Product Reviews</a>&rdquo; presents a model to predict the helpfulness of product reviews using the content of reviews which already have many ratings.</p>
+
+	<!--  Ranking Comments on the Social Web -->
+
+	<p>Similarly, &ldquo;<a href="http://dx.doi.org/10.1109/CSE.2009.1" title="C.-F. Hsu, E. Khabiri, and J. Caverlee, “Ranking comments on the social web,” in Proceedings of the 2009 International Conference on Computational Science and Engineering - Volume 04, ser. CSE ’09. Washington, DC, USA: IEEE Computer Society, 2009, pp. 90–97.">Ranking Comments on the Social Web</a>&rdquo; presents a machine learning-based approach for ranking comments based on community preferences. Community preference is determined by a combination of user reputation, activity level, and metrics from the comment body text such as complexity.</p>
+
+	<!-- Building reputation systems for better ranking -->
+
+	<p>&ldquo;<a href="http://arxiv.org/abs/1001.2186" title="L.-L. Jiang, M. Medo, J. R. Wakeling, Y.-C. Zhang, and T. Zhou, “Building reputation systems for better ranking,”CoRR, vol. abd/1001.2186, 2010.">Building Reputation Systems for Better Ranking</a>&rdquo; presents another method of improving the usefulness of user ratings by calculating user reputation. Through iterative refinement, object quality is determined by reputable users, and reputable users are determined by their ratings of object quality. In this way, the ratings of malicious users are marginalized while users with quality ratings are better utilized.</p>
+
+	<!-- Predicting the Popularity of Online Content -->
+
+	<p>Another method of predicting the future popularity of content with few votes is to look at the patterns of vote accrual to predict future popularity. &ldquo;<a href="http://arxiv.org/abs/0811.0405" title="G. Szabó and B. A. Huberman, “Predicting the popularity of online content,”CoRR, vol. abs/0811.0405, 2008.">Predicting the Popularity of Online Content</a>&rdquo; have looked at the early vote patterns of content, and compared that to new content, to predict future success.</p>
+
+	<!-- % A few bad votes too many?: towards robust ranking in social media -->
+	<!-- \cite{BadVotes} presents a machine learning based ranking framework for social media. -->
+	<!-- % Information ranking in content-centric networks -->
+	<!-- \cite{Fotiou2012_RankInfoNetworks} presents a lightweight solution for ranking information, based exclusively on positive votes. -->
+	<!-- %===== Ranking Search Results =====% -->
+	<!--  -->
+	<!-- % B-Rank: A top N Recommendation Algorithm -->
+	<!-- \cite{BRank} presents the B-Rank &ldquo;top N Recommendation Algorithm,&rdquo; which captures well the difference between popular and niche objects. -->
+	<!-- %===== Ummm... what? =====% -->
+	<!--  -->
+	<!-- \cite{ComplexDynamics} Dynamics of Ranking Processes in Complex Systems -->
+	<!-- \cite{SimilarityRank} Investigation of the role of similarity measure and ranking algorithm in mining social networks -->
+
+
+<h3>Proposed Solution</h3>
+
+	<p>This paper proposes predicting the future popularity of products based on existing ratings through linear prediction. By predicting the trend of future ratings, and accounting for that trend, products can be more accurately compared to one another.</p>
+
+	<p>The ideal scenario is a comparison between two products: <em>product A</em> with a high mean rating but a sharp downward trend, and <em>product B</em>, one with a lower mean rating and an upward trend. Ranking by mean would not account for the indication that the mean rating for <em>product B</em> will soon be higher.</p>
+
+	<p>To improve product ranking, we propose to predict future product ratings and include those values in the calculation of the product’s mean rating, such that the resulting mean is closer to the future mean than the current mean. For example, if a product currently has a mean rating of 4, which drops to 3 as more reviews accumulate, then a mean derived using predicted values should move the mean closer to 3 to be an improvement.</p>
+
+<h3>System</h3>
+
+	<p>For our set of experiments, we used a dataset of <a href="http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#datasets">5.8 million Amazon product ratings</a> from May 31st of 1996 to May 29th of 2006. The dataset was provided by <a href="http://doi.acm.org/10.1145/1341531.1341560" title="N. Jindal and B. Liu, “Opinion spam and analysis,” in Proceedings of the 2008 International Conference on Web Search and Data Mining,  ser. WSDM ’08.   New York, NY, USA: ACM, 2008, pp. 219–230. [Online].">Nitin Jindal and Bing Liu</a> of the <a href="http://liu.cs.uic.edu/">Social Media and Data Mining</a> (SMDM) Lab at the University of Illinois at Chicago.</p>
+
+	<p>The dataset was corrected for minor errors and imported into a MySQL database using a set of Perl scripts. Corrections to the dataset and import scripts have been published to a <a href="https://github.com/rkuykendall/Amazon-Data-Processing" title="R. Kuykendall. (2012, Dec.) Amazon data processing scripts. [Online].">Github repository, "Amazon data processing scripts"</a>. Each table in the dataset has a corresponding Perl script to parse the file, and insert that data into a corresponding MySQL database table, named in the form <em>TXT-to-MySQL_*.pl</em>.</p>
+
+	<p>Scripts to convert elements from their string form, such as &ldquo;Saturday, December 29, 2007,&rdquo; to a easier to process format, such as &ldquo;2007-12-29,&rdquo; are named in the form <em>Variable_*.pl</em>.</p>
+
+	<p>Perl scripts were written to generate signals, named in the form <em>Variable_linear_*.pl</em>, and a Matlab script was written to predict future ratings based on the generated signal signal, named in the form <em>predict_rating.m</em>.</p>
+
+<h3>Experiments</h3>
+
+	<p>Products were chosen by their number of ratings, the proximity of their last rating to the end date of the dataset, and the average number of ratings per day. The first set of products was chosen to run to at least 9 days before the end of the dataset, contain ratings spanning over 200 days, and have an average of 2 or more ratings per day.</p>
+
+	<p>The first method of signal generation used is a signal composed of 200 days, of the mean rating for those 200 days. The first number in this signal was the mean of all the ratings written on the 200th day before the final date of the experiment, followed by the mean of all the ratings written on the 199th day before the final date of the experiment. This produces an extremely erratic signal which LPC predicted poorly. To smooth the signal, a running average was used, such that the signal advanced by one day for each element, but each element contains an average of the past three, ten, or thirty days. Many of the signals contain gaps in the records, where a product received no ratings for a short time period, which were replaced by a gradation between the two closest days which had ratings. The problem of more accurate interpolation of the signal is outside of the scope of this paper. To overcome this problem completely, a second method was derived to produce a continuous incrementing data set for analysis.</p>
+
+	<p>The second method uses 200 elements, each of which is the average of 10 ratings, incremented by 2 ratings for each element. The first element is the average of ratings ${1-10}$, the second of ratings ${3-12}$, and the third of ratings ${5-14}$, etc. This has the advantage of removing gaps in the data to fill, because as long as a product had over 210 ratings, it would be able to generate a signal of 200 elements. Additionally, it widens the range of products eligible for prediction, including those which had many ratings but a lower daily average of ratings.</p>
+
+<h3 id="results">Results and Evaluation</h3>
+
+	<p>The first method of signal generation, an averaging of daily reviews, was not generating successful predictions. Considering that this may be caused by the gaps in the data or the way they were filled, a second signal generation method, which generates data by increments of reviews, has been developed and immediately yielded better results. </p>
+
+	<p>Figure 1&ndash;13 show the results of a LPC prediction with 100 coefficients, tested on elements 1-100 of the generated signal, and predicting elements 101-200. These individual predictions are summarized by figure 14. Figures 15&ndash;17 show a similar summarization for LPC prediction for the same data sets under a number of conditions.</p>
+
+	<div class="figure">
+		<embed id="Plot1" src="/assets/ranking-linear-prediction/figures/Plot1.svg" type="image/svg+xml" />
+		<p><strong>Figure 1:</strong> Amazon Product #006073132X. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot2" src="/assets/ranking-linear-prediction/figures/Plot2.svg" type="image/svg+xml" />
+		<p><strong>Figure 2:</strong> Amazon Product #0060761288. Mean of 10 ratings at 2 review increments. </p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot3" src="/assets/ranking-linear-prediction/figures/Plot3.svg" type="image/svg+xml" />
+		<p><strong>Figure 3:</strong> Amazon Product #0060817089. Mean of 10 ratings at 2 review increments. </p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot4" src="/assets/ranking-linear-prediction/figures/Plot4.svg" type="image/svg+xml" />
+		<p><strong>Figure 4:</strong> Amazon Product #0975599518. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot5" src="/assets/ranking-linear-prediction/figures/Plot5.svg" type="image/svg+xml" />
+		<p><strong>Figure 5:</strong> Amazon Product #0316011770. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot6" src="/assets/ranking-linear-prediction/figures/Plot6.svg" type="image/svg+xml" />
+		<p><strong>Figure 6:</strong> Amazon Product #B00008OWZG. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot7" src="/assets/ranking-linear-prediction/figures/Plot7.svg" type="image/svg+xml" />
+		<p><strong>Figure 7:</strong> Amazon Product #B0000AQS0F. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot8" src="/assets/ranking-linear-prediction/figures/Plot8.svg" type="image/svg+xml" />
+		<p><strong>Figure 8:</strong> Amazon Product #B0006399FS. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot9" src="/assets/ranking-linear-prediction/figures/Plot9.svg" type="image/svg+xml" />
+		<p><strong>Figure 9:</strong> Amazon Product #B0006L16N8. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot10" src="/assets/ranking-linear-prediction/figures/Plot10.svg" type="image/svg+xml" />
+		<p><strong>Figure 10:</strong> Amazon Product #B0007GAERG. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot11" src="/assets/ranking-linear-prediction/figures/Plot11.svg" type="image/svg+xml" />
+		<p><strong>Figure 11:</strong> Amazon Product #037582670X. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot12" src="/assets/ranking-linear-prediction/figures/Plot12.svg" type="image/svg+xml" />
+		<p><strong>Figure 12:</strong> Amazon Product #B000BW7QWW. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<div class="figure">
+		<embed id="Plot13" src="/assets/ranking-linear-prediction/figures/Plot13.svg" type="image/svg+xml" />
+		<p><strong>Figure 13:</strong> Amazon Product #0439784549. Mean of 10 ratings at 2 review increments.</p>
+	</div>
+
+	<p>Figures 14&ndash;17 show the process of tweaking the conditions of the linear prediction towards significant improvement over the testing data. This concludes in the testing of the promising conditions from figure 17 with unrelated data in figure 18.</p>
+
+	<div class="figure">
+		<embed id="BarGraph100-100" src="/assets/ranking-linear-prediction/figures/BarGraph100-100.svg">
+		<p><strong>Figure 14:</strong> 100 Coefficients, Predicting Elements 100&ndash;200.</p>
+	</div>
+
+	<!--  on page \pageref{fig:BarGraph100-100} -->
+
+	<p>Figure 14 shows the mean of the training data (elements 1-100), testing data (elements 101-200), and prediction (prediction of 101-200) on those 13 products. The sum of differences between the mean of the training data and the mean of the testing data is 2.491. The difference between the mean of the testing data and the mean of the predicted data is 2.456. This is a 1.42 improvement of the mean of the predicted data over the mean of the training training, in comparison to the mean of the testing data.</p>
+
+	<div class="figure">
+		<embed id="BarGraph92-71" src="/assets/ranking-linear-prediction/figures/BarGraph92-71.svg">
+		<p><strong>Figure 15:</strong> 92 Coefficients, Predicting Elements 100&ndash;171.</p>
+	</div>
+
+	<p>Figure 15 shows the mean of the training data, reduced testing data, and new prediction. The testing data includes the same elements 1&ndash;100. The a testing data has been reduced to elements 101-171. The prediction has also been reduced to elements 101&ndash;171, and uses 92 LPC coefficients instead of the 100 used previously. In this example, the difference between the mean of the testing data and the mean of the predicted data peaks at a 9.939% improvement.</p>
+
+	<div class="figure">
+		<embed id="BarGraph13N100O23B21" src="/assets/ranking-linear-prediction/figures/BarGraph13N100O23B21-43_76.9.svg">
+			<p><strong>Figure 16:</strong> 100 Coefficients, Mean of Elements 79&ndash;123.</p>
+	</div>
+
+	<p>Figure 16 shows the mean of the training data, shifted testing data, and prediction. In this figure, elements within the training data were incorporated into the testing and prediction. This range of 79&ndash;123 yielded an improvement of 43 over the mean of the testing data alone.</p>
+
+	<div class="figure">
+		<embed id="BarGraphN70O23B20" src="/assets/ranking-linear-prediction/figures/BarGraphN70O23B20-44.1.svg">
+		<p><strong>Figure 17:</strong> 70 Coefficients, Mean of Elements 80&ndash;123.</p>
+	</div>
+
+	<p>Figure 17 shows the mean of the training data, shifted testing data, and prediction. This prediction uses 70 coefficients, and predicts on the range 80&ndash;123. This prediction is an improvement of 44.1 over the mean of the testing data alone.</p>
+
+	<p>This set of coefficients and range is promising, but the improvement may simply be a result of checking for the best possible conditions for this data. The conditions must then be validated against unrelated data.</p>
+
+	<p>In order to validate these conditions against unrelated data, the same coefficients and range as used in figure 17 were applied to a second unrelated dataset of 40 products, with the criteria of over 400 ratings per product.</p>
+
+	<div class="figure">
+		<embed id="BarGraph40N70O23B20" src="/assets/ranking-linear-prediction/figures/BarGraph40N70O23B20-22.6_55-Simpler.svg">
+		<p><strong>Figure 18:</strong> 70 Coefficients, Mean of Elements 80&ndash;123.</p>
+	</div>
+
+	<p>Figure 18 shows the improvement of the mean of the prediction over the mean of the testing data. Like figure 17, this prediction uses 70 coefficients, and predicts on the range 80&ndash;123. The prediction conditions continued to yield positive results even on unrelated data, with an improvement of 22.6%. However, the prediction performed better than the original data for only 55% of the 40 products. The 22.6% improvement on unrelated data represents the significant promise of this method.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+	<p>Linear prediction using LPC was able to yield overall positive results. It was a significant improvement for many products, but in others the prediction was worse than the current mean of the ratings. LPC across any product data sets could not yield reliable improvement on a consistent basis.</p>
+
+	<p>Without improvements, LPC would not be useful in a production environment; where reliability is a considerable factor. Any LPC method would need to yield more successful predictions on a consistent basis to become an accepted method.</p>
+
+	<p>However, there is still much which can be done to improve the results. Significant improvements can be made through changes to both the method of signal generation and the use of LPC. Gaps in signal generation could be improved through more advanced interpolation techniques. Additionally, prediction methods other than LPC, including nonlinear regression, may yield better results.</p>
+
+	<p>Overall the development of robust methods for the ranking of rated content will only grow in importance, and we hope this work proves useful in that pursuit.</p>
+
+<footer>
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    	var disqus_shortname = 'rkuykendall'; // required: replace example with your forum shortname
+
+    	/* * * DON'T EDIT BELOW THIS LINE * * */
+    	(function() {
+    		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    		dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    	})();
+    </script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  <h3>More Articles</h3>
+  <ul>
+    <?php include("../listing.php"); ?>
+  </ul>
+</footer>
+
+<script src="/javascript/jquery-1.8.2.min.js"></script>
+<script src="/javascript/mathjax/MathJax.js?config=TeX-AMS_HTML-full"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+    });
+</script>
+<style>
+    .figure {
+        text-align: center;
+        line-height: 1.4em;
+        max-width: 40em;
+        margin: 25px 0;
+        font-style: italic;
+    }
+</style>
