@@ -12,8 +12,8 @@ title: Home
       }
       </style>
         <?php print $logo; ?>
-      <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1> 
-      <h2>Columbia University, New York City</h2>
+      <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1>
+      <h2>Engineer at Thinkful in New York City</h2>
     </header>
     <section>
       <p>
@@ -21,12 +21,12 @@ title: Home
         <br /> Columbia University in the City of New York &mdash; Computer Science M.Sc. SEAS '15.
         <br /> <a href="Kuykendall-CV.pdf">Resume</a> (pdf), last updated September 2014</a>.
       </p>
-        
+
       <p></p>
     </section>
-    
+
 		<div id="sections">
-    
+
       <section>
         <h3>I love building web applications.</h3>
         <ul>
@@ -37,12 +37,12 @@ title: Home
           <li>2005 <a href="http://www.pfhorums.com">The Pfhorums</a> &mdash; Forum for <a href="http://source.bungie.org">Aleph One</a> open source project, active for 10 years.</li>
         </ul>
       </section>
-      
+
     <section>
       <h3>I like to write about nerdy stuff.</h3>
       <ul>
         {% for post in site.posts %}
-          <li> 
+          <li>
             <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
             &mdash;
             <time class="post__date" datetime="2012-08-17" pubdate="">{{ post.date | date_to_long_string }}</time>
@@ -50,13 +50,13 @@ title: Home
         {% endfor %}
       </ul>
     </section>
-      
+
     <section>
       <h3>I would love to hear from you.</h3>
       <ul>
-        <li>Email &mdash; 
+        <li>Email &mdash;
           <script>
-            <!-- 
+            <!--
               // http://rumkin.com/tools/mailto_encoder/custom.php
               ML="rlot>\"< mu.ya@if=/kdhcbe:n";
               MI="6<7D0G?@58<>132H02FG03=0B9;BGIC<11:E285402FG03=0B9;BGIC<11:E286A<4";
@@ -68,10 +68,10 @@ title: Home
           </script>
           <noscript>Encrypted Address</noscript>
         </li>
-        <li>Phone &mdash; 
+        <li>Phone &mdash;
           &#43;&#49;&#32;&#40;&#50;&#49;&#48;&#41;&#32;&#50;&#48;&#52;&#45;&#56;&#51;&#57;&#49;
         </li>
-        <li>AIM &mdash; 
+        <li>AIM &mdash;
           <script>
             <!--
             // http://rumkin.com/tools/mailto_encoder/custom.php
@@ -85,7 +85,7 @@ title: Home
           </script>
           <noscript>Encrypted Address</noscript>
         </li>
-        <li>Google Talk &mdash; 
+        <li>Google Talk &mdash;
           <script>
             <!--
             // http://rumkin.com/tools/mailto_encoder/custom.php
@@ -102,7 +102,7 @@ title: Home
         </li>
       </ul>
     </section>
-        
+
     <section>
       <h3>You can also find me online.</h3>
       <ul>
@@ -118,5 +118,5 @@ title: Home
         <li>Flickr  &mdash; <a href="http://www.flickr.com/photos/appleswitch">appleswitch</a> Photos from '08-'10</li>
       </ul>
     </section>
-    
+
   </div>
