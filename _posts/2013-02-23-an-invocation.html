@@ -1,19 +1,8 @@
-<?php include('vars.php') ?>
-
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title><?= $title ?> - Robert Kuykendall</title>
-    <meta name="Description" content="Graduating Computer Science student at Texas State University in San Marcos, looking to do research on the web, ubiquitous computing, and interaction design.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta charset="UTF-8">
-
-    <!-- ==============================
-          W3C Valid HTML & CSS
-         ============================== -->
-
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
-    <link href='/style.css' rel='stylesheet' type='text/css'>
+---
+layout: default
+title: Transcript of Ze Frank's &ldquo;An Invocation for Beginnings&rdquo;
+date: 2013-02-23
+---
 
     <style>
       section {
@@ -38,19 +27,6 @@
         content: "";
         display: inline-block;
         width: 100%;
-      }
-
-      .browser {
-        font-weight: bold;
-        background: transparent url('chromebg.jpg') no-repeat top left;
-        color: transparent;
-        -webkit-text-stroke: 1px rgba(0,0,0,0.6);
-        background-size: 100%;
-
-        -webkit-background-clip: text;
-        /* let's assume that one day it's supported */
-        -moz-background-clip: text;
-        background-clip: text;
       }
     </style>
     <script src="/assets/javascript/jquery-1.8.2.min.js"></script>
@@ -78,13 +54,13 @@
 
     <header>
       <p>Written by <a href="/">Robert Kuykendall</a>.</p>
-      <h1><?= $title; ?></h1>
-      <h2><?= date("l, F jS, Y", $published); ?> </h2>
+      <h1>{{page.title}}</h1>
+      <h2>{{page.date | date_to_long_string}}</h2>
     </header>
 
     <blockquote><strong>Hi new viewer.</strong> I know what you're wondering: <em>&ldquo;how does he keep his nostrils so clean?&rdquo;</em></blockquote>
 
-    <p>I was the new viewer, on July 6th, 2006, and so I sat and watched. The video ramped from a whisper to a shout and then ran at breakneck speeds through ugly myspace pages, ranting comment replies, science news, international politics, and ended with a chess move in a game against the audience. <a href="http://www.zefrank.com/theshow/archives/2006/07/070606.html">The video was 3 minutes, absolutely hilarious, and informative</a>. Then I found out there would be a new one the next day, and every weekday after that, for one full year. This was <strong>The Show, with Ze Frank</strong>, and <a href="http://www.youtube.com/watch?v=IXBEI_WZNK4">it changed video on the web</a>.</p>
+    <p>I was the new viewer, on July 6th, 2006, and so I sat and watched. The video ramped from a whisper to a shout and then ran at breakneck speeds through ugly myspace pages, ranting comment replies, science news, international politics, and ended with a chess move in a game against the audience. <a href="http://www.zefrank.com/theshow/archives/2006/07/070606.html">The video was 3 minutes, absolutely hilarious, and informative</a>. Then I found out there would be a new one the next day, and every weekday after that, for one full year. This was <strong>The Show, with Ze Frank</strong>, and it went on to inspire <a href="http://www.youtube.com/watch?v=IXBEI_WZNK4">many</a>. <a href="https://www.youtube.com/watch?v=Z4jAHiTE7ko">more</a>. videos of that type and is considered the <a href="https://www.youtube.com/watch?v=asCdrGgpEQs">birth of modern video blogging</a>.</p>
 
     <p>Five years after that last episode of <strong>The Show</strong>, Ze began again, with <a href="http://www.youtube.com/watch?v=RYlCVwxoL_g">an invocation for beginnings</a>. What Ze is doing now is amazing, but it's just not for me. However, I come back to that invocation time and time again for inspiration and motivation.</p>
 
@@ -100,14 +76,14 @@
 
       <p><span class="box">Let me realize that my past failures at follow-through are no indication of my future performance.</span> <span class="box">They’re just <span style="color: #880606">healthy</span> <span style="color: #D53D0C">little</span> <span style="color: #FF8207">fires</span> that are going to warm up my ass.</span></p>
 
-      <!--<div style="width: 680px;">
+      <div style="width: 680px;">
         <p style="width: 320px; float: left;"><span class="box" style="width: 340px; line-height: 70px">If my <abbr title="fuck it let’s do it">FILDI</abbr> is strong,</span> <span class="box" style="width: 340px;">let me keep him in a velvet box until I really, really need him.</span></p>
 
         <p style="width: 320px; float: right;"><span class="box" style="width: 340px; line-height: 70px">If my <abbr title="fuck it let’s do it">FILDI</abbr> is weak</span> <span class="box" style="width: 340px;">let me feed him oranges and not let him gorge himself on ego and arrogance.</span></p>
         <hr width="680px" style="height: 0px; border: none;">
-      <div>-->
+      <div>
 
-      <p><span class="box">Let me not hit up my <span style="color: white; background-color: #3B5998; display: inline-block; padding: 7px 6px; font-size: 0.8em;">Facebook</span> like it’s a crack pipe</span> <span class="box">Keep the <span class="browser">browser</span> closed.</span></p>
+      <p><span class="box">Let me not hit up my <span style="color: white; background-color: #3B5998; display: inline-block; padding: 7px 6px; font-size: 0.8em;">Facebook</span> like it’s a crack pipe</span> <span class="box">Keep the browser closed.</span></p>
 
       <p><span class="box">If I catch myself wearing a too-too (too fat, too late, too old)</span> <span class="box">let me shake it off like a donkey would shake off something it doesn’t like.</span></p>
 
@@ -157,21 +133,4 @@
 	  </script>
 	  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-      <h3>More Articles</h3>
-      <ul>
-        <?php include("../listing.php"); ?>
-      </ul>
     </footer>
-
-    <script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-		try {
-		var pageTracker = _gat._getTracker("UA-11153057-4");
-		pageTracker._trackPageview();
-		} catch(err) {}</script>
-   </body>
-</html>
