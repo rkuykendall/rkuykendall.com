@@ -45,7 +45,7 @@ title: Home
           <li>
             <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
             &mdash;
-            <time class="post__date" datetime="2012-08-17" pubdate="">{{ post.date | date_to_long_string }}</time>
+            <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B, %Y"  }}</time>
           </li>
         {% endfor %}
       </ul>
