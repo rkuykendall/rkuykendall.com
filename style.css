@@ -180,6 +180,11 @@ ol, ul {
 	margin-bottom: 15px;
 }
 
+ul {
+	list-style-type: circle;
+  margin-left: 1.5em;
+}
+
 ol {
 	list-style-type: decimal;
 	list-style-position: inside;
