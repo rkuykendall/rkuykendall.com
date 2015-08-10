@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Building a Comic Book Reader for the Web
 date: 2013-04-18
 ---
@@ -29,12 +29,6 @@ date: 2013-04-18
     text-decoration: none;
   }
 </style>
-
-<header>
-  <p>Written by <a href="http://rkuykendall.com/">Robert Kuykendall</a>.</p>
-  <h1>{{page.title}}</h1>
-  <h2>{{page.date | date_to_long_string}}</h2>
-</header>
 
 <section>
   <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
@@ -87,20 +81,3 @@ date: 2013-04-18
   <img src="/assets/web-slinger-comic-reader/images/single-page-responsive.jpg" />
 
 </section>
-
-<footer>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-  	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  	var disqus_shortname = 'rkuykendall'; // required: replace example with your forum shortname
-
-  	/* * * DON'T EDIT BELOW THIS LINE * * */
-  	(function() {
-  		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  		dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-  		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  	})();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</footer>
