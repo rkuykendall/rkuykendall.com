@@ -31,8 +31,8 @@ date: 2013-04-18
 </style>
 
 <section>
-  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
-  <a href="http://rkuykendall.com/webslinger/" class="button">Link to <i>Web Slinger</i> Comic Book Reader</a>
+  <a href="http://rkuykendall.github.io/HTML5ComicBookReader/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
+  <a href="http://rkuykendall.github.io/HTML5ComicBookReader/" class="button">Link to <i>Web Slinger</i> Comic Book Reader</a>
 
   <h2>Raymond's Comic Book Reader</h2>
   <p>My favorite comic readers are <a href="http://dancingtortoise.com/simplecomic/">Simple Comic</a> on OS X and <a href="https://play.google.com/store/apps/details?id=com.rookiestudio.perfectviewer&hl=en">Perfect Viewer</a> on Android. However, last month I found myself in front of a big, beautiful iMac screen, a comic I wanted to read on the desktop, and no way to view it. I couldn't run native applications, and Java wasn't installed, so I turned to the web. I fought my way past the registration and uploader on <a href="http://www.allcomicsonline.com/">All Comics</a> only to be disappointed by:</p>
@@ -52,7 +52,7 @@ date: 2013-04-18
   <h2>Framework &amp; Style Updates</h2>
   <p>Once I had the code running locally, I upgraded the versions of Bootstrap and jQuery, moved the title to a navbar, and switched to a dark theme. I cleaned up the copy and made small changes to familiarize myself with the source code. Once I began to understand the control flow, I was able to move the controls to the navbar to be cleaner and more compact.</p>
 
-  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/start-page.jpg" /></a> <br />
+  <a href="http://rkuykendall.github.io/HTML5ComicBookReader/"><img src="/assets/web-slinger-comic-reader/images/start-page.jpg" /></a> <br />
 
   <h2>Adding Missing Features</h2>
   <p>Once I had the code updated, cleaned, and understood, adding features was quick and easy:
@@ -61,7 +61,7 @@ date: 2013-04-18
     <li><strong>Keyboard controls</strong> were added using <a href="https://github.com/jeresig/jquery.hotkeys">jquery.hotkeys</a>, maintained by jQuery author John Resig.</li>
     <li><strong>Two page spread</strong> took longer, as it required a rewrite of the comic page display code.</li>
   </ol>
-  <a href="http://rkuykendall.com/webslinger/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
+  <a href="http://rkuykendall.github.io/HTML5ComicBookReader/"><img src="/assets/web-slinger-comic-reader/images/full-spread.jpg" /></a>
 
   <h2>Hitting a Wall</h2>
   <p>The only feature I was unable to add was Dropbox support. Dropbox was how I got my CBZ files onto the iMac to begin with, and integrating it into the UI via the <a href="https://www.dropbox.com/developers/chooser">Dropbox Chooser</a> looked simple. However, Dropbox requires that you request user files from your server, and not through Javascript in the browser:</p>
