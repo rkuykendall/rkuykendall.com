@@ -18,7 +18,7 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 - **Ultimate Spider-Man (2000) #1** [[MU](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1)] - This is the first issue of the brand new Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history.
 
-- **Ultimate Comics Spider-Man (2011) #1** [[[MU](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1)] - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man.
+- **Ultimate Comics Spider-Man (2011) #1** [[[MU](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1)] - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales.
 
 ### Marvel Universe (Universe-616)
 
