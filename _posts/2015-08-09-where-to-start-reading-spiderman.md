@@ -24,11 +24,6 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 - **Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
 
-- **Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
-
-
-- **Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
-
 - **Amazing Spider-Man (1999) #1** [[MU](http://marvel.com/comics/issue/37894/amazing_spider-man_1999_1)] - After issue #441 they restarted the numbering of the series to show new readers it was a good starting point, but at issue #500 they went back to the original numbering, so people often just call this issue #442. It's a great way to jump to "modern" Spider-Man. It leads right into the "JMS run" of Amazing Spider-Man. A run is a part of a series written by a specific writer, with JMS being a writer people really like.
 
 - **Civil War** [[MU](http://marvel.com/comics/discover/114/civil-war-the-complete-event)] - A massive comic event which had a huge impact on Spider-Man, and the Marvel universe. Plus, the movie very loosely based on it will be released next year. This is a cool place to start reading comics because you get exposed to so many characters! And for Spider-Man, it leads right into...
