@@ -14,11 +14,11 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 **Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited links for each:**
 
-### Ultimate Universe (1619)
+### Ultimate Universe (Universe-1610)
 
 - **Ultimate Spider-Man (2000) #1** [[MU](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1)] - This is the first issue of the brand new Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history.
 
-### Marvel Universe (616)
+### Marvel Universe (Universe-616)
 
 - **Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
 
@@ -39,7 +39,9 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 - **Amazing Spider-Man (2014) #1** [[MU](http://marvel.com/comics/issue/45798/amazing_spider-man_2014_1)] - Modern Spider-Man! This leads right into the Spider-Verse. This is pretty recent, so you will hit the limit on Marvel Unlimited fairly soon, but it's a good way to get caught up very quickly.
 
-## After Secret Wars?
+## After Secret Wars
+
+We don't know everything about what the new world of Marvel comics will look like after Secret Wars, but I'm betting each new series will make for a good jumping on point. If you're not worried about having a lot to read and just want to be totally current, I'd jump on here.
 
 - **Amazing Spider-Man (2015) #1** - This series will feature Peter Parker, formerly Spider-Man from the 616 Universe after Secret Wars.
 
