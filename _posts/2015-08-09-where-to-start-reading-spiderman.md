@@ -28,9 +28,9 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 - **Civil War** [[MU](http://marvel.com/comics/discover/114/civil-war-the-complete-event)] - A massive comic event which had a huge impact on Spider-Man, and the Marvel universe. Plus, the movie very loosely based on it will be released next year. This is a cool place to start reading comics because you get exposed to so many characters! And for Spider-Man, it leads right into...
 
-- **Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is a great fresh start for new readers.
+- **Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is a great fresh start.
 
-- **Amazing Spider-Man (1999) #648: Big Time** [[MU](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648)] - Parker finally gets his shit together! Great place to start, since it's got some of the BEST recent Spidey stories and leads right into the...
+- **Amazing Spider-Man (1999) #648: Big Time** [[MU](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648)] - Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*.
 
 - **Superior Spider-Man (2013)** - Starts after the end of Amazing Spider-Man with issues #698-700 [[MU](http://marvel.com/comics/issue/40120/amazing_spider-man_1999_698)] and then Superior Spider-Man #1 [[MU](http://marvel.com/comics/issue/46462/superior_spider-man_2013_1)]. If you're going to start here, you may want to read Amazing Spider-Man #600 [[MU](http://marvel.com/comics/issue/24407/amazing_spider-man_1999_600)], and #682-687 [[MU](http://marvel.com/comics/issue/40110/amazing_spider-man_1999_682)] for a little backstory. Superior Spider-Man is absolutely brilliant, and one of the most important and memorable stories in all of Spider-Man, but also very different from Amazing so maybe not where you want to get started.
 
