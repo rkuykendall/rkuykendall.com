@@ -234,3 +234,14 @@ li.twit-date ul {
     margin: 0 0 5% 5%;
   }
 }
+
+#article-where-to-start-reading-spider-man-comics li {
+  height: 150px;
+}
+#article-where-to-start-reading-spider-man-comics li img {
+	height: 130px;
+  margin-left: -25px;
+  border: 1px solid black;
+  float: left;
+  margin-right: 10px;
+}

@@ -16,30 +16,41 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 ### Ultimate Universe (Universe-1610)
 
-- **Ultimate Spider-Man (2000) #1** [[MU](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1)] - This is the first issue of the brand new Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history.
+- ![Ultimate Spider-Man (2000) #1](/assets/where-to-start-reading-spiderman/thumb-usm1.jpg)
+**Ultimate Spider-Man (2000) #1** [[MU](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1)] - This is the first issue of the brand new Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history.
 
-- **Ultimate Comics Spider-Man (2011) #1** [[[MU](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1)] - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales.
+- ![Ultimate Comics Spider-Man (2011) #1](/assets/where-to-start-reading-spiderman/thumb-miles_1.jpg)
+**Ultimate Comics Spider-Man (2011) #1** [[[MU](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1)] - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales.
 
 ### Marvel Universe (Universe-616)
 
-- **Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
+- ![Amazing Spider-Man (1963) #1](/assets/where-to-start-reading-spiderman/thumb-1.jpg)
+**Amazing Spider-Man (1963) #1** [[MU](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)] - The very beginning! A good place to start if you enjoy it, but a bad place to start if you find it boring. It's really personal taste. Maybe try a few issues, then skip ahead unless you're really hooked?
 
-- **Amazing Spider-Man (1999) #1** [[MU](http://marvel.com/comics/issue/37894/amazing_spider-man_1999_1)] - After issue #441 they restarted the numbering of the series to show new readers it was a good starting point, but at issue #500 they went back to the original numbering, so people often just call this issue #442. It's a great way to jump to "modern" Spider-Man. It leads right into the "JMS run" of Amazing Spider-Man. A run is a part of a series written by a specific writer, with JMS being a writer people really like.
+- ![Amazing Spider-Man (1999) #1](/assets/where-to-start-reading-spiderman/thumb-442.jpg)
+**Amazing Spider-Man (1999) #1** [[MU](http://marvel.com/comics/issue/37894/amazing_spider-man_1999_1)] - After issue #441 they restarted the numbering of the series to show new readers it was a good starting point, but at issue #500 they went back to the original numbering, so people often just call this issue #442. It's a great way to jump to "modern" Spider-Man. It leads right into the "JMS run" of Amazing Spider-Man. A run is a part of a series written by a specific writer, with JMS being a writer people really like.
 
-- **Civil War** [[MU](http://marvel.com/comics/discover/114/civil-war-the-complete-event)] - A massive comic event which had a huge impact on Spider-Man, and the Marvel universe. Plus, the movie very loosely based on it will be released next year. This is a cool place to start reading comics because you get exposed to so many characters! And for Spider-Man, it leads right into...
+- ![Amazing Spider-Man (1999) #529](/assets/where-to-start-reading-spiderman/thumb-civil_war2.jpg)
+**Civil War** [[MU](http://marvel.com/comics/discover/114/civil-war-the-complete-event)] - A massive comic event which had a huge impact on Spider-Man, and the Marvel universe. Plus, the movie very loosely based on it will be released next year. This is a cool place to start reading comics because you get exposed to so many characters! And for Spider-Man, it leads right into Brand New Day.
 
-- **Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is a great fresh start.
+- ![Amazing Spider-Man (1999) #546](/assets/where-to-start-reading-spiderman/thumb-546.jpg)
+**Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is a great fresh start.
 
-- **Amazing Spider-Man (1999) #648: Big Time** [[MU](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648)] - Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*.
+- ![Amazing Spider-Man (1999) #648](/assets/where-to-start-reading-spiderman/thumb-648.jpg)
+**Amazing Spider-Man (1999) #648: Big Time** [[MU](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648)] - Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*.
 
-- **Superior Spider-Man (2013)** - Starts after the end of Amazing Spider-Man with issues #698-700 [[MU](http://marvel.com/comics/issue/40120/amazing_spider-man_1999_698)] and then Superior Spider-Man #1 [[MU](http://marvel.com/comics/issue/46462/superior_spider-man_2013_1)]. If you're going to start here, you may want to read Amazing Spider-Man #600 [[MU](http://marvel.com/comics/issue/24407/amazing_spider-man_1999_600)], and #682-687 [[MU](http://marvel.com/comics/issue/40110/amazing_spider-man_1999_682)] for a little backstory. Superior Spider-Man is absolutely brilliant, and one of the most important and memorable stories in all of Spider-Man, but also very different from Amazing so maybe not where you want to get started.
+- ![Superior Spider-Man (2013) #1](/assets/where-to-start-reading-spiderman/thumb-ssm.jpg)
+**Superior Spider-Man (2013)** - Starts after the end of Amazing Spider-Man with issues #698-700 [[MU](http://marvel.com/comics/issue/40120/amazing_spider-man_1999_698)] and then Superior Spider-Man #1 [[MU](http://marvel.com/comics/issue/46462/superior_spider-man_2013_1)]. If you're going to start here, you may want to read Amazing Spider-Man #600 [[MU](http://marvel.com/comics/issue/24407/amazing_spider-man_1999_600)], and #682-687 [[MU](http://marvel.com/comics/issue/40110/amazing_spider-man_1999_682)] for a little backstory. Superior Spider-Man is absolutely brilliant, and one of the most important and memorable stories in all of Spider-Man, but also very different from Amazing so maybe not where you want to get started.
 
-- **Amazing Spider-Man (2014) #1** [[MU](http://marvel.com/comics/issue/45798/amazing_spider-man_2014_1)] - Modern Spider-Man! This leads right into the Spider-Verse. This is pretty recent, so you will hit the limit on Marvel Unlimited fairly soon, but it's a good way to get caught up very quickly.
+- ![Amazing Spider-Man (2014) #1](/assets/where-to-start-reading-spiderman/thumb-asmv3.jpg)
+**Amazing Spider-Man (2014) #1** [[MU](http://marvel.com/comics/issue/45798/amazing_spider-man_2014_1)] - Modern Spider-Man! This leads right into the Spider-Verse. This is pretty recent, so you will hit the limit on Marvel Unlimited fairly soon, but it's a good way to get caught up very quickly.
 
 ## After Secret Wars
 
 We don't know everything about what the new world of Marvel comics will look like after Secret Wars, but I'm betting each new series will make for a good jumping on point. If you're not worried about having a lot to read and just want to be totally current, I'd jump on here.
 
-- **Amazing Spider-Man (2015) #1** - This series will feature Peter Parker, formerly Spider-Man from the 616 Universe after Secret Wars.
+- ![Amazing Spider-Man (2015) #1](/assets/where-to-start-reading-spiderman/thumb-secret_parker.jpg)
+**Amazing Spider-Man (2015) #1** - This series will feature Peter Parker, formerly Spider-Man from the 616 Universe after Secret Wars.
 
-- **Spider-Man (2015) #1** - This series will feature Miles Morales, formerly Spider-Man from the 1610 Ultimate Universe after Secret Wars.
+- ![Spider-Man (2015) #1](/assets/where-to-start-reading-spiderman/thumb-secret_miles.jpg)
+**Spider-Man (2015) #1** - This series will feature Miles Morales, formerly Spider-Man from the 1610 Ultimate Universe after Secret Wars.
