@@ -34,7 +34,7 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 **Civil War** [[MU](http://marvel.com/comics/discover/114/civil-war-the-complete-event)] - A massive comic event which had a huge impact on Spider-Man, and the Marvel universe. Plus, the movie very loosely based on it will be released next year. This is a cool place to start reading comics because you get exposed to so many characters! And for Spider-Man, it leads right into Brand New Day.
 
 - ![Amazing Spider-Man (1999) #546](/assets/where-to-start-reading-spiderman/thumb-546.jpg)
-**Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is a great fresh start.
+**Amazing Spider-Man (1999) #546: Brand New Day** [[MU](http://marvel.com/comics/issue/17338/amazing_spider-man_1999_546)] - A brand new Peter Parker emerges from Civil War! But why is everything different? This is as close to a reboot as Amazing Spider-Man has every gotten and it's a great fresh start for new readers.
 
 - ![Amazing Spider-Man (1999) #648](/assets/where-to-start-reading-spiderman/thumb-648.jpg)
 **Amazing Spider-Man (1999) #648: Big Time** [[MU](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648)] - Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*.
