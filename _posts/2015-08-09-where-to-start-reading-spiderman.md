@@ -4,6 +4,8 @@ title: Where to start reading Spider-Man comics
 date: 2015-08-09
 ---
 
+<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png">
+
 ***Where should I start reading Spider-Man?*** There have been over 50 years of Spider-Man comics mostly across two universes, Ultimate and 616.
 
 ***Universes!?*** Marvel comics started a long time ago, and their characters were all set in the same world, so they could meet each other and team up and stuff. But in the year 2000, someone had the idea to create a new world, where everything could start from the very beginning again, called the Ultimate Universe. The Ultimate universe was denoted as Universe-1610, while the original was denoted Universe-616.

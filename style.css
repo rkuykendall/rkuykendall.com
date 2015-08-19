@@ -239,6 +239,11 @@ li.twit-date ul {
   margin-left: 0;
 }
 
+#article-where-to-start-reading-spider-man-comics #spidey-timeline {
+	max-width: 100%;
+  margin-top: 20px;
+}
+
 #article-where-to-start-reading-spider-man-comics li {
   min-height: 130px;
   list-style: none;
