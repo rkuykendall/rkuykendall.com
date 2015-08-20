@@ -12,7 +12,7 @@ date: 2015-08-09
 
 So the original Spider-Man comic which began in 1963, *Amazing Spider-Man*, continued in the 616 universe, but so did this new *Ultimate Spider-Man* comic in the 1610, or Ultimate universe. He exists in the same world as a lot of other comics under the Ultimate title like *Ultimate X-Men*.
 
-In 2015, a comic books event called Secret Wars is set to destroy both of these worlds and create a new, single Marvel universe with characters from both.
+In 2015, a comic book event called Secret Wars is set to destroy both of these worlds and create a new, single Marvel universe with characters from both.
 
 **Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited links for each:**
 
