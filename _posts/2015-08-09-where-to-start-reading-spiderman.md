@@ -8,21 +8,13 @@ date: 2015-08-09
 
 ***Where should I start reading Spider-Man?*** There have been over 50 years of Spider-Man comics mostly across two universes, Ultimate and 616.
 
-***Universes!?*** Marvel comics started a long time ago, and their characters were all set in the same world, so they could meet each other and team up and stuff. But in the year 2000, someone had the idea to create a new world, where everything could start from the very beginning again, called the Ultimate Universe. The Ultimate universe was denoted as Universe-1610, while the original was denoted Universe-616.
+***Universes!?*** Marvel comics started a long time ago, and their characters were all set in the same world, so they could meet each other and team up and stuff. But in the year 2000, someone had the idea to create a new world, where they could create modern versions of the origins and stories of Marvel characters like Spider-Man. This new *Ultimate* universe was denoted as Universe-1610, while the original was denoted Universe-616.
 
 So the original Spider-Man comic which began in 1963, *Amazing Spider-Man*, continued in the 616 universe, but so did this new *Ultimate Spider-Man* comic in the 1610, or Ultimate universe. He exists in the same world as a lot of other comics under the Ultimate title like *Ultimate X-Men*.
 
 In 2015, a comic books event called Secret Wars is set to destroy both of these worlds and create a new, single Marvel universe with characters from both.
 
 **Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited links for each:**
-
-### Ultimate Universe (Universe-1610)
-
-- ![Ultimate Spider-Man (2000) #1](/assets/where-to-start-reading-spiderman/thumb-usm1.jpg)
-[**Ultimate Spider-Man (2000) #1**](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1) - This is the first ever issue of the Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history to know.
-
-- ![Ultimate Comics Spider-Man (2011) #1](/assets/where-to-start-reading-spiderman/thumb-miles_1.jpg)
-[**Ultimate Comics Spider-Man (2011) #1**](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1) - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales.
 
 ### Marvel Universe (Universe-616)
 
@@ -46,6 +38,14 @@ In 2015, a comic books event called Secret Wars is set to destroy both of these 
 
 - ![Amazing Spider-Man (2014) #1](/assets/where-to-start-reading-spiderman/thumb-asmv3.jpg)
 [**Amazing Spider-Man (2014) #1**](http://marvel.com/comics/issue/45798/amazing_spider-man_2014_1) - Modern Spider-Man! This leads right into the Spider-Verse, a fun event full of Spider-Men. This is pretty recent, so you will hit the limit on Marvel Unlimited fairly soon, but it's a good way to get caught up very quickly.
+
+### Ultimate Universe (Universe-1610)
+
+- ![Ultimate Spider-Man (2000) #1](/assets/where-to-start-reading-spiderman/thumb-usm1.jpg)
+[**Ultimate Spider-Man (2000) #1**](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1) - This is the first ever issue of the Ultimate universe. It's a great starting point into both comic books and Spider-Man, since it is such a clean start. With a brand new universe, there's no back history to know.
+
+- ![Ultimate Comics Spider-Man (2011) #1](/assets/where-to-start-reading-spiderman/thumb-miles_1.jpg)
+[**Ultimate Comics Spider-Man (2011) #1**](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1) - This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales.
 
 ## After Secret Wars
 
