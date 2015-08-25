@@ -220,21 +220,6 @@ li.twit-date ul {
     max-width: 34em;
 }
 
-
-#logo {
-  border: none;
-  margin: 0 0 5% 0;
-}
-#logo:hover path {
-	fill: #000;
-}
-@media only screen and (min-width: 900px) {
-  #logo {
-    float: right;
-    margin: 0 0 5% 5%;
-  }
-}
-
 #article-where-to-start-reading-spider-man-comics ul {
   margin-left: 0;
 }
