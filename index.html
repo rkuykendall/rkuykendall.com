@@ -1,0 +1,77 @@
+---
+layout: default
+title: Home
+---
+
+<header>
+    <style>
+    h1 em {
+        font-size: 45%;
+        color: #bbb;
+        font-weight: 200;
+    }
+    </style>
+    <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1>
+    <h2>Engineer and nerd in New York City</h2>
+</header>
+
+<section>
+    <p>
+        Say hi at <script>
+        <!--
+        // http://rumkin.com/tools/mailto_encoder/custom.php
+        ML="rlot>\"< mu.ya@if=/kdhcbe:n";
+        MI="6<7D0G?@58<>132H02FG03=0B9;BGIC<11:E285402FG03=0B9;BGIC<11:E286A<4";
+        OT="";
+        for(j=0;j<MI.length;j++){
+            OT+=ML.charAt(MI.charCodeAt(j)-48);
+        }document.write(OT);
+        // -->
+        </script>
+        <noscript>Encrypted Address</noscript>
+    </p>
+</section>
+
+<div id="sections">
+    <section>
+        <h3>I like to write about nerdy stuff.</h3>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
+                &mdash;
+                <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B, %Y"  }}</time>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section>
+        <h3>I post stuff online.</h3>
+        <ul>
+            <li>GitHub &mdash; <a href="https://github.com/rkuykendall">rkuykendall</a></li>
+            <li>Facebook &mdash; <a href="https://www.facebook.com/robert.kuykendall">robert.kuykendall</a></li>
+            <li>Reddit &mdash; <a href="https://www.reddit.com/user/appleswitch/">appleswitch</a></li>
+            <li>Hacker News &mdash; <a href="https://news.ycombinator.com/threads?id=rkuykendall-com">rkuykendall-com</a></li>
+            <!-- <li>Twitter &mdash; <a href="https://twitter.com/rkuykendall">rkuykendall</a></li> -->
+            <li>LinkedIn &mdash; <a href="http://www.linkedin.com/in/robertrkuykendall">robertrkuykendall</a></li>
+            <li>Last.fm  &mdash; <a href="http://www.last.fm/user/Appleswitch">appleswitch</a></li>
+            <!-- <li>Stack Overflow &mdash; <a href="http://stackoverflow.com/users/224873/robert-kuykendall">Robert Kuykendall</a></li> -->
+            <!-- <li>Wikipedia &mdash; <a href="http://en.wikipedia.org/wiki/Special:Contributions/Rkuykendall">rkuykendall</a></li> -->
+            <!-- <li>Flickr  &mdash; <a href="http://www.flickr.com/photos/appleswitch">appleswitch</a> Photos from '08-'10</li> -->
+        </ul>
+    </section>
+
+    <section>
+        <h3>I build web applications.</h3>
+        <ul>
+            <li>2014 <a href="http://mapworldnews.com">Map World News</a> (<a href="https://github.com/rkuykendall/IRIS-News">github</a>) &mdash; Visualization, location extraction, and sentiment analysis in Python.</li>
+            <li>2013 <a href="http://rkuykendall.github.io/HTML5ComicBookReader/">Web Slinger</a> (<a href="https://github.com/rkuykendall/HTML5ComicBookReader">github</a>) &mdash; Web Browser Comic Book Reader, forked from existing project in HTML5 and JS.</li>
+            <li>2008 <a href="http://dani365.com/years/2008/months/6">Dani 365</a> &mdash; Photo sharing site and &ldquo;365&rdquo; photo-a-day project in Ruby on Rails.</li>
+            <li>2007 <a href="http://simplici7y.com">Simplici7y</a> (<a href="https://github.com/rkuykendall/Simplici7y">github</a>) &mdash; File sharing for the <a href="http://source.bungie.org">Aleph One</a> community, in Ruby on Rails.</li>
+            <li>2005 <a href="http://www.pfhorums.com">The Pfhorums</a> &mdash; Forum for <a href="http://source.bungie.org">Aleph One</a> open source project, active for 10 years.</li>
+        </ul>
+    </section>
+
+
+</div>

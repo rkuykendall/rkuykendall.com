@@ -4,7 +4,7 @@
    ============================== */
 
 /*
-   http://meyerweb.com/eric/tools/css/reset/ 
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -18,8 +18,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -30,7 +30,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,7 +69,7 @@ body {
   font-size: 17px;
   line-height: 1em;
   color: black;
-  padding: 5%;
+  padding: 40px;
 }
 
 h1 {
@@ -106,13 +106,13 @@ h3 {
   line-height: 1em;
   font-weight: 600;
   margin: 30px 0 10px 0;
-}      
+}
 h4 {
   font-size: 20px;
   line-height: 1em;
   font-weight: 600;
   padding: 10px 0 0 0;
-}      
+}
 h5, h6 {
 	font-weight: bold;
 }
@@ -180,6 +180,11 @@ ol, ul {
 	margin-bottom: 15px;
 }
 
+.article ul {
+	list-style-type: circle;
+  margin-left: 1.5em;
+}
+
 ol {
 	list-style-type: decimal;
 	list-style-position: inside;
@@ -205,6 +210,12 @@ header, #sections {
 }
 
 
+.post-article {
+  max-width: 40em;
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 2px solid #f6f6f6;
+}
 
 li.twit-date {
 	margin-bottom: 10px;
@@ -215,17 +226,22 @@ li.twit-date ul {
     max-width: 34em;
 }
 
+#article-where-to-start-reading-spider-man-comics ul {
+  margin-left: 0;
+}
 
-#logo {
-  border: none;
-  margin: 0 0 5% 0;
+#article-where-to-start-reading-spider-man-comics #spidey-timeline {
+	max-width: 100%;
+  margin-top: 20px;
 }
-#logo:hover path {
-	fill: #000;
+
+#article-where-to-start-reading-spider-man-comics li {
+  min-height: 130px;
+  list-style: none;
 }
-@media only screen and (min-width: 900px) {
-  #logo {
-    float: right;
-    margin: 0 0 5% 5%;
-  }
+#article-where-to-start-reading-spider-man-comics li img {
+	height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 5px 10px 0 0;
 }

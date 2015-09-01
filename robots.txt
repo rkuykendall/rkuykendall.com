@@ -1,4 +1,4 @@
-User-agent: * 
+User-agent: *
 Disallow: /uploads/
 Disallow: /dani365/
 Disallow: /root-archives/
