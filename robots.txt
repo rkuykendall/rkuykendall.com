@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /uploads/
-Disallow: /dani365/
-Disallow: /root-archives/
-Disallow: /unpublished-articles/
