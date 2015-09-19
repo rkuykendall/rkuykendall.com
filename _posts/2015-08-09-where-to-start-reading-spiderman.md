@@ -1,7 +1,5 @@
 ---
-layout: article
 title: Where to start reading Spider-Man comics
-date: 2015-08-09
 ---
 
 <img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png">

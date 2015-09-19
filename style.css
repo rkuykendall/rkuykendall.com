@@ -125,8 +125,21 @@ p, blockquote, cite {
 blockquote {
 	padding: 15px;
 	padding-bottom: 5px;
-	border-left: 2px dotted black;
+	border-left: 2px solid black;
 }
+
+pre {
+  font-size: 12px;
+  line-height: 1.1em;
+  font-family: monospace;
+  background-color: #eee;
+  color: #111;
+  padding: 5px;
+  margin-bottom: 15px;
+  max-width: 57em;
+  overflow: scroll;
+}
+
 p img {
 	float: right;
 	margin: 0 0 10px 10px;
