@@ -22,15 +22,15 @@ title: Simple sentiment analysis in python using AFINN
 
 ## Background
 
-For the project [Map World News](http://mapworldnews.com/), I needed to do sentiment analysis on articles without the popular NLTK library, which is either difficult or impossible to deploy to github.
+For the project [Map World News](http://mapworldnews.com/), I needed to do sentiment analysis on articles, to show the map above. A popular options is to use the [NLTK library](http://www.nltk.org/), but it can be difficult to deploy.
 
-I originally used the [Data Science Toolkit](http://www.datasciencetoolkit.org/) which provides a set of simple HTTP APIs, and a python library to make it even simpler. However DSTK is not local, so processing a lot of different items is very time consuming.
+I originally used the amazing [Data Science Toolkit](http://www.datasciencetoolkit.org/) by Pete Warden, which provides a set of simple HTTP APIs, and a python library to make it even simpler. However DSTK is not local, so processing a lot of different items is very time consuming.
 
 I learned that DSTK used a [simple algorithm](https://github.com/petewarden/dstk/blob/master/text2sentiment.rb#L294-L319) and a wordlist from [Finn Årup Nielsen](https://twitter.com/fnielsen), and implemented it myself on Map World News. However, that was a little bit of work, and things have just gotten even easier:
 
 ## Fast, local, sentiment analysis in Python
 
-[Finn Årup Nielsen](https://twitter.com/fnielsen) has just released a Python module named [AFINN](https://github.com/fnielsen/afinn) to easily add sentiment analysis using his wordlist to your project, and it could not be easier.
+[Finn Årup Nielsen](https://twitter.com/fnielsen) has just released a Python module named [AFINN](https://github.com/fnielsen/afinn) to easily add sentiment analysis using his wordlist to your project, and it could not be easier:
 
 >     >>> from afinn import Afinn
 >     >>> afinn = Afinn()
