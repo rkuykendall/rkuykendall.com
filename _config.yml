@@ -1,3 +1,4 @@
+permalink: /articles/:title
 encoding: utf-8
 defaults:
   -
