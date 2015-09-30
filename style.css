@@ -38,6 +38,9 @@ header h2 {
   margin: -5px 0 15px 0;
   font-weight: 400;
 }
+header h2 a:link, header h2 a:visited {
+  color: #444;
+}
 
 h3 {
   font-size: 25px;
@@ -109,7 +112,7 @@ em {
 }
 
 
-a {
+a, a:link {
   color: #06C;
   text-decoration: none;
   }
