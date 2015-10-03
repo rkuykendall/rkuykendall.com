@@ -1,6 +1,5 @@
 ---
 title: The History of Baseball Video Games
-date: 2009-12-07
 ---
 
 ## Our Game and Our Games
@@ -75,40 +74,40 @@ Wii Sports, released by Nintendo in 2006 stands in contrast to MLB ’09 The Sho
 
 ## References
 
-- Mrozek, David. 2001. The Video Game Critic's History of Baseball Video Games. The Video Game Critic. [http://www.videogamecritic.net/baseball.htm](http://www.videogamecritic.net/baseball.htm) (accessed October 7, 2009).
+- <a name="mrozek-2001"></a> Mrozek, David. 2001. The Video Game Critic's History of Baseball Video Games. The Video Game Critic. [http://www.videogamecritic.net/baseball.htm](http://www.videogamecritic.net/baseball.htm) (accessed October 7, 2009).
 
 - <a name="ugo-entertainment-2006"></a> 2006\. A Brief History of Baseball Video Games. UGO Entertainment. [http://www.ugo.com/sports/tribute-to-baseball/?cur=baseball-video-games](http://www.ugo.com/sports/tribute-to-baseball/?cur=baseball-video-games) (accessed October 7, 2009).
 
-- 2009\. Games We Love: Sports Talk Baseball (Genesis). Games We Love. [http://www.youtube.com/watch?v=vmftKsdh4xE](http://www.youtube.com/watch?v=vmftKsdh4xE) (accessed October 7, 2009).
+- <a name="games-we-love-2009"></a> 2009\. Games We Love: Sports Talk Baseball (Genesis). Games We Love. [http://www.youtube.com/watch?v=vmftKsdh4xE](http://www.youtube.com/watch?v=vmftKsdh4xE) (accessed October 7, 2009).
 
-- 1981\. Intellivision® TV Commercial: Major League Baseball. Intellivision Lives. [http://www.youtube.com/watch?v=Y0KTjpaG3cg](http://www.youtube.com/watch?v=Y0KTjpaG3cg) (accessed October 7, 2009).
+- <a name="intellivision-lives-1981"></a> 1981\. Intellivision® TV Commercial: Major League Baseball. Intellivision Lives. [http://www.youtube.com/watch?v=Y0KTjpaG3cg](http://www.youtube.com/watch?v=Y0KTjpaG3cg) (accessed October 7, 2009).
 
-- 1981\. Intellivision® TV Commercial: Plimpton Sports. Intellivision Lives. [http://www.youtube.com/watch?v=IDza6eTXGEY](http://www.youtube.com/watch?v=IDza6eTXGEY) (accessed October 7, 2009).
+- <a name="intellivision-lives-1981"></a> 1981\. Intellivision® TV Commercial: Plimpton Sports. Intellivision Lives. [http://www.youtube.com/watch?v=IDza6eTXGEY](http://www.youtube.com/watch?v=IDza6eTXGEY) (accessed October 7, 2009).
 
-- 1981\. Intellevision Major League Baseball Commericial. Internet Lurker. [http://www.youtube.com/watch?v=iSnLtSCmmFY](http://www.youtube.com/watch?v=iSnLtSCmmFY) (accessed October 7, 2009).
+- <a name="internet-lurker-1981"></a> 1981\. Intellevision Major League Baseball Commericial. Internet Lurker. [http://www.youtube.com/watch?v=iSnLtSCmmFY](http://www.youtube.com/watch?v=iSnLtSCmmFY) (accessed October 7, 2009).
 
-- RBI Baseball NES TV Commercial. [http://www.youtube.com/watch?v=usfzRQkxW78](http://www.youtube.com/watch?v=usfzRQkxW78) (accessed October 7, 2009).
+- <a name="???"></a> RBI Baseball NES TV Commercial. [http://www.youtube.com/watch?v=usfzRQkxW78](http://www.youtube.com/watch?v=usfzRQkxW78) (accessed October 7, 2009).
 
-- Onfrichuk, Brendan. 2007. 2600 vs. Intellivision: The world's first console war has only begun.. The Atari Times. [http://www.ataritimes.com/article.php?showarticle=577](http://www.ataritimes.com/article.php?showarticle=577) (accessed October 7, 2009).
+- <a name="onfrichuk-2007"></a> Onfrichuk, Brendan. 2007. 2600 vs. Intellivision: The world's first console war has only begun.. The Atari Times. [http://www.ataritimes.com/article.php?showarticle=577](http://www.ataritimes.com/article.php?showarticle=577) (accessed October 7, 2009).
 
-- Cutini, T.J.. 2008. T.J.'s Time Machine - R.B.I. Baseball. Operation Sports. [http://www.operationsports.com/feature.php?id=368](http://www.operationsports.com/feature.php?id=368) (accessed October 7, 2009).
+- <a name="cutini-2008"></a> Cutini, T.J.. 2008. T.J.'s Time Machine - R.B.I. Baseball. Operation Sports. [http://www.operationsports.com/feature.php?id=368](http://www.operationsports.com/feature.php?id=368) (accessed October 7, 2009).
 
-- 1982\. Atari 2600 Realsports Baseball Commercial. Commercial Archive. [http://www.youtube.com/watch?v=W44MVmb7Ezk](http://www.youtube.com/watch?v=W44MVmb7Ezk) (accessed October 7, 2009).
+- <a name="commercial-archive-1982"></a> 1982\. Atari 2600 Realsports Baseball Commercial. Commercial Archive. [http://www.youtube.com/watch?v=W44MVmb7Ezk](http://www.youtube.com/watch?v=W44MVmb7Ezk) (accessed October 7, 2009).
 
-- Mrozek, David. 2009. The Video Game Critic’s Intellivision Reviews. [http://www.videogamecritic.net/intelsz.htm](http://www.videogamecritic.net/intelsz.htm) (accessed October 7, 2009).
+- <a name="mrozek-2001"></a> Mrozek, David. 2009. The Video Game Critic’s Intellivision Reviews. [http://www.videogamecritic.net/intelsz.htm](http://www.videogamecritic.net/intelsz.htm) (accessed October 7, 2009).
 
-- 2009\. MLB 09 The Show - The Little Things. Sony Computer Entertainment. [http://www.youtube.com/watch?v=KdfOGmMZKro#](http://www.youtube.com/watch?v=KdfOGmMZKro#) (accessed October 7, 2009).
+- <a name="???"></a> 2009\. MLB 09 The Show - The Little Things. Sony Computer Entertainment. [http://www.youtube.com/watch?v=KdfOGmMZKro#](http://www.youtube.com/watch?v=KdfOGmMZKro#) (accessed October 7, 2009).
 
-- 2007\. Take Me Out To The Ballgame With The Vectrex. Pink Gorilla. [http://www.pinkgorillagames.com/retro_reviews/take_me_out_to_the_ballgame_wi.php](http://www.pinkgorillagames.com/retro_reviews/take_me_out_to_the_ballgame_wi.php) (accessed October 7, 2009).
+- <a name="???"></a> 2007\. Take Me Out To The Ballgame With The Vectrex. Pink Gorilla. [http://www.pinkgorillagames.com/retro_reviews/take_me_out_to_the_ballgame_wi.php](http://www.pinkgorillagames.com/retro_reviews/take_me_out_to_the_ballgame_wi.php) (accessed October 7, 2009).
 
-- 2006\. History Of Baseball Videogames. G4 TV. [http://g4tv.com/videos/11367/History-Of-Baseball-Videogames/#video-41892](http://g4tv.com/videos/11367/History-Of-Baseball-Videogames/#video-41892) (accessed October 7, 2009).
+- <a name="???"></a> 2006\. History Of Baseball Videogames. G4 TV. [http://g4tv.com/videos/11367/History-Of-Baseball-Videogames/#video-41892](http://g4tv.com/videos/11367/History-Of-Baseball-Videogames/#video-41892) (accessed October 7, 2009).
 
-- 2009\. Top 5 best baseball video games. MSNBC. [http://www.msnbc.msn.com/id/30020089/ns/technology_and_science-games/?pg=2#games_top5_090403_baseball](http://www.msnbc.msn.com/id/30020089/ns/technology_and_science-games/?pg=2#games_top5_090403_baseball) (accessed October 7, 2009).
+- <a name="msnbc-2009"></a> 2009\. Top 5 best baseball video games. MSNBC. [http://www.msnbc.msn.com/id/30020089/ns/technology_and_science-games/?pg=2#games_top5_090403_baseball](http://www.msnbc.msn.com/id/30020089/ns/technology_and_science-games/?pg=2#games_top5_090403_baseball) (accessed October 7, 2009).
 
-- Henderson, Lee Andrew. 2007. The History of Baseball Video Games. Associated Content. [http://www.associatedcontent.com/article/147860/the_history_of_baseball_video_games.html?cat=19](http://www.associatedcontent.com/article/147860/the_history_of_baseball_video_games.html?cat=19) (accessed October 7, 2009).
+- <a name="henderson-2007"></a> Henderson, Lee Andrew. 2007. The History of Baseball Video Games. Associated Content. [http://www.associatedcontent.com/article/147860/the_history_of_baseball_video_games.html?cat=19](http://www.associatedcontent.com/article/147860/the_history_of_baseball_video_games.html?cat=19) (accessed October 7, 2009).
 
-- Herman, Leonard, Jer Horwitz, Steve Kent, and Skyler Miller. 2002. The History of Video Games. Gamespot. [http://gamespot.com/gamespot/features/video/hov/index.html](http://gamespot.com/gamespot/features/video/hov/index.html) (accessed October 7, 2009).
+- <a name="herman-2002"></a> Herman, Leonard, Jer Horwitz, Steve Kent, and Skyler Miller. 2002. The History of Video Games. Gamespot. [http://gamespot.com/gamespot/features/video/hov/index.html](http://gamespot.com/gamespot/features/video/hov/index.html) (accessed October 7, 2009).
 
-- Marriott, Scott Alan. 2009. Videocart-12: Baseball. AllGame. [http://www.allgame.com/game.php?id=17322](http://www.allgame.com/game.php?id=17322) (accessed October 7, 2009).
+- <a name="marriott-2009"></a> Marriott, Scott Alan. 2009. Videocart-12: Baseball. AllGame. [http://www.allgame.com/game.php?id=17322](http://www.allgame.com/game.php?id=17322) (accessed October 7, 2009).
 
-- Marbles. 2006. Wii Sports Review. GamePro. [http://www.gamepro.com/article/reviews/86628/wii-sports/](http://www.gamepro.com/article/reviews/86628/wii-sports/) (accessed October 7, 2009).
+- <a name="marbles-2006"></a> Marbles. 2006. Wii Sports Review. GamePro. [http://www.gamepro.com/article/reviews/86628/wii-sports/](http://www.gamepro.com/article/reviews/86628/wii-sports/) (accessed October 7, 2009).
