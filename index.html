@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 <header>
@@ -12,7 +11,7 @@ title: Home
     }
     </style>
     <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1>
-    <h2>Engineer and nerd in New York City</h2>
+    <h2>Engineer and nerd at <a href="http://thinkful.com" target="_blank">Thinkful</a> in New York City</h2>
 </header>
 
 <section>
@@ -35,7 +34,7 @@ title: Home
 <div id="sections">
     <section>
         <h3>I like to write about nerdy stuff.</h3>
-        <ul>
+        <ul class="clean">
             {% for post in site.posts %}
             <li>
                 <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
@@ -48,12 +47,12 @@ title: Home
 
     <section>
         <h3>I post stuff online.</h3>
-        <ul>
+        <ul class="clean">
             <li>GitHub &mdash; <a href="https://github.com/rkuykendall">rkuykendall</a></li>
             <li>Facebook &mdash; <a href="https://www.facebook.com/robert.kuykendall">robert.kuykendall</a></li>
             <li>Reddit &mdash; <a href="https://www.reddit.com/user/appleswitch/">appleswitch</a></li>
             <li>Hacker News &mdash; <a href="https://news.ycombinator.com/threads?id=rkuykendall-com">rkuykendall-com</a></li>
-            <!-- <li>Twitter &mdash; <a href="https://twitter.com/rkuykendall">rkuykendall</a></li> -->
+            <li>Twitter &mdash; <a href="https://twitter.com/rkuykendall">rkuykendall</a></li>
             <li>LinkedIn &mdash; <a href="http://www.linkedin.com/in/robertrkuykendall">robertrkuykendall</a></li>
             <li>Last.fm  &mdash; <a href="http://www.last.fm/user/Appleswitch">appleswitch</a></li>
             <!-- <li>Stack Overflow &mdash; <a href="http://stackoverflow.com/users/224873/robert-kuykendall">Robert Kuykendall</a></li> -->
@@ -64,7 +63,7 @@ title: Home
 
     <section>
         <h3>I build web applications.</h3>
-        <ul>
+        <ul class="clean">
             <li>2015 <a href="http://mapworldnews.com/">Map World News</a> (<a href="https://github.com/rkuykendall/map-world-news">github</a>) &mdash; Visualization of sentiment on all world news sources, in Python/Flask and ES6/React.</li>
             <li>2014 <a href="http://iris-app.herokuapp.com/">IRIS News</a> (<a href="https://github.com/rkuykendall/IRIS-News">github</a>) &mdash; Visualization, location extraction, and sentiment analysis in Python.</li>
             <li>2013 <a href="http://rkuykendall.github.io/html5-comic-book-reader/">HTML5 Comic Book Reader</a> (<a href="http://rkuykendall.github.io/html5-comic-book-reader/">github</a>) &mdash; Web Browser Comic Book Reader, forked from existing project in HTML5 and JS.</li>
