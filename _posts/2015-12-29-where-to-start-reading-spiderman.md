@@ -1,8 +1,13 @@
 ---
 title: Where to start reading Spider-Man comics
+tags: spider-man
+image: /assets/where-to-start-reading-spiderman/og_image.jpg
+description: Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited and Book links for each.
 ---
 
-<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png">
+*Korean translation by <a href="https://twitter.com/spideythelove/">@Spideythelove</a>: <span class="korean">[스파이더맨 코믹스 입문 가이드](/articles/where-to-start-reading-spiderman-korean)</span>*
+
+<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png" class="fit">
 
 ***Where should I start reading Spider-Man?*** There have been over 50 years of Spider-Man comics mostly across two universes, Ultimate and 616.
 
@@ -24,7 +29,7 @@ Stan Lee and Steve Ditko introduced Spider-Man in the final issue of the cancell
 [**Amazing Spider-Man (1999) #1**](http://marvel.com/comics/issue/37894/amazing_spider-man_1999_1) -
 After issue #441 they restarted the numbering of the series to show new readers it was a good starting point, but at issue #500 they went back to the original numbering, so people often just call this issue #442. It's a great way to jump to "modern" Spider-Man. It leads right into the "JMS run" of Amazing Spider-Man. A run is a part of a series written by a specific writer, with JMS being a writer people really like. I can't find a collection that starts with this issue, but [Amazing Spider-Man by JMS Ultimate Collection, Book 1](http://amzn.to/1TpzWby) skips right to the JMS run which is fantastic.  
 
-- [![Amazing Spider-Man (1999) #529](/assets/where-to-start-reading-spiderman/thumb-civil_war2.jpg)](http://amzn.to/1TpzZo2)
+- [![Marvel Civil War](/assets/where-to-start-reading-spiderman/thumb-civil_war2.jpg)](http://amzn.to/1TpzZo2)
 [**Marvel Civil War**](http://marvel.com/comics/discover/114/civil-war-the-complete-event) -
 A massive event which had a huge impact on Spider-Man, and the Marvel universe as a whole. A cool place to start reading comics because you get exposed to so many characters, and because a movie based on it is coming out next year. The event begins with *Amazing Spider-Man (1999) #529* but ties into the main *Civil War* series. The main issues are collected in [Civil War](http://amzn.to/1TpzZo2), which features lots of Spidey, but [The Road to Civil War](http://amzn.to/1JjKyZf) and [Amazing Spider-Man: Civil War](http://amzn.to/1R29fw2) are great additions.
 

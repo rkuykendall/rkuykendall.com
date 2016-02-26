@@ -2,6 +2,16 @@
       Elements
    ============================== */
 
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.korean {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.korean.article p {
+  font-weight: 100;
+}
+
 body {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 17px;
@@ -190,20 +200,20 @@ li.twit-date ul {
     max-width: 34em;
 }
 
-#article-where-to-start-reading-spider-man-comics ul {
-  margin-left: 0;
-}
-
-#article-where-to-start-reading-spider-man-comics #spidey-timeline {
+.spider-man .fit {
 	max-width: 100%;
   margin-top: 20px;
 }
 
-#article-where-to-start-reading-spider-man-comics li {
+.spider-man ul {
+  margin-left: 0;
+}
+
+.spider-man li {
   min-height: 130px;
   list-style: none;
 }
-#article-where-to-start-reading-spider-man-comics li img {
+.spider-man li img {
 	height: 130px;
   border: 1px solid black;
   float: left;
