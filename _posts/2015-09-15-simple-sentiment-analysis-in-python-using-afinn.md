@@ -1,5 +1,6 @@
 ---
 title: Simple sentiment analysis in python using AFINN
+tags: [code, python]
 ---
 
 <style>
