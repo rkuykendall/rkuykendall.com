@@ -1,6 +1,6 @@
 ---
 title: Which comics to read for Civil War
-image: /assets/what-to-read-for-civil-war/og_image.jpg
+image: /assets/what-to-read-for-civil-war/og_image2.jpg
 description: The comics you should read before the movie changes Marvel movies.
 ---
 
