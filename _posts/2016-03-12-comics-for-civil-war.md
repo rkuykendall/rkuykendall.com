@@ -1,10 +1,10 @@
 ---
 title: Which comics to read for Civil War
 image: /assets/what-to-read-for-civil-war/og_image2.jpg
-description: The comics you should read before the movie changes Marvel movies.
+description: Civil War is one of the largest Marvel events ever, at 98 comics. Here's what you should read before the movie.
 ---
 
-**So this movie is based on a comic?** Yes, Civil War was a 2006 Marvel comics 'event', which means there were a lot of comic book issues which are included under the Civil War name. An 'event' is  like the Avengers movie. You can watch it by itself, but there are also a TON of things you can watch which give it context, like the movies Thor, Captain America, Iron Man, or even the TV show Agents of Shield. You don't need to watch all of these, just like you don't need to read every issue in an event.
+Civil War was a 2006 Marvel comics 'event', which means there were a lot of comic book issues which are included under the Civil War name. An 'event' is  like the Avengers movie. You can watch it by itself, but there are also a TON of things you can watch which give it context, like the movies Thor, Captain America, Iron Man, or even the TV show Agents of Shield. You don't need to watch all of these, just like you don't need to read every issue in an event.
 
 Civil War is actually one of the most important, and largest events in the history of  Marvel comics, with the [official list totaling at #98 issues](http://marvel.com/comics/discover/114/civil-war-the-complete-event), so it can be a bit overwhelming. Here's my recommendations on which parts you should read before the movie:
 
