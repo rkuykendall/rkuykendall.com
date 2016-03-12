@@ -1,5 +1,5 @@
 ---
-image: <fil this in>
+image: /assets/what-to-read-for-civil-war/og_image.jpg
 description: Which parts of Civil War you should read before the movie.
 ---
 
