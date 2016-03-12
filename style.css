@@ -191,6 +191,11 @@ header, #sections {
 	border-top: 2px solid #f6f6f6;
 }
 
+.article h2,
+.article h3 {
+  max-width: 28em;
+}
+
 li.twit-date {
 	margin-bottom: 10px;
 	font-weight: bold;
