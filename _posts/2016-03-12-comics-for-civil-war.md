@@ -2,6 +2,7 @@
 title: Which comics to read for Civil War
 image: /assets/what-to-read-for-civil-war/og_image2.jpg
 description: Civil War is one of the largest Marvel events ever, at 98 comics. Here's what you should read before the movie.
+tags: [comics, media]
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 title: 스파이더맨 코믹스 입문 가이드
 slug: where-to-start-reading-spiderman-korean
-tags: [korean, spider-man]
+tags: [korean, spider-man, comics, media]
 layout: spidey-the-love
 image: /assets/where-to-start-reading-spiderman/og_image.jpg
 description: 이제부터 스파이더맨 코믹스를 읽는 최적의 입문 시점을 모두 살펴보고, 각각 약간의 설명과 함께 마블 언리미티드 및 링크를 첨부해보고자 합니다.
