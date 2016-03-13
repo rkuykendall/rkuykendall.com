@@ -41,8 +41,15 @@
 
       <header>
         <p>Written by <a href="/">Robert Kuykendall</a>.</p>
-        <h1 class={{page.tags | join: ' '}}>{{page.title}}</h1>
-        <h2>{{page.date | date_to_long_string}}</h2>
+        <a href="{{page.url}}"><h1 class={{page.tags | join: ' '}}>{{page.title}}</h1></a>
+        <h2>
+          {{page.date | date_to_long_string}}
+          <span class="share-page">
+              <a class="share-icon twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+              <a class="share-icon facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+              <a class="share-icon gplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+          </span>
+        </h2>
       </header>
 
       <div class="article {{page.tags | join: ' '}}">
