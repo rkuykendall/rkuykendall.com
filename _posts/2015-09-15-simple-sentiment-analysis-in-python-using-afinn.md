@@ -1,7 +1,9 @@
 ---
 title: Simple sentiment analysis in python using AFINN
+description: The python module AFINN makes adding sentiment analysis to your project insanely easy.
 tags: [code, python]
 ---
+
 
 <style>
     #header-image {
@@ -31,7 +33,7 @@ I learned that DSTK used a [simple algorithm](https://github.com/petewarden/dstk
 
 ## Fast, local, sentiment analysis in Python
 
-[Finn Årup Nielsen](https://twitter.com/fnielsen) has just released a Python module named [AFINN](https://github.com/fnielsen/afinn) to easily add sentiment analysis using his wordlist to your project, and it could not be easier:
+[Finn Årup Nielsen](https://twitter.com/fnielsen) has just released a Python module named [AFINN](https://github.com/fnielsen/afinn) to add sentiment analysis using his wordlist to your project, and it could not be easier:
 
 >     >>> from afinn import Afinn
 >     >>> afinn = Afinn()
