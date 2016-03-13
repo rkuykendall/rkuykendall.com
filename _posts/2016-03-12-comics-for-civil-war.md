@@ -36,7 +36,7 @@ There are only seven issues under the [Civil War](http://amzn.to/1pmqXPE) title,
 
 **Okay, so what is a comic event?** An 'event' is like the comic equivalent of the Avengers movie. It involves a lot of characters that have their own stories. You can watch it by itself, but there are also a TON of things you can watch which give it context, like other movies or even TV shows. But you don't need to watch them all, just like you don't need to read every issue in a comic event.
 
-**How do I read them?** The easiest and cheapest way is [Marvel Unlimited](http://marvel.com/comics/unlimited), a service like Spotify for comics, where you can read anything over 6 months old for $10 a month. This [great list](http://marvel.com/comics/discover/114/civil-war-the-complete-event) has every issue on the service. However, Marvel Unlimited does have problems, and some people just want to hold some beautifully printed books in their hand, lend then to friends, or get frustrated with the Marvel Unlimited web reader. In that case, I'll be linking to printed copies of all the issues below.
+**How do I read them?** The easiest and cheapest way is [Marvel Unlimited](http://marvel.com/comics/unlimited), a service like Netflix for comics, where you can read anything over 6 months old for $10 a month. This [great list](http://marvel.com/comics/discover/114/civil-war-the-complete-event) has every issue on the service. However, Marvel Unlimited does have problems, and some people just want to hold some beautifully printed books in their hand, lend then to friends, or get frustrated with the Marvel Unlimited web reader. In that case, I'll be linking to printed copies of all the issues below.
 
 **Here's the biggest parts of the Civil War event:**
 
