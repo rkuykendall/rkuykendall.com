@@ -77,3 +77,5 @@ The [complete Civil War list](http://marvel.com/comics/discover/114/civil-war-th
 - [Civil War: Young Avengers & Runaways](http://amzn.to/1RePjAO) - More about the two teams during that time.
 
 - [Civil War: Marvel Universe](http://amzn.to/1LjeiXB) and [New Avengers: Civil War](http://amzn.to/1MeD6uO) &mdash; Small collections of side-stories.
+
+<script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
