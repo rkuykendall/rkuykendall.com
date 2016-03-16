@@ -4,6 +4,20 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
+.reddit {
+  padding: 2em;
+  background-color: #EFF7FF;
+  display: inline-block;
+  border: 1px solid #cee3f8;
+}
+
+.reddit a:link,
+.reddit a:visited {
+  position: relative;
+  top: -1.1em;
+  color: black;
+}
+
 .share-icon {
   display: inline-block;
   height: 21px;
