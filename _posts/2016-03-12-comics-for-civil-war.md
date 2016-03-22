@@ -77,7 +77,3 @@ The [complete Civil War list](http://marvel.com/comics/discover/114/civil-war-th
 - [Civil War: Young Avengers & Runaways](http://amzn.to/1RePjAO) &mdash; More about the two teams during that time.
 
 - [Civil War: Marvel Universe](http://amzn.to/1LjeiXB) and [New Avengers: Civil War](http://amzn.to/1MeD6uO) &mdash; Small collections of side-stories.
-
-<div class="reddit">
-<script type="text/javascript" src="//www.redditstatic.com/button/button3.js"></script> <a href="https://www.reddit.com/r/Marvel/comments/4au3rw/guide_for_new_readers_which_comics_to_read_for/">← Check out the discussion on reddit.</a>
-</div>
