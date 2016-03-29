@@ -67,6 +67,6 @@ In 2015, Secret Wars ([Unlimited](http://marvel.com/comics/issue/52447/secret_wa
 [**Amazing Spider-Man (2015) #1**](http://marvel.com/comics/issue/55298/amazing_spider-man_2015_1) -
 This is the current series with Peter Parker, Spider-Man from the 616 Universe. Parker Industries is a global company, with offices in New York, Shanghai, London and San Francisco. Peter and his "bodyguard" Spider-Man take on the world. The prints start with [Amazing Spider-Man: Worldwide Vol. 1](http://amzn.to/1TpzY3m).
 
-- ![Spider-Man (2016) #1](/assets/where-to-start-reading-spiderman/thumb-secret_miles.jpg)
-**Spider-Man (2015) #1** -
-This is the current series with Miles Morales, Spider-Man from the 1610 Ultimate Universe, finding his place in the post-Secret-Wars marvel universe alongside Peter Parker. Beginning in February of 2016, expect this to be a fresh introduction to Miles as he finds where he fits in.
+- [![Spider-Man (2016) #1](/assets/where-to-start-reading-spiderman/thumb-secret_miles.jpg)](http://amzn.to/1MQzrDu)
+[**Spider-Man (2015) #1**](http://marvel.com/comics/issue/55693/spider-man_2016_1) -
+This is the current series with Miles Morales, Spider-Man from the 1610 Ultimate Universe, finding his place in the post-Secret-Wars marvel universe alongside the 616 Peter Parker. This is a good place to get to know Miles for the first time. The prints start with [Spider-Man: Miles Morales Vol. 1](http://amzn.to/1MQzrDu).
