@@ -72,8 +72,8 @@ The [complete Civil War list](http://marvel.com/comics/discover/114/civil-war-th
 
 - [Civil War: X-Men](http://amzn.to/1QPirme) &mdash; Has more to do with the aftermath of an older event, [House of M](http://amzn.to/1RdS3ES).
 
-- [Civil War: Ms. Marvel](http://amzn.to/1LZ5hDd) - There are [much better Carol Danvers books](http://amzn.to/1MeDM3l) after Civil War.
+- [Civil War: Ms. Marvel](http://amzn.to/1LZ5hDd) &mdash; There are [much better Carol Danvers books](http://amzn.to/1MeDM3l) after Civil War.
 
-- [Civil War: Young Avengers & Runaways](http://amzn.to/1RePjAO) - More about the two teams during that time.
+- [Civil War: Young Avengers & Runaways](http://amzn.to/1RePjAO) &mdash; More about the two teams during that time.
 
 - [Civil War: Marvel Universe](http://amzn.to/1LjeiXB) and [New Avengers: Civil War](http://amzn.to/1MeD6uO) &mdash; Small collections of side-stories.
