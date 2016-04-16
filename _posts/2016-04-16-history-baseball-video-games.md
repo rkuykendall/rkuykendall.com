@@ -2,6 +2,14 @@
 title: The History of Baseball Video Games
 ---
 
+<blockquote>
+I researched and wrote this for a class on *Baseball and the American Experience*
+at Texas State University in San Marcos. It surprisingly difficult to find good
+information on older baseball games, so I decided to publish it online and will
+be working to improve it over the next few months.
+</blockquote>
+
+
 ## Our Game and Our Games
 
 By the late 1970s video games became an American obsession, and since the beginning, developers have looked to America’s pastime for inspiration. Baseball video games have been some of the most popular on every console<sup>[1](#ugo-entertainment-2006)</sup>. Baseball video games allowed early players to connect with the game on the screen, bridging a generational gap between the games their fathers taught them, and the games they would have to teach their fathers. Before the consoles, kids would go nuts for old Coleco handheld games, hardwired plastic machines with a few lights and buttons<sup>[1](#ugo-entertainment-2006)</sup>. Graphics in those days came were limited to the sticker placed onto the face. These primitive machines foreshadowed the games that led development on the early consoles, only shadows of what we know as baseball, but with an ability to stir the imagination. Graphics, audio and capabilities improved with the industry, and each evolutionary step a glimpse into another facet that makes up Baseball, but the best games of each generation were those that reached out and captured the pure joy of the game.
@@ -54,7 +62,7 @@ In 1992 Sega released Sports Talk Baseball for the Sega Genesis, the crowning ac
 
 In 1993 Tengen released RBI Baseball ’93. Although it couldn’t compete with Sports Talk Baseball, RBI is a good game with good gameplay. The illustration and animation of the game was excellent, but what made it special was that all the Major League parks were represented in stunning detail<sup>[1](#mrozek-2001)</sup>. They may be less impressive sixteen years later, but memory preserves our awe, David Mrozek writes “I remember being so impressed with Royal stadium and it's fountains of frozen water.”
 
-## The Baseball Experience & The Turn of the Century
+## The Baseball Experience & The Turn of the Century
 
 RBI Baseball 4, released by Tengen for the Sega Genesis in 1994 was an unfortunate foreshadowing of the kind of dishonest tactics that would muddy sports video games over the next decade. RBI Baseball 4 was essentially RBI Baseball 93, released one year prior, with updated rosters. The developers made improvements, but they were sparse and only stood to point out the real progress that could have been made. Around this time large companies realized they could invest money into developing a successful franchise, and each year with minimal upkeep, make minimal improvements, update the roster, and sell it as a new game. The resale value on older years plummeted, and sports video games began to receive from video game enthusiasts the same animosity film buffs hold towards formula films.
 

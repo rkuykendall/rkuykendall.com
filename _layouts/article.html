@@ -4,6 +4,7 @@
     <title>{{page.title}} - Robert Kuykendall</title>
     {% include head.html %}
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="/style_code.css" rel="stylesheet" type="text/css">
 
     {% if page.title %}
         <meta content="{{ page.title }}" property="og:title">
@@ -38,11 +39,11 @@
     {% endif %}
   </head>
 
-  <body id="article-{{page.title | slugify}}">
+  <body id="article__{{page.title | slugify}}">
 
       <header>
         <p>Written by <a href="/">Robert Kuykendall</a>.</p>
-        <a href="{{page.url}}"><h1 class={{page.tags | join: ' '}}>{{page.title}}</h1></a>
+        <a href="{{page.url}}"><h1 class="tag__{{page.tags | join: ' tag__'}}">{{page.title}}</h1></a>
         <h2>
           {{page.date | date_to_long_string}}
           <span class="share-page">
@@ -53,7 +54,7 @@
         </h2>
       </header>
 
-      <div class="article {{page.tags | join: ' '}}">
+      <div class="article tag__{{page.tags | join: ' tag__'}}">
         {{ content }}
       </div>
 

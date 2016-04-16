@@ -37,7 +37,7 @@ layout: home
         <ul class="clean">
             {% for post in site.posts %}
             <li>
-                <a href="{{ post.url }}" class="{{ post.tags | join: ' ' }}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
+                <a href="{{ post.url }}" class="tag__{{page.tags | join: ' tag__'}}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
                 &mdash;
                 <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B, %Y"  }}</time>
             </li>

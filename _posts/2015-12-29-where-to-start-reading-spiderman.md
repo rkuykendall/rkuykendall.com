@@ -5,9 +5,32 @@ image: /assets/where-to-start-reading-spiderman/og_image.jpg
 description: Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited and Book links for each.
 ---
 
+<style>
+.article .fit {
+	max-width: 100%;
+  margin-top: 20px;
+}
+
+.article ul {
+  margin-left: 0;
+}
+
+.article li {
+  min-height: 130px;
+  list-style: none;
+}
+
+.article li img {
+	height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 5px 10px 0 0;
+}
+</style>
+
 *Korean translation by <a href="https://twitter.com/spideythelove/">@Spideythelove</a>: <span class="korean">[스파이더맨 코믹스 입문 가이드](/articles/where-to-start-reading-spiderman-korean)</span>*
 
-<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png" class="fit">
+<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.jpg" class="fit">
 
 ***Where should I start reading Spider-Man?*** There have been over 50 years of Spider-Man comics mostly across two universes, Ultimate and 616.
 

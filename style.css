@@ -18,6 +18,14 @@
   color: black;
 }
 
+img.fit {
+  max-width: 40em;
+}
+
+img.image-border {
+  border: 3px solid black;
+}
+
 .share-icon {
   display: inline-block;
   height: 21px;
@@ -66,11 +74,12 @@
   margin-top: 0px;
 }
 
-.korean {
+.korean, .tag__korean {
   font-family: 'Helvetica', sans-serif;
 }
 
-.korean.article p {
+.korean.article p,
+.tag__korean.article p {
   font-weight: 100;
 }
 
@@ -144,12 +153,25 @@ p, blockquote, cite {
   max-width: 40em;
   margin-bottom: 15px;
   margin-top: 10px;
+  margin-left: 0px;
 }
 blockquote {
 	padding: 15px;
 	padding-bottom: 5px;
 	border-left: 2px solid black;
 }
+.highlight {
+  max-width: 40em;
+  background: #fcfcfc;
+  padding: 1em;
+  border: 1px solid #bce8f1;
+}
+
+.highlight pre {
+  background: #fcfcfc;
+  overflow: auto;
+}
+
 
 p sup {
   line-height: 0em;
@@ -282,24 +304,4 @@ li.twit-date {
 li.twit-date ul {
 	font-weight: normal;
     max-width: 34em;
-}
-
-.spider-man .fit {
-	max-width: 100%;
-  margin-top: 20px;
-}
-
-.spider-man ul {
-  margin-left: 0;
-}
-
-.spider-man li {
-  min-height: 130px;
-  list-style: none;
-}
-.spider-man li img {
-	height: 130px;
-  border: 1px solid black;
-  float: left;
-  margin: 5px 10px 0 0;
 }

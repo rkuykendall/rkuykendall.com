@@ -1,7 +1,20 @@
+---
+title: Everything you need to know about comic events
+tags: [comics]
+slug: marvel-events
+---
+
+<blockquote>
+Work in progress! Be sure to ask questions in the comments :)
+</blockquote>
+
+
 **Is there any reason to go in order of events or can I start around various character runs?**
+
 Personally, just read the runs you hear are the best. Things will be a little out of order, but the stories themselves will be in order, and you're always going to be skipping or going back for something so it's easier to focus on good stories and not even really try for perfect chronology.
 
 **How extensive and far reaching are the crossovers and their impact on the worlds (should I pause character runs to read a crossover)?**
+
 Depends on the crossover, and if it involves that character. For example, for Spidey, I say just stop for original Secret Wars and Civil War. For Avengers there's way more events like House of M, Avengers vs X-Men, Secret Invasion.
 
 **Crossovers that are really good or bad one I should avoid?**
