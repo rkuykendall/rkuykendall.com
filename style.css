@@ -47,33 +47,6 @@ img.image-border {
   background-image: url("/assets/social-icons/gplus.png");
 }
 
-.newsletter {
-  margin-top: 2em;
-  border: 10px solid #eee;
-  background-color: #fefefe;
-}
-
-.newsletter img {
-  float: left;
-  border: 2px solid black;
-  max-height: 240px;
-  margin: 30px;
-  max-width: 80%;
-}
-
-.newsletter #mc_embed_signup {
-  display: inline-block;
-  min-width: 300px;
-}
-
-.newsletter #mc_embed_signup h2 {
-  margin-bottom: 0px;
-}
-
-.newsletter #mc_embed_signup p {
-  margin-top: 0px;
-}
-
 .korean, .tag__korean {
   font-family: 'Helvetica', sans-serif;
 }
