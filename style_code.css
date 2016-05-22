@@ -1,3 +1,10 @@
+code.highlighter-rouge {
+    font-size: 16px;
+    background-color: #eee;
+    padding: 2px;
+    outline: 1px solid #ddd;
+}
+
 /* Manni Theme */
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #0099FF; font-style: italic } /* Comment */
