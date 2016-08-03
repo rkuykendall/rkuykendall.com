@@ -62,7 +62,7 @@ A brand new Peter Parker emerges from Civil War! But why is everything different
 
 - [![Amazing Spider-Man (1999) #648](/assets/where-to-start-reading-spiderman/thumb-648.jpg)](http://amzn.to/1TpzPNb)
 [**Amazing Spider-Man (1999) #648: Big Time**](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648) -
-Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*, which is harder to start at. There's a great print copy [Spider-Man: Big Time Ultimate Collection](http://amzn.to/1TpzPNb).
+Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*, which is harder to start at. There's a great print copy [Spider-Man: Big Time Ultimate Collection](http://amzn.to/1TpzPNb), followed by The Complete Collection Volumes [2](http://amzn.to/2avlilA), [3](http://amzn.to/2ahMMwq), and [4](http://amzn.to/2aT1gRA) which include everything up to Superior.
 
 - [![Superior Spider-Man (2013) #1](/assets/where-to-start-reading-spiderman/thumb-ssm.jpg)](http://amzn.to/1R2a6N3)
 [**Superior Spider-Man (2013)**](http://marvel.com/comics/issue/46462/superior_spider-man_2013_1) -
