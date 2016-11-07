@@ -5,9 +5,32 @@ image: /assets/where-to-start-reading-spiderman/og_image.jpg
 description: Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited and Book links for each.
 ---
 
+<style>
+.article .fit {
+	max-width: 100%;
+  margin-top: 20px;
+}
+
+.article ul {
+  margin-left: 0;
+}
+
+.article li {
+  min-height: 130px;
+  list-style: none;
+}
+
+.article li img {
+	height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 5px 10px 0 0;
+}
+</style>
+
 *Korean translation by <a href="https://twitter.com/spideythelove/">@Spideythelove</a>: <span class="korean">[스파이더맨 코믹스 입문 가이드](/articles/where-to-start-reading-spiderman-korean)</span>*
 
-<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png" class="fit">
+<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.jpg" class="fit">
 
 ***Where should I start reading Spider-Man?*** There have been over 50 years of Spider-Man comics mostly across two universes, Ultimate and 616.
 
@@ -39,7 +62,7 @@ A brand new Peter Parker emerges from Civil War! But why is everything different
 
 - [![Amazing Spider-Man (1999) #648](/assets/where-to-start-reading-spiderman/thumb-648.jpg)](http://amzn.to/1TpzPNb)
 [**Amazing Spider-Man (1999) #648: Big Time**](http://marvel.com/comics/issue/34135/amazing_spider-man_1999_648) -
-Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*, which is harder to start at. There's a great print copy [Spider-Man: Big Time Ultimate Collection](http://amzn.to/1TpzPNb).
+Parker finally gets his shit together! It's got some of the BEST recent Spidey stories and leads right into the *Superior Spider-Man*, which is harder to start at. There's a great print copy [Spider-Man: Big Time Ultimate Collection](http://amzn.to/1TpzPNb), followed by The Complete Collection Volumes [2](http://amzn.to/2avlilA), [3](http://amzn.to/2ahMMwq), and [4](http://amzn.to/2aT1gRA) which include everything up to Superior.
 
 - [![Superior Spider-Man (2013) #1](/assets/where-to-start-reading-spiderman/thumb-ssm.jpg)](http://amzn.to/1R2a6N3)
 [**Superior Spider-Man (2013)**](http://marvel.com/comics/issue/46462/superior_spider-man_2013_1) -
@@ -68,5 +91,5 @@ In 2015, Secret Wars ([Unlimited](http://marvel.com/comics/issue/52447/secret_wa
 This is the current series with Peter Parker, Spider-Man from the 616 Universe. Parker Industries is a global company, with offices in New York, Shanghai, London and San Francisco. Peter and his "bodyguard" Spider-Man take on the world. The prints start with [Amazing Spider-Man: Worldwide Vol. 1](http://amzn.to/1TpzY3m).
 
 - [![Spider-Man (2016) #1](/assets/where-to-start-reading-spiderman/thumb-secret_miles.jpg)](http://amzn.to/1MQzrDu)
-[**Spider-Man (2015) #1**](http://marvel.com/comics/issue/55693/spider-man_2016_1) -
+[**Spider-Man (2016) #1**](http://marvel.com/comics/issue/55693/spider-man_2016_1) -
 This is the current series with Miles Morales, Spider-Man from the 1610 Ultimate Universe, finding his place in the post-Secret-Wars marvel universe alongside the 616 Peter Parker. This is a good place to get to know Miles for the first time. The prints start with [Spider-Man: Miles Morales Vol. 1](http://amzn.to/1MQzrDu).

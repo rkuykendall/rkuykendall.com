@@ -7,7 +7,30 @@ image: /assets/where-to-start-reading-spiderman/og_image.jpg
 description: 이제부터 스파이더맨 코믹스를 읽는 최적의 입문 시점을 모두 살펴보고, 각각 약간의 설명과 함께 마블 언리미티드 및 링크를 첨부해보고자 합니다.
 ---
 
-<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.png" class="fit">
+<style>
+.fit {
+	max-width: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 0;
+}
+
+li {
+  min-height: 130px;
+  list-style: none;
+}
+li img {
+	height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 5px 10px 0 0;
+}
+</style>
+
+
+<img id="spidey-timeline" src="/assets/where-to-start-reading-spiderman/spider-timeline.jpg" class="fit">
 
 ***스파이더맨 코믹스는 어디서부터 읽어야 할까요?*** 스파이더맨 책은 50년 넘게 연재됐고, 대부분은 두 개의 평행 세계, '얼티밋'과 '616'에서 벌어진 일들을 다루고 있습니다.
 

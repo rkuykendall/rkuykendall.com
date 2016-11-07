@@ -18,6 +18,14 @@
   color: black;
 }
 
+img.fit {
+  max-width: 40em;
+}
+
+img.image-border {
+  border: 3px solid black;
+}
+
 .share-icon {
   display: inline-block;
   height: 21px;
@@ -39,43 +47,17 @@
   background-image: url("/assets/social-icons/gplus.png");
 }
 
-.newsletter {
-  margin-top: 2em;
-  border: 10px solid #eee;
-  background-color: #fefefe;
-}
-
-.newsletter img {
-  float: left;
-  border: 2px solid black;
-  max-height: 240px;
-  margin: 30px;
-  max-width: 80%;
-}
-
-.newsletter #mc_embed_signup {
-  display: inline-block;
-  min-width: 300px;
-}
-
-.newsletter #mc_embed_signup h2 {
-  margin-bottom: 0px;
-}
-
-.newsletter #mc_embed_signup p {
-  margin-top: 0px;
-}
-
-.korean {
+.korean, .tag__korean {
   font-family: 'Helvetica', sans-serif;
 }
 
-.korean.article p {
+.korean.article p,
+.tag__korean.article p {
   font-weight: 100;
 }
 
 body {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1em;
   color: black;
@@ -93,7 +75,7 @@ header a:hover {
 
 h1 {
   font-size: 35px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   line-height: 1em;
   font-weight: 600;
   }
@@ -140,16 +122,29 @@ h5, h6 {
 }
 
 p, blockquote, cite {
-  line-height: 1.4em;
+  line-height: 1.5em;
   max-width: 40em;
   margin-bottom: 15px;
   margin-top: 10px;
+  margin-left: 0px;
 }
 blockquote {
 	padding: 15px;
 	padding-bottom: 5px;
 	border-left: 2px solid black;
 }
+.highlight {
+  max-width: 40em;
+  background: #fcfcfc;
+  padding: 1em;
+  border: 1px solid #bce8f1;
+}
+
+.highlight pre {
+  background: #fcfcfc;
+  overflow: auto;
+}
+
 
 p sup {
   line-height: 0em;
@@ -282,24 +277,4 @@ li.twit-date {
 li.twit-date ul {
 	font-weight: normal;
     max-width: 34em;
-}
-
-.spider-man .fit {
-	max-width: 100%;
-  margin-top: 20px;
-}
-
-.spider-man ul {
-  margin-left: 0;
-}
-
-.spider-man li {
-  min-height: 130px;
-  list-style: none;
-}
-.spider-man li img {
-	height: 130px;
-  border: 1px solid black;
-  float: left;
-  margin: 5px 10px 0 0;
 }

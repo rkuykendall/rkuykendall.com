@@ -52,12 +52,8 @@ I learned that DSTK used a [simple algorithm](https://github.com/petewarden/dstk
 >     >>> afinn.score('I saw that yesterday :)')
 >     2.0
 
-It's not on PyPI, the Python package manager yet, but will hopefully be soon. To add AFINN to your project, add this line to your requirements.txt file and run `pip install -r requirements.txt`
+To install AFINN, simply run
 
-    -e git+http://github.com/fnielsen/afinn.git@2360bb03f8e94079fe13ed53f56ab56b24ae4d90#egg=afinn-master
-
-or simply run
-
-    pip install -e git+http://github.com/fnielsen/afinn.git@2360bb03f8e94079fe13ed53f56ab56b24ae4d90#egg=afinn-master
+    pip install afinn
 
 You can see AFINN working on [Map World News](http://mapworldnews.com/) in [/api/article.py](https://github.com/rkuykendall/map-world-news/blob/master/api/article.py#L46-L50).

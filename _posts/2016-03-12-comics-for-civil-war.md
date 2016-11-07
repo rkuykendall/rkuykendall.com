@@ -54,7 +54,7 @@ There are only seven issues under the [Civil War](http://amzn.to/1pmqXPE) title,
 
 ### Or add the fan-favorite series: Frontline
 
-[![Civil War: Front Line, Book 1](/assets/what-to-read-for-civil-war/cover_frontline.jpg)](http://amzn.to/1MemN14) *[Civil War: Front Line, Book 1](http://amzn.to/1MemN14)* and *[Civil War: Front Line, Book 2](http://amzn.to/1QMOgLq)* tells the story of reporters Sally Floyd and Ben Ulrich. You might remember Ulrich from the Daredevil Netflix series. With the main Civil War storyline very short and full of action, many people felt the series lacked depth, and didn't always make sense. Frontline is hailed for providing character depth, cleaning of loose ends, and filling in the holes of the main Civil War stories, as well as being very well written.
+[![Civil War: Front Line, Book 1](/assets/what-to-read-for-civil-war/cover_frontline.jpg)](http://amzn.to/1MemN14) *[Civil War: Front Line, Book 1](http://amzn.to/1MemN14)* and *[Civil War: Front Line, Book 2](http://amzn.to/1QMOgLq)* tells the story of reporters Sally Floyd and Ben Ulrich. You might remember Ulrich from the Daredevil Netflix series. With the main Civil War storyline very short and full of action, many people felt the series lacked depth, and didn't always make sense. Frontline is hailed for providing character depth, cleaning up loose ends, and filling in the holes of the main Civil War stories, as well as being very well written.
 
 ### If you want even more, add any tie-ins that call to you.
 
