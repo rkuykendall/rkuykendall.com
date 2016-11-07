@@ -3,9 +3,9 @@ title: Automate your comic reading list with python
 tags: [comics, code]
 ---
 
-This is **marvelous**, a brand new library for Python to work with the
-[Marvel API](http://developer.marvel.com/)! The project is very new, but I'm
-already using it ever week to see what new Marvel comics are being released.
+This is **marvelous**, a library for Python 3 to work with the
+[Marvel API](http://developer.marvel.com/)! The project is young, but I
+use it every week to see what new Marvel comics are being released.
 
 ## Install marvelous with pip
 
@@ -13,11 +13,6 @@ already using it ever week to see what new Marvel comics are being released.
 pip install marvelous
 {% endhighlight %}
 
-if you don't have pip yet, you should be able to install it with:
-
-{% highlight python %}
-easy_install pip
-{% endhighlight %}
 
 ## Using marvelous to get this week's comics
 
@@ -46,19 +41,10 @@ You can then access the `title`, `series.id`, and `dates.on_sale` of each
 comic, which you can use to build a pull list script like mine:
 
 {% highlight python %}
-import os
 import marvelous
 
 # Your own config file to keep your private key local and secret
 from config import public_key, private_key
-
-# All the series IDs of comics I'm not interested in reading
-# I pull these out of the resulting pulls.txt file, then rerun this script
-IGNORE = set([
-    19709, 20256, 19379, 19062, 19486, 19242, 19371, 19210, 20930, 21328,
-    20834, 18826, 20933, 20365, 20928, 21129, 20786, 21402, 21018, 14803,
-    21285, 12212
-])
 
 # Authenticate with Marvel, with keys I got from http://developer.marvel.com/
 m = marvelous.api(public_key, private_key)
@@ -72,24 +58,10 @@ pulls = sorted(m.comics({
     'limit': 100}),
     key=lambda comic: comic.title)
 
-# Grab the sale date of any of the comics for the folder name
-directory = pulls[0].dates.on_sale.strftime('%m-%d')
-
-# If there's no folder by that name, create one
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
-# Create a pulls.txt file in that folder
-with open(directory + '/pulls.txt', 'w') as pull_checklist:
-    # Check each comic that came out this week
-    for comic in pulls:
-        # If this series isn't in my ignore list
-        if comic.series.id not in IGNORE:
-            # Write a line to the file with the name of the issue, and the
-            # id of the series incase I want to add it to my ignore list
-            pull_checklist.write('{} (series #{})\n'.format(
-                comic.title.encode('utf-8'), comic.series.id))
-
+for comic in pulls:
+    # Write a line to the file with the name of the issue, and the
+    # id of the series
+    print('{} (series #{})'.format(comic.title, comic.series.id))
 {% endhighlight %}
 
 ## Help build marvelous!
