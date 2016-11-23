@@ -9,6 +9,9 @@ layout: home
         color: #bbb;
         font-weight: 200;
     }
+    .litag__redirected {
+      display: none;
+    }
     </style>
     <h1>Robe<span style="letter-spacing: 2px">rt</span> Kuyke<span style="letter-spacing: -1px">nda</span>ll <em>(KIRK-en-dahl)</em></h1>
     <h2>Engineer and nerd in New York City</h2>
@@ -38,8 +41,8 @@ layout: home
         <h3>I like to write about nerdy stuff.</h3>
         <ul class="clean">
             {% for post in site.posts %}
-            <li>
-                <a href="{{ post.url }}" class="tag__{{page.tags | join: ' tag__'}}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
+            <li class="litag__{{post.tags | join: ' litag__'}}">
+                <a href="{{ post.url }}" class="tag__{{post.tags | join: ' tag__'}}" title="Permanent link to: '{{ post.title }}'">{{ post.title }}</a>
                 &mdash;
                 <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B, %Y"  }}</time>
             </li>
