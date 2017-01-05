@@ -282,18 +282,25 @@ li.twit-date ul {
 .wtsr {
   background-color: #0C1B2D;
   border-bottom: 1px solid #000;
-  max-width: 40em;
-  padding: 15px 25px;
+  display: inline-block;
+  padding: 20px 50px 5px 110px;
   color: #eee;
-  display: flex;
   align-items: center;
   line-height: 1.5em;
 }
 
 .wtsr a img {
-  height: 80px;
-  margin-right: 20px;
+  float: left;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: -85px;
   border-bottom: none;
+}
+
+.wtsr ul {
+  margin-top: 0.5em;
+  list-style-position: outside;
+  margin-left: 22px;
 }
 
 .wtsr a {
