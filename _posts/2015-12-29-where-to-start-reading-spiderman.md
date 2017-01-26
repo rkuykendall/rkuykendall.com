@@ -80,7 +80,7 @@ This is the first ever issue of the Ultimate universe. It's a great starting poi
 
 - [![Ultimate Comics Spider-Man (2011) #1](/assets/where-to-start-reading-spiderman/thumb-miles_1.jpg)](http://amzn.to/1TpAa2r)
 [**Ultimate Comics Spider-Man (2011) #1**](http://marvel.com/comics/issue/38394/ultimate_comics_spider-man_2011_1) -
-This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales. The print run is neatly organized in [Miles Morales: Ultimate Spider-Man Ultimate Collection Book 1](http://amzn.to/1TpAa2r), [book 2](http://amzn.to/1R2d7x8), and [book 3](http://amzn.to/1R2d8B9), leading right up to Secret Wars.
+This is the moment where the Ultimate Comics universe really created it's lasting mark on the world, with the beginning of the all-new Ultimate Spider-Man, Miles Morales. The print run is neatly organized in [Miles Morales: Ultimate Spider-Man Ultimate Collection Book 1](http://amzn.to/2k4mzp6), [book 2](http://amzn.to/1R2d7x8), and [book 3](http://amzn.to/1R2d8B9), leading right up to Secret Wars.
 
 ## After Secret Wars
 
