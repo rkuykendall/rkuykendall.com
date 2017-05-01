@@ -278,31 +278,3 @@ li.twit-date ul {
 	font-weight: normal;
     max-width: 34em;
 }
-
-.wtsr {
-  background-color: #0C1B2D;
-  border-bottom: 1px solid #000;
-  display: inline-block;
-  padding: 20px 50px 5px 110px;
-  color: #eee;
-  align-items: center;
-  line-height: 1.5em;
-}
-
-.wtsr a img {
-  float: left;
-  height: 100px;
-  margin-top: 5px;
-  margin-left: -85px;
-  border-bottom: none;
-}
-
-.wtsr ul {
-  margin-top: 0.5em;
-  list-style-position: outside;
-  margin-left: 22px;
-}
-
-.wtsr a {
-  color: #4DDD74;
-}

@@ -3,11 +3,11 @@ title: Which comics to read for Civil War
 image: /assets/what-to-read-for-civil-war/og_image2.jpg
 description: There are only seven issues under the Civil War title, but almost a hundred in the full list. Here’s everything you need to know about Civil War to start reading.
 tags: [comics, media]
+layout: article_wtsr
 ---
 
 <style>
 #header-image {
-  margin: 10px -40px;
   background-color: #200502;
 }
 
@@ -28,7 +28,7 @@ p img {
 }
 </style>
 
-<div id="header-image"><img src="/assets/what-to-read-for-civil-war/header.jpg" alt="Marvel's Civil War"></div>
+<div id="header-image"><img src="/assets/what-to-read-for-civil-war/header.jpg" alt="Marvel's Civil War" class="article_image"></div>
 
 There are only seven issues under the [Civil War](http://amzn.to/1pmqXPE) title, but [almost a hundred](http://marvel.com/comics/discover/114/civil-war-the-complete-event) in the full list. Here's everything you need to know about Civil War to start reading.
 

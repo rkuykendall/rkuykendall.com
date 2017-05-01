@@ -3,6 +3,7 @@ title: Where to start reading Spider-Man comics
 tags: [spider-man, comics, media]
 image: /assets/where-to-start-reading-spiderman/og_image.jpg
 description: Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited and Book links for each.
+layout: article_wtsr
 ---
 
 <style>
@@ -42,7 +43,7 @@ In 2015, a comic book event called Secret Wars destroyed both of these universes
 
 **Here's all of the best starting points for reading Spider-Man, with a little information and Marvel Unlimited and Book links for each:**
 
-### Marvel Universe (Universe-616)
+## Marvel Universe (Universe-616)
 
 - [![Amazing Spider-Man (1963) #1](/assets/where-to-start-reading-spiderman/thumb-1.jpg)](http://amzn.to/1SlrWtQ)
 **[Amazing Fantasy (1962) #15](http://marvel.com/comics/issue/16926/amazing_fantasy_1962_15) and [Amazing Spider-Man (1963) #1](http://marvel.com/comics/issue/6482/amazing_spider-man_1963_1)** -
@@ -72,7 +73,7 @@ Starts after the end of Amazing Spider-Man with issues [#698-700](http://marvel.
 [**Amazing Spider-Man (2014) #1**](http://marvel.com/comics/issue/45798/amazing_spider-man_2014_1) -
 Modern Spider-Man! The main draw of starting here is that it leads right into the Spider-Verse, which a fun event full of different Spider-Men from different universes. The volume starts with [The Parker Luck](http://amzn.to/1JjM25W), then the [Spider-Verse Prelude](http://amzn.to/1JjM2Tg), and [Spider-Verse](http://amzn.to/1JjM7X5)! At this point, Marvel also published an updated origin story called [Learning to Crawl](http://amzn.to/1R2b6kw). It wasn't my favorite, but it does tie in a little bit to Parker Luck, so they do make a good pair.
 
-### Ultimate Universe (Universe-1610)
+## Ultimate Universe (Universe-1610)
 
 - [![Ultimate Spider-Man (2000) #1](/assets/where-to-start-reading-spiderman/thumb-usm1.jpg)](http://amzn.to/1JJfLQz)
 [**Ultimate Spider-Man (2000) #1**](http://marvel.com/comics/issue/4372/ultimate_spider-man_2000_1) -
