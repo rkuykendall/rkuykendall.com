@@ -5,5 +5,5 @@ description: There are only seven issues under the Civil War title, but almost a
 tags: [comics, media]
 layout: three-oh-one
 ---
-<meta http-equiv="refresh" content="0; url=http://wheretostartreading.com/articles/civil-war/">
-<link rel="canonical" href="http://wheretostartreading.com/articles/civil-war/" />
+<meta http-equiv="refresh" content="0; url=https://wheretostartreading.com/articles/civil-war/">
+<link rel="canonical" href="https://wheretostartreading.com/articles/civil-war/" />
