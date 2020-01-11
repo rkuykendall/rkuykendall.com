@@ -26,27 +26,6 @@ img.image-border {
   border: 3px solid black;
 }
 
-.share-icon {
-  display: inline-block;
-  height: 21px;
-  width: 21px;
-  background-size: 21px 21px;
-  overflow: hidden;
-  text-indent: -900px;
-}
-
-.share-icon.twitter {
-  background-image: url("/assets/social-icons/twitter.png");
-}
-
-.share-icon.facebook {
-  background-image: url("/assets/social-icons/facebook.png");
-}
-
-.share-icon.gplus {
-  background-image: url("/assets/social-icons/gplus.png");
-}
-
 .korean, .tag__korean {
   font-family: 'Helvetica', sans-serif;
 }
