@@ -6,6 +6,7 @@ tags: media
 
 <style>
   section ul { display: block; margin-bottom: 20px; }
+  .title { font-weight: 600; }
   .recommended { color: #105A91; }
   .good { color: #298A12; }
   .okay { color: #D49324; }
@@ -104,269 +105,272 @@ tags: media
   <h3 id="first">First Doctor, William Hartnell</h3>
 
   <ul>
-  	<li class="recommended"><span class="2">Episode 001 - An Unearthly Child</span> <span class="note">(1)</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">1</span> <span class="icon js-replace-dwm">61</span></li>
-  	<li class="recommended">Episode 002 - The Daleks <span class="note">(2)</span> <span class="icon js-replace-nerdist">1</span> <span class="icon js-replace-dwm">37</span></li>
-  	<li class="okay">Episode 003 - The Edge of Destruction <span class="icon js-replace-nerdist">1</span> <span class="icon js-replace-dwm">158</span></li>
-  	<li class="good "><span class=""><span class="missing">Episode 004 - Marco Polo <span class="icon js-replace-dwm">65</span></span></span></li>
-  	<li class="okay">Episode 005 - The Keys of Marinus <span class="icon js-replace-dwm">160</span></li>
-  	<li class="good">Episode 006 - The Aztecs <span class="note">Only 4 episodes.</span> <span class="icon js-replace-dwm">57</span></li>
-  	<li class="okay">Episode 007 - The Sensorites <span class="icon js-replace-dwm">183</span></li>
-  	<li class="okay "><span class="missing">Episode 008 - The Reign of Terror <span class="icon js-replace-dwm">144</span></span></li>
+	{% include dw_serial.html quality="r" num="001" dwm="061" title="An Unearthly Child" mine="1" god="y" nerdist="1" %}
+	{% include dw_serial.html quality="r" num="002" dwm="037" title="The Daleks" mine="2" nerdist="1" %}
+	{% include dw_serial.html quality="o" num="003" dwm="158" title="The Edge of Destruction" nerdist="1" %}
+	{% include dw_serial.html quality="g" num="004" dwm="065" title="Marco Polo" missing="t" %}
+	{% include dw_serial.html quality="o" num="005" dwm="160" title="The Keys of Marinus" %}
+	{% include dw_serial.html quality="g" num="006" dwm="057" title="The Aztecs" note="Only 4 episodes" %}
+	{% include dw_serial.html quality="o" num="007" dwm="183" title="The Sensorites" %}
+	{% include dw_serial.html quality="o" num="008" dwm="144" title="The Reign of Terror" missing="t" %}
   </ul>
 
   <ul>
-  	<li class="okay">Episode 009 - Planet of Giants <span class="icon js-replace-dwm">163</span></li>
-  	<li class="recommended">Episode 010 - The Dalek Invasion of Earth <span class="note">(3) <span class="icon js-replace-spoiler">Companion leaves: Susan</span></span>. <span class="icon js-replace-nerdist">1</span> <span class="icon js-replace-dwm">44</span></li>
-  	<li class="good">Episode 011 - The Rescue <span class="note">Only 2 episodes long. <span class="icon js-replace-spoiler">New companion: Vicky</span> <span class="icon js-replace-dwm">127</span></span></li>
-  	<li class="good">Episode 012 - The Romans <span class="icon js-replace-dwm">97</span></li>
-  	<li class="okay">Episode 013 - The Web Planet <span class="icon js-replace-dwm">178</span></li>
-  	<li class="good "><span class="missing">Episode 014 - The Crusade <span class="icon js-replace-dwm">100</span></span></li>
-  	<li class="good">Episode 015 - The Space Museum <span class="icon js-replace-dwm">190</span></li>
-  	<li class="good">Episode 016 - The Chase <span class="note"><span class="icon js-replace-spoiler">New companion: Steven, Companion leaves: Barbara and Ian</span> Monster: <span class="icon js-replace-spoiler">Daleks</span>. <span class="icon js-replace-dwm">157</span></span></li>
-  	<li class="recommended">Episode 017 - The Time Meddler <span class="note">(6) First <span class="icon js-replace-spoiler">non-doctor Time Lord</span>.</span> <span class="icon js-replace-nerdist">1</span> <span class="icon js-replace-dwm">75</span></li>
+	{% include dw_serial.html quality="o" num="009" dwm="163" title="Planet of Giants" %}
+	{% include dw_serial.html quality="r" num="010" dwm="044" title="The Dalek Invasion of Earth" mine="3" camp_min="Susan" nerdist="1" %}
+	{% include dw_serial.html quality="g" num="011" dwm="127" title="The Rescue" note="Only 2 episodes long" camp_add="Vicky" %}
+	{% include dw_serial.html quality="g" num="012" dwm="097" title="The Romans" %}
+	{% include dw_serial.html quality="o" num="013" dwm="178" title="The Web Planet" %}
+	{% include dw_serial.html quality="g" num="014" dwm="100" title="The Crusade" missing="t" %}
+	{% include dw_serial.html quality="g" num="015" dwm="190" title="The Space Museum" %}
+	{% include dw_serial.html quality="g" num="016" dwm="157" title="The Chase" camp_add="Steven" camp_min="Barbara and Ian" monster="Daleks" %}
+	{% include dw_serial.html quality="r" num="017" dwm="075" title="The Time Meddler" mine="6" nerdist="1" spoiler="First non-doctor Time Lord" %}
   </ul>
 
   <ul>
-  	<li class="boring "><span class="missing">Episode 018 - Galaxy 4 <span class="icon js-replace-dwm">172</span></span></li>
-  	<li class="okay "><span class="missing">Episode 019 - Mission to the Unknown <span class="icon js-replace-dwm">133</span></span></li>
-  	<li class="okay "><span class="missing">Episode 020 - The Myth Makers <span class="icon js-replace-dwm">126</span></span></li>
-  	<li class="recommended "><span class="missing">Episode 021 - The Daleks' Master Plan <span class="note">(6) <span class="icon js-replace-spoiler">New companion: Katarina</span><span class="icon js-replace-dwm">42</span></span></span></li>
-  	<li class="okay "><span class="missing">Episode 022 - The Massacre of St Bartholomew's Eve <span class="note"><span class="icon js-replace-spoiler">New companion: Dodo Chaplet</span></span>. <span class="icon js-replace-dwm">86</span></span></li>
-  	<li class="good">Episode 023 - The Ark <span class="icon js-replace-dwm">154</span></li>
-  	<li class="good orrecommended "><span class="missing">Episode 024 - The Celestial Toymaker <span class="icon js-replace-dwm">151</span></span></li>
-  	<li class="good">Episode 025 - The Gunfighters <span class="icon js-replace-dwm">175</span></li>
-  	<li class="okay "><span class="missing">Episode 026 - The Savages <span class="note"><span class="icon js-replace-spoiler">Companion leaves: Stephen</span>. <span class="icon js-replace-dwm">162</span></span></span></li>
-  	<li class="recommended">Episode 027 - The War Machines <span class="note">(5) <span class="icon js-replace-spoiler">Companion leaves: Dodo Chaplet, New companion: Ben & Polly</span> <span class="icon js-replace-dwm">108</span></span></li>
+	{% include dw_serial.html quality="b" num="018" dwm="172" title="Galaxy 4" missing="t" %}
+	{% include dw_serial.html quality="o" num="019" dwm="133" title="Mission to the Unknown" missing="t" %}
+	{% include dw_serial.html quality="o" num="020" dwm="126" title="The Myth Makers" missing="t" %}
+	{% include dw_serial.html quality="r" num="021" dwm="042" title="The Daleks' Master Plan" missing="t" mine="7" camp_add="Katarina" %}
+	{% include dw_serial.html quality="o" num="022" dwm="086" title="The Massacre of St Bartholomew's Eve" missing="t" camp_add="Dodo Chaplet" %}
+	{% include dw_serial.html quality="g" num="023" dwm="154" title="The Ark" %}
+	{% include dw_serial.html quality="g" num="024" dwm="151" title="The Celestial Toymaker" missing="t" %}
+	{% include dw_serial.html quality="g" num="025" dwm="175" title="The Gunfighters" %}
+	{% include dw_serial.html quality="o" num="026" dwm="162" title="The Savages" missing="t" camp_min="Stephen" %}
+	{% include dw_serial.html quality="r" num="027" dwm="108" title="The War Machines" mine="5" camp_min="Dodo Chaplet" camp_add="Ben & Polly" %}
   </ul>
 
   <ul>
-  	<li class="good "><span class="missing">Episode 028 - The Smugglers <span class="icon js-replace-dwm">159</span></span></li>
-  	<li class="recommended "><span class="missing">Episode 029 - The Tenth Planet <span class="note">(4) Monster:</span> <span class="note">First <span class="icon js-replace-spoiler">Cybermen</span>. 4th episode reconstructed. Will be animated in 2013! <span class="icon js-replace-dwm">55</span></span></span></li>
+	{% include dw_serial.html quality="g" num="028" dwm="159" title="The Smugglers" missing="t"  %}
+	{% include dw_serial.html quality="r" num="029" dwm="055" title="The Tenth Planet" missing="t" mine="4" monster="First Cybermen" note="4th episode animated reconstruction" %}
   </ul>
 
   <h3 id="second">Second Doctor, Patrick Troughton</h3>
 
   <ul>
-  	<li class="recommended "><span class="missing">Episode 030 - The Power of the Daleks <span class="note">(6) First Troughton!</span> <span class="icon js-replace-dwm">21</span></span></li>
-  	<li class="good "><span class="missing">Episode 031 - The Highlanders <span class="note"><span class="icon js-replace-spoiler">New companion: Jamie!</span>.</span> <span class="icon js-replace-dwm">145</span></span></li>
-  	<li class="okay "><span class="missing">Episode 032 - The Underwater Menace <span class="icon js-replace-dwm">194</span></span></li>
-  	<li class="recommended "><span class="missing">Episode 033 - The Moonbase <span class="note">(7) Monster: <span class="icon js-replace-spoiler">Cybermen</span>. <span class="icon js-replace-dwm">112</span></span></span></li>
-  	<li class="okay "><span class="missing">Episode 034 - The Macra Terror <span class="icon js-replace-dwm">137</span></span></li>
-  	<li class="good "><span class="missing">Episode 035 - The Faceless Ones <span class="note"><span class="icon js-replace-spoiler">Companions leave: Ben and Polly</span> <span class="icon js-replace-dwm">122</span></span></span></li>
-  	<li class="recommended "><span class="missing">Episode 036 - The Evil of the Daleks <span class="note">(8) <span class="icon js-replace-spoiler">New companion: Victoria</span>. <span class="icon js-replace-dwm">18</span></span></span></li>
+	{% include dw_serial.html quality="r" num="030" dwm="021" title="The Power of the Daleks" missing="t" mine="6" %}
+	{% include dw_serial.html quality="g" num="031" dwm="145" title="The Highlanders" missing="t" camp_add="Jamie" %}
+	{% include dw_serial.html quality="o" num="032" dwm="194" title="The Underwater Menace" missing="t" %}
+	{% include dw_serial.html quality="r" num="033" dwm="112" title="The Moonbase" mine="7" missing="t" monster="Cybermen" %}
+	{% include dw_serial.html quality="o" num="034" dwm="137" title="The Macra Terror" missing="t" %}
+	{% include dw_serial.html quality="g" num="035" dwm="122" title="The Faceless Ones" missing="t" camp_min="Ben and Polly" %}
+	{% include dw_serial.html quality="r" num="036" dwm="018" title="The Evil of the Daleks" mine="8" missing="t" camp_add="Victoria" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 037 - The Tomb of the Cybermen <span class="note">(2)</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">2</span>  <span class="icon js-replace-dwm">25</span></li>
-  	<li class="good"><span class="missing">Episode 038 - The Abominable Snowmen <span class="note">Prequel to 041. Monster: <span class="icon js-replace-spoiler">The Great Intelligence</span>, featured in modern episodes.</span> <span class="icon js-replace-dwm">59</span></span></li>
-  	<li class="recommended "><span class="missing">Episode 039 - The Ice Warriors <span class="note">(4) Animated in August 2013!</span> <span class="icon js-replace-dwm">78</span></span></li>
-  	<li class="good">Episode 040 - The Enemy of the World <span class="icon js-replace-dwm">139</span></li>
-  	<li class="recommended "><span class="missing">Episode 041 - The Web of Fear <span class="note">(5) Sequel to 038. First Brigadier.</span> <span class="icon js-replace-dwm">23</span></span></li>
-  	<li class="okay"><span class="missing">Episode 042 - Fury from the Deep <span class="icon js-replace-spoiler">Companion leaves: Victoria</span> <span class="icon js-replace-dwm">41</span></span></li>
-  	<li class="good"><span class="missing">Episode 043 - The Wheel in Space <span class="note">Monster: <span class="icon js-replace-spoiler">Cybermen</span>. <span class="icon js-replace-spoiler">New companion: Zoe</span>. <span class="icon js-replace-dwm">156</span></span></span></li>
+	{% include dw_serial.html quality="r" num="037" dwm="025" title="The Tomb of the Cybermen" mine="2" god="t" nerdist="2" %}
+	{% include dw_serial.html quality="g" num="038" dwm="059" title="The Abominable Snowmen" missing="t" note="Prequel to 041" monster="The Great Intelligence, featured in modern episodes" %}
+	{% include dw_serial.html quality="r" num="039" dwm="078" title="The Ice Warriors" missing="t" mine="4" note="Animated reconstructions of missing episodes" %}
+	{% include dw_serial.html quality="g" num="040" dwm="139" title="The Enemy of the World" %}
+	{% include dw_serial.html quality="r" num="041" dwm="023" title="The Web of Fear" missing="t" mine="5" note="Sequel to 038. First Brigadier" %}
+	{% include dw_serial.html quality="o" num="042" dwm="041" title="Fury from the Deep" missing="t" camp_min="Victoria" %}
+	{% include dw_serial.html quality="g" num="043" dwm="156" title="The Wheel in Space" missing="t" monster="Cybermen" camp_add="Zoe" %}
   </ul>
 
   <ul>
-  	<li class="boring">Episode 044 - The Dominators <span class="icon js-replace-dwm">191</span></li>
-  	<li class="good">Episode 045 - The Mind Robber <span class="icon js-replace-nerdist">2</span> <span class="icon js-replace-dwm">60</span></li>
-  	<li class="recommended">Episode 046 - The Invasion <span class="note">(3) Two great animated episodes. First UNIT. Monster: <span class="icon js-replace-spoiler">Cybermen</span></span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">2</span>  <span class="icon js-replace-dwm">31</span></li>
-  	<li class="boring">Episode 047 - The Krotons <span class="icon js-replace-dwm">166</span></li>
-  	<li class="good">Episode 048 - The Seeds of Death <span class="note">Monster: Ice Warriors</span> <span class="icon js-replace-nerdist">2</span> <span class="icon js-replace-dwm">111</span></li>
-  	<li class="boring"><span class="missing">Episode 049 - The Space Pirates <span class="icon js-replace-dwm">195</span></span></li>
-  	<li class="recommended">Episode 050 - The War Games <span class="note">(1) First <span class="icon js-replace-spoiler">&#8220;Time Lord&#8221; and view of Gallifrey</span>. <span class="icon js-replace-spoiler">Companion leaves: Jaime and Zoe</span></span> <span class="icon js-replace-nerdist">2</span>  <span class="icon js-replace-dwm">29</span></li>
+	{% include dw_serial.html quality="b" num="044" dwm="191" title="The Dominators" %}
+	{% include dw_serial.html quality="g" num="045" dwm="060" title="The Mind Robber" nerdist="2" %}
+	{% include dw_serial.html quality="r" num="046" dwm="031" title="The Invasion" mine="3" note="Two great animated episodes. First UNIT" monster="Cybermen" god="t" nerdist="t" %}
+	{% include dw_serial.html quality="b" num="047" dwm="166" title="The Krotons" %}
+	{% include dw_serial.html quality="g" num="048" dwm="111" title="The Seeds of Death" monster="Ice Warriors" nerdist="2" %}
+	{% include dw_serial.html quality="b" num="049" dwm="195" title="The Space Pirates" missing="t" %}
+	{% include dw_serial.html quality="r" num="050" dwm="029" title="The War Games" mine="1" spoiler="First &#8220;Time Lord&#8221; and view of Gallifrey" camp_min="Jaime and Zoe" nerdist="2" %}
   </ul>
 
 
   <h3 id="third">Third Doctor, Jon Pertwee</h3>
 
   <ul>
-  	<li class="recommended">Episode 051 - Spearhead from Space <span class="note">(1) <span class="icon js-replace-spoiler">New companion: Liz Shaw</span> Monster: First <span class="icon js-replace-spoiler">Nestene ( Plastic )</span>.</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">36</span></li>
-  	<li class="okay">Episode 052 - Doctor Who and the Silurians <span class="note">Featured in modern episodes: <span class="icon js-replace-spoiler">The Hungry Earth / Cold Blood.</span></span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">45</span></li>
-  	<li class="boring">Episode 053 - The Ambassadors of Death <span class="note">Parts in B/W.</span> <span class="icon js-replace-dwm">90</span></li>
-  	<li class="recommended">Episode 054 - Inferno <span class="note">(4) <span class="icon js-replace-spoiler">Companion leaves: Liz Shaw</span> First <span class="icon js-replace-spoiler">alternate universe</span>.</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">3</span>  <span class="icon js-replace-dwm">32</span></li>
+	{% include dw_serial.html quality="r" num="051" dwm="036" title="Spearhead from Space" mine="1" monster="First Nestene ( Plastic )" camp_add="Liz Shaw" god="t" nerdist="3" %}
+	{% include dw_serial.html quality="o" num="052" dwm="045" title="Doctor Who and the Silurians" nerdist="3" monster="Featured in modern episodes: The Hungry Earth / Cold Blood" %}
+	{% include dw_serial.html quality="b" num="053" dwm="090" title="The Ambassadors of Death" note="Parts in B/W" %}
+	{% include dw_serial.html quality="r" num="054" dwm="032" title="Inferno" mine="4" god="t" nerdist="3" camp_min="Liz Shaw" spoiler="First alternate universe" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 055 - Terror of the Autons <span class="note">(3) <span class="icon js-replace-spoiler">New companion: Jo</span> Monster: First <span class="icon js-replace-spoiler">Master</span>! Also, <span class="icon js-replace-spoiler">Nestene</span>.</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">51</span></li>
-  	<li class="good"><span class="missing">Episode 056 - The Mind of Evil <span class="note">B/W Only. Monster: <span class="icon js-replace-spoiler">Master</span>.</span> <span class="icon js-replace-dwm">92</span></span></li>
-  	<li class="okay">Episode 057 - The Claws of Axos <span class="note">Monster: <span class="icon js-replace-spoiler">Master</span>, <span class="icon js-replace-spoiler">Axons</span>. <span class="icon js-replace-dwm">129</span></span></li>
-  	<li class="okay">Episode 058 - Colony in Space <span class="note">Monster: <span class="icon js-replace-spoiler">Master</span>, <span class="icon js-replace-spoiler">Miners</span>. <span class="icon js-replace-dwm">171</span></span></li>
-  	<li class="good">Episode 059 - The Dæmons <span class="note">Monster: <span class="icon js-replace-spoiler">Master</span>, <span class="icon js-replace-spoiler">D&aelig;mons</span>.</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">34</span></li>
+	{% include dw_serial.html quality="r" num="055" dwm="051" title="Terror of the Autons" mine="3" camp_add="Jo" monster="First Master! and Nestene" nerdist="3" %}
+	{% include dw_serial.html quality="g" num="056" dwm="092" title="The Mind of Evil" missing="t" note="B/W Only" monster="Master" %}
+	{% include dw_serial.html quality="o" num="057" dwm="129" title="The Claws of Axos" monster="Master, Axons" %}
+	{% include dw_serial.html quality="o" num="058" dwm="171" title="Colony in Space" monster="Master, Miners" %}
+	{% include dw_serial.html quality="g" num="059" dwm="034" title="The Dæmons" monster="Master, D&aelig;mons" nerdist="3" %}
   </ul>
 
   <ul>
-  	<li class="good">Episode 060 - Day of the Daleks <span class="note">Monster: <span class="icon js-replace-spoiler">Time Traveling Daleks</span>.</span> <span class="icon js-replace-dwm">71</span></li>
-  	<li class="good">Episode 061 - The Curse of Peladon <span class="note">Monster: <span class="icon js-replace-spoiler">Ice Warriors</span></span>. <span class="icon js-replace-dwm">82</span></li>
-  	<li class="recommended">Episode 062 - The Sea Devils <span class="note">(6)</span> <span class="note">Monster: <span class="icon js-replace-spoiler">Silurians</span></span><span class="c7">.</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">50</span></li>
-  	<li class="okay">Episode 063 - The Mutants <span class="note">Monster: <span class="icon js-replace-spoiler">Solonians</span>, <span class="icon js-replace-spoiler">Humans</span>. <span class="icon js-replace-dwm">182</span></span></li>
-  	<li class="good">Episode 064 - The Time Monster <span class="note">Monster: <span class="icon js-replace-spoiler">The Master</span>, <span class="icon js-replace-spoiler">Kronos</span>. <span class="icon js-replace-dwm">187</span></span></li>
+	{% include dw_serial.html quality="g" num="060" dwm="071" title="Day of the Daleks" monster="Time Traveling Daleks" %}
+	{% include dw_serial.html quality="g" num="061" dwm="082" title="The Curse of Peladon" monster="Ice Warriors" %}
+	{% include dw_serial.html quality="r" num="062" dwm="050" title="The Sea Devils" mine="7" monster="Silurians" nerdist="3" %}
+	{% include dw_serial.html quality="o" num="063" dwm="182" title="The Mutants" monster="Solonians, Humans" %}
+	{% include dw_serial.html quality="g" num="064" dwm="187" title="The Time Monster" monster="The Master, Kronos" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 065 - The Three Doctors <span class="note">(2) Monster: First <span class="icon js-replace-spoiler">Omega</span>!</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">58</span></li>
-  	<li class="good">Episode 066 - Carnival of Monsters <span class="icon js-replace-dwm">62</span></li>
-  	<li class="okay">Episode 067 - Frontier in Space <span class="note"><span class="icon js-replace-spoiler">Monster: The Master, Humans</span>. <span class="icon js-replace-dwm">113</span></span></li>
-  	<li class="okay">Episode 068 - Planet of the Daleks <span class="note">Monster: Daleks. Continues from previous serial. <span class="icon js-replace-dwm">118</span></span></li>
-  	<li class="recommended">Episode 069 - The Green Death <span class="note">(7) Spoiler: <span class="icon js-replace-spoiler">Last Jo episode</span>.</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">39</span></li>
+	{% include dw_serial.html quality="r" num="065" dwm="058" title="The Three Doctors" mine="2" monster="First Omega" nerdist="3" %}
+	{% include dw_serial.html quality="g" num="066" dwm="062" title="Carnival of Monsters" %}
+	{% include dw_serial.html quality="o" num="067" dwm="113" title="Frontier in Space" monster="The Master, Humans" %}
+	{% include dw_serial.html quality="o" num="068" dwm="118" title="Planet of the Daleks" monster="Daleks" note="Continues from previous serial" %}
+	{% include dw_serial.html quality="r" num="069" dwm="039" title="The Green Death" mine="8" camp_min="Jo Grant" nerdist="3" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 070 - The Time Warrior <span class="note">(4) <span class="icon js-replace-spoiler">New companion: Sarah Jane Smith!</span>! Monster: First <span class="icon js-replace-spoiler">Sontarans</span>!</span> <span class="icon js-replace-nerdist">3</span> <span class="icon js-replace-dwm">47</span></li>
-  	<li class="good">Episode 071 - Invasion of the Dinosaurs <span class="icon js-replace-dwm">131</span></li>
-  	<li class="okay">Episode 072 - Death to the Daleks <span class="note">Monster: Daleks. <span class="icon js-replace-dwm">128</span></span></li>
-  	<li class="okay">Episode 073 - The Monster of Peladon <span class="note">Back on Peladon from Episode 061! <span class="icon js-replace-dwm">179</span></span></li>
-  	<li class="recommended">Episode 074 - Planet of the Spiders <span class="note">(5) Metebelis Crystal from Episode 069</span> <span class="icon js-replace-dwm">89</span></li>
+	{% include dw_serial.html quality="r" num="070" dwm="047" title="The Time Warrior" mine="5" camp_add="Sarah Jane Smith" monster="First Sontarans!" nerdist="3" %}
+	{% include dw_serial.html quality="g" num="071" dwm="131" title="Invasion of the Dinosaurs" %}
+	{% include dw_serial.html quality="o" num="072" dwm="128" title="Death to the Daleks" monster="Daleks" %}
+	{% include dw_serial.html quality="o" num="073" dwm="179" title="The Monster of Peladon" note="Back on Peladon from Episode 061!" %}
+	{% include dw_serial.html quality="r" num="074" dwm="089" title="Planet of the Spiders" mine="6" note="Metebelis Crystal from Episode 069" %}
   </ul>
 
 
   <h3 id="fourth">Fourth Doctor, Tom Baker</h3>
 
   <ul>
-  	<li class="recommended">Episode 075 - Robot <span class="note">(6) First Baker! <img src="/assets/emoticons/Grin.png" /> <span class="icon js-replace-dwm">106</span></span></li>
-  	<li class="recommended">Episode 076 - The Ark in Space <span class="note">(11) New head writers, Hinchcliffe and Holmes, for next 3 seasons.</span> <span class="icon js-replace-nerdist">4</span>  <span class="icon js-replace-dwm">28</span></li>
-  	<li class="good">Episode 077 - The Sontaran Experiment <span class="note">Only 2 episodes! Continues from last serial. Monster: Sontarans <span class="icon js-replace-dwm">103</span></span></li>
-  	<li class="recommended">Episode 078 - Genesis of the Daleks <span class="note">(1) Continues from last serial.</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">3</span></li>
-  	<li class="okay">Episode 079 - Revenge of the Cybermen <span class="note">Continues from last serial. <span class="icon js-replace-dwm">130</span></span></li>
+	{% include dw_serial.html quality="r" num="075" dwm="106" title="Robot" mine="6" note="First Baker!" %}
+	{% include dw_serial.html quality="r" num="076" dwm="028" title="The Ark in Space" mine="11" note="New head writers, Hinchcliffe and Holmes, for next 3 seasons" nerdist="4" %}
+	{% include dw_serial.html quality="g" num="077" dwm="103" title="The Sontaran Experiment" note="Only 2 episodes! Continues from last serial." monster="Sontarans" %}
+	{% include dw_serial.html quality="r" num="078" dwm="003" title="Genesis of the Daleks" mine="1" god="t" note="Continues from last serial" nerdist="4" %}
+	{% include dw_serial.html quality="o" num="079" dwm="130" title="Revenge of the Cybermen" note="Continues from last serial" %}
   </ul>
 
   <ul>
-  	<li class="okay">Episode 080 - Terror of the Zygons <span class="note">Monster: <span class="icon js-replace-spoiler">Zygons &amp; Loch Ness Monster</span>. <span class="icon js-replace-dwm">17</span></span></li>
-  	<li class="okay">Episode 081 - Planet of Evil <span class="icon js-replace-dwm">84</span></li>
-  	<li class="good">Episode 082 - Pyramids of Mars <span class="note">Monster: <span class="icon js-replace-spoiler">Sutekh</span>.</span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">7</span></li>
-  	<li class="good">Episode 083 - The Android Invasion <span class="note">Monster: <span class="icon js-replace-spoiler">The Kraal</span>. <span class="icon js-replace-dwm">123</span></span></li>
-  	<li class="recommended">Episode 084 - The Brain of Morbius <span class="note">(7)</span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">40</span></li>
-  	<li class="good">Episode 085 - The Seeds of Doom <span class="note"><span class="icon js-replace-dwm">16</span></class></li>
+	{% include dw_serial.html quality="o" num="080" dwm="017" title="Terror of the Zygons" monster="Zygons &amp; Loch Ness Monster" %}
+	{% include dw_serial.html quality="o" num="081" dwm="084" title="Planet of Evil" %}
+	{% include dw_serial.html quality="g" num="082" dwm="007" title="Pyramids of Mars" monster="Sutekh" nerdist="4" %}
+	{% include dw_serial.html quality="g" num="083" dwm="123" title="The Android Invasion" monster="The Kraal" %}
+	{% include dw_serial.html quality="r" num="084" dwm="040" title="The Brain of Morbius" mine="7" nerdist="4" %}
+	{% include dw_serial.html quality="g" num="085" dwm="016" title="The Seeds of Doom" %}
   </ul>
 
   <ul>
-  	<li class="okay">Episode 086 - The Masque of Mandragora <span class="icon js-replace-dwm">85</span></li>
-  	<li class="good">Episode 087 - The Hand of Fear <span class="icon js-replace-spoiler">Companion leaves: Sarah Jane Smith</span>. <span class="icon js-replace-dwm">96</span></li>
-  	<li class="recommended">Episode 088 - The Deadly Assassin <span class="note">(3) <span class="icon js-replace-spoiler">Galliphrey</span>! Monster: <span class="icon js-replace-spoiler">The Master.</span>.</span> <span class="icon js-replace-nerdist">4</span>  <span class="icon js-replace-dwm">20</span></li>
-  	<li class="recommended">Episode 089 - The Face of Evil <span class="note">(5) Does not reference an older episode. <span class="icon js-replace-spoiler">New companion: Leela!</span>. <span class="icon js-replace-dwm">116</span></span></li>
-  	<li class="good">Episode 090 - The Robots of Death <span class="note"><span class="icon js-replace-dwm">9</span></span></li>
-  	<li class="recommended">Episode 091 - The Talons of Weng-Chiang <span class="note">(8)</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">4</span></li>
+	{% include dw_serial.html quality="o" num="086" dwm="085" title="The Masque of Mandragora" %}
+	{% include dw_serial.html quality="g" num="087" dwm="096" title="The Hand of Fear" camp_min="Sarah Jane Smith" %}
+	{% include dw_serial.html quality="r" num="088" dwm="020" title="The Deadly Assassin" mine="3" spoiler="Galliphrey!" monster="The Master" nerdist="4" %}
+	{% include dw_serial.html quality="r" num="089" dwm="116" title="The Face of Evil" mine="5" camp_add="Leela" %}
+	{% include dw_serial.html quality="g" num="090" dwm="009" title="The Robots of Death" %}
+	{% include dw_serial.html quality="r" num="091" dwm="004" title="The Talons of Weng-Chiang" mine="8" god="t" nerdist="4" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 092 - Horror of Fang Rock <span class="note">(9)</span> <span class="icon js-replace-nerdist">4</span>  <span class="icon js-replace-dwm">26</span></li>
-  	<li class="boring">Episode 093 - The Invisible Enemy <span class="note">First <span class="icon js-replace-spoiler">K-9</span>! <span class="icon js-replace-dwm">164</span></span></li>
-  	<li class="okay">Episode 094 - Image of the Fendahl <span class="icon js-replace-dwm">73</span></li>
-  	<li class="good">Episode 095 - The Sun Makers <span class="icon js-replace-dwm">147</span></li>
-  	<li class="okay">Episode 096 - Underworld  <span class="icon js-replace-dwm">197</span></li>
-  	<li class="recommended">Episode 097 - The Invasion of Time <span class="note">(2) <span class="icon js-replace-spoiler">Companion leaves: Leela</span></span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">155</span></li>
+	{% include dw_serial.html quality="r" num="092" dwm="026" title="Horror of Fang Rock" mine="9" nerdist="4" %}
+	{% include dw_serial.html quality="b" num="093" dwm="164" title="The Invisible Enemy" camp_add="K-9" %}
+	{% include dw_serial.html quality="o" num="094" dwm="073" title="Image of the Fendahl" %}
+	{% include dw_serial.html quality="g" num="095" dwm="147" title="The Sun Makers" %}
+	{% include dw_serial.html quality="o" num="096" dwm="197" title="Underworld" %}
+	{% include dw_serial.html quality="r" num="097" dwm="155" title="The Invasion of Time" mine="2" camp_min="Leela" nerdist="4" %}
   </ul>
 
   <ul>
-  	<li><strong>The Key to Time</strong> <span class="note">Season of unrelated stories with an overarching plot. Monster: <span class="icon js-replace-spoiler">The Black Guardian</span>.</span> <span class="icon js-replace-nerdist">4</span></li>
-  	<li class="good">Episode 098 - The Ribos Operation <span class="note"><span class="icon js-replace-spoiler">New companion: Romana</span> <span class="icon js-replace-dwm">105</span></span></li>
-  	<li class="okay">Episode 099 - The Pirate Planet <span class="icon js-replace-dwm">109</span></li>
-  	<li class="okay">Episode 100 - The Stones of Blood  <span class="icon js-replace-dwm">67</span></li>
-  	<li class="good">Episode 101 - The Androids of Tara <span class="icon js-replace-dwm">95</span></li>
-  	<li class="okay">Episode 102 - The Power of Kroll <span class="icon js-replace-dwm">174</span></li>
-  	<li class="okay">Episode 103 - The Armageddon Factor <span class="icon js-replace-dwm">168</span></li>
+	{% include dw_serial.html quality="t" title="The Key to Time" note="Season of unrelated stories with an overarching plot" nerdist="4" monster="The Black Guardian" %}
+
+	{% include dw_serial.html quality="g" num="098" dwm="105" title="The Ribos Operation" camp_add="Romana" %}
+	{% include dw_serial.html quality="o" num="099" dwm="109" title="The Pirate Planet" %}
+	{% include dw_serial.html quality="o" num="100" dwm="067" title="The Stones of Blood" %}
+	{% include dw_serial.html quality="g" num="101" dwm="095" title="The Androids of Tara" %}
+	{% include dw_serial.html quality="o" num="102" dwm="174" title="The Power of Kroll" %}
+	{% include dw_serial.html quality="o" num="103" dwm="168" title="The Armageddon Factor" %}
   </ul>
 
   <ul>
-  	<li class="good">Episode 104 - Destiny of the Daleks <span class="icon js-replace-dwm">121</span></li>
-  	<li class="recommended">Episode 105 - City of Death <span class="note">(4) 4th episode is the most watched episode of Doctor Who ever, reaching 16.1 million people.</span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">8</span></li>
-  	<li class="okay">Episode 106 - The Creature from the Pit <span class="icon js-replace-dwm">184</span></li>
-  	<li class="okay">Episode 107 - Nightmare of Eden <span class="icon js-replace-dwm">167</span></li>
-  	<li class="okay">Episode 108 - The Horns of Nimon <span class="icon js-replace-dwm">189</span></li>
-  	<li class="good "><span class="missing">Episode 000 - Shada <span class="note">Never completed due to BBC strike. Released later as blend of original footage with color animations and voiceovers by Baker and Romana</span></span></li>
+	{% include dw_serial.html quality="g" num="104" dwm="121" title="Destiny of the Daleks" %}
+	{% include dw_serial.html quality="r" num="105" dwm="008" title="City of Death" mine="4" note="4th episode is the most watched episode of Doctor Who ever, reaching 16.1 million people" nerdist="4" %}
+	{% include dw_serial.html quality="o" num="106" dwm="184" title="The Creature from the Pit" %}
+	{% include dw_serial.html quality="o" num="107" dwm="167" title="Nightmare of Eden" %}
+	{% include dw_serial.html quality="o" num="108" dwm="189" title="The Horns of Nimon" %}
+	{% include dw_serial.html quality="g" num="000" title="Shada" missing="t" note="Never completed due to BBC strike. Released later as blend of original footage with color animations and voiceovers by Baker and Romana" %}
   </ul>
 
   <ul>
-  	<li class="okay">Episode 109 - The Leisure Hive <span class="icon js-replace-dwm">149</span></li>
-  	<li class="okay">Episode 110 - Meglos <span class="icon js-replace-dwm">188</span></li>
-  	<li class="okay">Episode 111 - Full Circle <span class="icon js-replace-dwm">101</span> <span class="note"><span class="icon js-replace-spoiler">New Companion: Adric</span></span></li>
-  	<li class="okay">Episode 112 - State of Decay <span class="icon js-replace-dwm">87</span></li>
-  	<li class="okay">Episode 113 - Warriors' Gate <span class="icon js-replace-dwm">81</span> <span class="note"><span class="icon js-replace-spoiler">Companion Leaves: Romana</span></span></li>
-  	<li class="okay">Episode 114 - The Keeper of Traken <span class="note"><span class="icon js-replace-spoiler">New companion: Nyssa</span> <span class="note">Monster: <span class="icon js-replace-spoiler">The Master!</span></span> <span class="icon js-replace-dwm">70</span></span></li>
-  	<li class="recommended">Episode 115 - Logopolis <span class="note">(10) Monster: <span class="icon js-replace-spoiler">The Master</span>. <span class="icon js-replace-spoiler">New companion: Tegan!</span> <span class="icon js-replace-nerdist">4</span> <span class="icon js-replace-dwm">53</span></span></li>
+	{% include dw_serial.html quality="o" num="109" dwm="149" title="The Leisure Hive" %}
+	{% include dw_serial.html quality="o" num="110" dwm="188" title="Meglos" %}
+	{% include dw_serial.html quality="o" num="111" dwm="101" title="Full Circle" camp_add="Adric" %}
+	{% include dw_serial.html quality="o" num="112" dwm="087" title="State of Decay" %}
+	{% include dw_serial.html quality="o" num="113" dwm="081" title="Warriors' Gate"  camp_min="Romana" %}
+	{% include dw_serial.html quality="o" num="114" dwm="070" title="The Keeper of Traken" camp_add="Nyssa" monster="The Master!" %}
+	{% include dw_serial.html quality="r" num="115" dwm="053" title="Logopolis" mine="10" monster="The Master" camp_add="Tegan" nerdist="4" %}
   </ul>
 
 
   <h3 id="fifth">Fifth Doctor, Peter Davison</h3>
 
   <ul>
-  	<li class="recommended">Episode 116 - Castrovalva <span class="note">(6)</span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">88</span></li>
-  	<li class="good">Episode 117 - Four to Doomsday <span class="icon js-replace-dwm">173</span></li>
-  	<li class="boring">Episode 118 - Kinda <span class="note">Monster: Mara. Trippy episode, but not in a good way. Referenced in 124.</span> <span class="icon js-replace-dwm">69</span></li>
-  	<li class="okay">Episode 119 - The Visitation <span class="note">The Highwayman character makes this whole episode not bad.</span> <span class="icon js-replace-dwm">77</span></li>
-  	<li class="recommended">Episode 120 - Black Orchid <span class="note">(4) <span class="icon js-replace-dwm">117</span></span></li>
-  	<li class="recommended">Episode 121 - Earthshock <span class="note">(5) <span class="icon js-replace-spoiler">Companion leaves: Adric</span></span> <span class="note">Monster: <span class="icon js-replace-spoiler">Cybermen</span></span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">19</span></li>
-  	<li class="good">Episode 122 - Time-Flight <span class="note">Monster: <span class="icon js-replace-spoiler">The Master</span> <span class="icon js-replace-dwm">196</span></li>
+	{% include dw_serial.html quality="r" num="116" dwm="088" title="Castrovalva" mine="6" nerdist="5" %}
+	{% include dw_serial.html quality="g" num="117" dwm="173" title="Four to Doomsday" %}
+	{% include dw_serial.html quality="b" num="118" dwm="069" title="Kinda" monster="Mara" note="Trippy episode, but not in a good way. Referenced in 124" %}
+	{% include dw_serial.html quality="o" num="119" dwm="077" title="The Visitation" note="The Highwayman character makes this whole episode not bad" %}
+	{% include dw_serial.html quality="r" num="120" dwm="117" title="Black Orchid" mine="4" %}
+	{% include dw_serial.html quality="r" num="121" dwm="019" title="Earthshock" mine="5" camp_min="Adric" monster="Cybermen" nerdist="5" %}
+	{% include dw_serial.html quality="g" num="122" dwm="196" title="Time-Flight" monster="The Master" %}
   </ul>
 
   <ul>
-  	<li class="good">Episode 123 - Arc of Infinity <span class="note">Monster: <span class="icon js-replace-spoiler">Omega</span>. <span class="icon js-replace-spoiler">Companion: Tegan returns!</span> <span class="icon js-replace-dwm">177</span></span></li>
-  	<li class="okay">Episode 124 - Snakedance <span class="note">Monster: <span class="icon js-replace-spoiler">Mara</span>. References 118. <span class="icon js-replace-dwm">120</span></span></li>
-    <li class="recommended">Episode 125 - Mawdryn Undead <span class="note">(3) <span class="icon js-replace-spoiler">New companion: Turlough</span> <span class="icon js-replace-spoiler"><strong>THE BRIGADIER!</strong></span>. Monster: The Black Guardian</span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">102</span></li>
-  	<li class="good">Episode 126 - Terminus <span class="note"><span class="icon js-replace-spoiler">Companion leaves: Nyssa</span> Monster: The Black Guardian. Continues from previous.</span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">168</span></li>
-  	<li class="good">Episode 127 - Enlightenment <span class="note">Monster: The Black Guardian. Continues from previous.</span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">72</span></li>
-  	<li class="good">Episode 128 - The King's Demons <span class="note">Monster: <span class="icon js-replace-spoiler">The Master</span> <span class="icon js-replace-dwm">181</span></span></li>
+	{% include dw_serial.html quality="g" num="123" dwm="177" title="Arc of Infinity" monster="Omega" camp_add="Tegan returns!" %}
+	{% include dw_serial.html quality="o" num="124" dwm="120" title="Snakedance" monster="Mara" note="References 118" %}
+	{% include dw_serial.html quality="r" num="125" dwm="102" title="Mawdryn Undead" mine="3" camp_add="Turlough" spoiler="THE BRIGADIER!" monster="The Black Guardian" nerdist="5" %}
+	{% include dw_serial.html quality="g" num="126" dwm="168" title="Terminus" camp_min="Nyssa" monster="The Black Guardian" note="Continues from previous" nerdist="5" %}
+	{% include dw_serial.html quality="g" num="127" dwm="072" title="Enlightenment" monster="The Black Guardian" note="Continues from previous" nerdist="5" %}
+	{% include dw_serial.html quality="g" num="128" dwm="181" title="The King's Demons" monster="The Master" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 129 - The Five Doctors <span class="note">(1) "A man is the sum of his memories you know, a Time Lord even more so."</span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">38</span></li>
+	{% include dw_serial.html quality="r" num="129" dwm="38" title="The Five Doctors" mine="1" nerdist="5" note="\"A man is the sum of his memories you know, a Time Lord even more so.\"" %}
   </ul>
 
   <ul>
-  	<li class="okay">Episode 130 - Warriors of the Deep <span class="icon js-replace-dwm">185</span></li>
-  	<li class="okay">Episode 131 - The Awakening <span class="icon js-replace-dwm">110</span></li>
-  	<li class="okay">Episode 132 - Frontios <span class="icon js-replace-dwm">104</span></li>
-  	<li class="recommended">Episode 133 - Resurrection of the Daleks <span class="note">(7) <span class="icon js-replace-spoiler">Companion leaves: Tegan</span>. <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">93</span></span></li>
-  	<li class="good">Episode 134 - Planet of Fire <span class="note"><span class="icon js-replace-spoiler">New companion: Peri</span>. <span class="icon js-replace-dwm">134</span></span></li>
-  	<li class="recommended">Episode 135 - The Caves of Androzani <span class="note">(2)</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">5</span> <span class="icon js-replace-dwm">1</span></li>
+	{% include dw_serial.html quality="o" num="130" dwm="185" title="Warriors of the Deep" %}
+	{% include dw_serial.html quality="o" num="131" dwm="110" title="The Awakening" %}
+	{% include dw_serial.html quality="o" num="132" dwm="104" title="Frontios" %}
+	{% include dw_serial.html quality="r" num="133" dwm="093" title="Resurrection of the Daleks" mine="7" nerdist="5" camp_min="Tegan" %}
+	{% include dw_serial.html quality="g" num="134" dwm="134" title="Planet of Fire" camp_add="Peri" %}
+	{% include dw_serial.html quality="r" num="135" dwm="001" title="The Caves of Androzani" mine="2" god="t" nerdist="5" %}
   </ul>
 
   <h3 id="sixth">Sixth Doctor, Colin Baker</h3>
   <ul>
-  	<li class="recommended">Episode 136 - The Twin Dilemma <span class="note">(4) Worst serial ever? Only serial that is so bad it's legendary <span class="icon js-replace-nerdist">6</span> <span class="icon js-replace-dwm">200</span></span></li>
+	{% include dw_serial.html quality="r" num="136" dwm="200" title="The Twin Dilemma" mine="4" nerdist="6" note="Worst serial ever? Only serial that is so bad it's legendary" %}
   </ul>
 
   <ul>
-  	<li class="good">Episode 137 - Attack of the Cybermen <span class="icon js-replace-dwm">161</span></li>
-  	<li class="recommended">Episode 138 - Vengeance on Varos <span class="note">(3) <span class="icon js-replace-nerdist">6</span> <span class="icon js-replace-dwm">124</span></span></li>
-  	<li class="okay">Episode 139 - The Mark of the Rani <span class="note">Monster: <span class="icon js-replace-spoiler">Rani &amp; The Master</span>. <span class="icon js-replace-dwm">148</span></span></li>
-  	<li class="good">Episode 140 - The Two Doctors <span class="note">Not a great story, but last multi-doctor serial. <span class="icon js-replace-nerdist">6</span> <span class="icon js-replace-dwm">125</span></span></li>
-  	<li class="okay">Episode 141 - Timelash <span class="note">References unseen 3rd Doctor adventure. <span class="icon js-replace-spoiler">Loch Ness Monster &amp; H. G. Wells</span>. <span class="icon js-replace-dwm">199</span></span></li>
-  	<li class="recommended">Episode 142 - Revelation of the Daleks <span class="note">(2) <span class="icon js-replace-nerdist">6</span> <span class="icon js-replace-dwm">46</span></span></li>
+	{% include dw_serial.html quality="g" num="137" dwm="161" title="Attack of the Cybermen" %}
+	{% include dw_serial.html quality="r" num="138" dwm="124" title="Vengeance on Varos" mine="3" nerdist="6" %}
+	{% include dw_serial.html quality="o" num="139" dwm="148" title="The Mark of the Rani" monster="Rani &amp; The Master" %}
+	{% include dw_serial.html quality="g" num="140" dwm="125" title="The Two Doctors" note="Not a great story, but last multi-doctor serial" nerdist="6"%}
+	{% include dw_serial.html quality="o" num="141" dwm="199" title="Timelash" note="References unseen 3rd Doctor adventure" spoiler="Loch Ness Monster &amp; H. G. Wells" %}
+	{% include dw_serial.html quality="r" num="142" dwm="046" title="Revelation of the Daleks" mine="2" nerdist="6" %}
   </ul>
 
   <ul>
-  	<li class=""><strong>The Trial of a Time-Lord</strong> (1) Season is one large story. Monster: The Valeyard <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">6</span> <span class="icon js-replace-dwm">142</span></li>
-  	<li class="recommended">Episode 143 - The Mysterious Planet</li>
-    <li class="recommended">Episode 143 - Mindwarp <span class="note"><span class="icon js-replace-spoiler">Companion leaves: Peri</span></span></li>
-  	<li class="recommended">Episode 143 - Terror of the Vervoids <span class="note"><span class="icon js-replace-spoiler">New companion: Mel</span></span></li>
-  	<li class="recommended">Episode 143 - The Ultimate Foe</li>
+	{% include dw_serial.html quality="t" dwm="142" title="The Trial of a Time-Lord" mine="1" note="Season is one large story. Monster: The Valeyard" god="t" nerdist="6" %}
+
+	{% include dw_serial.html quality="r" num="143" title="The Mysterious Planet" %}
+	{% include dw_serial.html quality="r" num="143" title="Mindwarp" camp_min="Peri" %}
+	{% include dw_serial.html quality="r" num="143" title="Terror of the Vervoids" camp_add="Mel" %}
+	{% include dw_serial.html quality="r" num="143" title="The Ultimate Foe" %}
   </ul>
 
   <ul>
   	<h3 id="seventh">Seventh Doctor, Sylvester McCoy</h3>
-  	<li class="okay">Episode 144 - Time and the Rani <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">198</span></li>
-  	<li class="recommended">Episode 145 - Paradise Towers <span class="note">(5) Just plain delightful. A personal favorite. <span class="icon js-replace-dwm">193</span></span></li>
-  	<li class="okay">Episode 146 - Delta and the Bannermen <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">180</span></li>
-  	<li class="recommended">Episode 147 - Dragonfire <span class="note">(3) References 143. <span class="icon js-replace-spoiler">Companion leaves: Mel. New companion: Ace</span> <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">186</span></spam></li>
+
+	{% include dw_serial.html quality="o" num="144" dwm="198" title="Time and the Rani" nerdist="7" %}
+	{% include dw_serial.html quality="r" num="145" dwm="193" title="Paradise Towers" mine="5" note="Just plain delightful. A personal favorite" %}
+	{% include dw_serial.html quality="o" num="146" dwm="180" title="Delta and the Bannermen" nerdist="7" %}
+	{% include dw_serial.html quality="r" num="147" dwm="186" title="Dragonfire" mine="3" note="References 143" camp_min="Mel" camp_add="Ace" nerdist="7" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 148 - Remembrance of the Daleks <span class="note">(1) <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">14</span></span></li>
-  	<li class="okay">Episode 149 - The Happiness Patrol <span class="icon js-replace-dwm">170</span></li>
-  	<li class="okay">Episode 150 - Silver Nemesis <span class="note">Monster: <span class="icon js-replace-spoiler">Cybermen</span>. &ldquo;<span class="icon js-replace-spoiler">Professor? Doctor? Who are you?</span>&rdquo; <span class="icon js-replace-dwm">176</span></span></li>
-  	<li class="okay">Episode 151 - The Greatest Show in the Galaxy <span class="icon js-replace-dwm">119</span></li>
+	{% include dw_serial.html quality="r" num="148" dwm="014" title="Remembrance of the Daleks" mine="1" nerdist="7" %}
+	{% include dw_serial.html quality="o" num="149" dwm="170" title="The Happiness Patrol" %}
+	{% include dw_serial.html quality="o" num="150" dwm="176" title="Silver Nemesis" monster="Cybermen" spoiler="&ldquo;Professor? Doctor? Who are you?&rdquo;" %}
+	{% include dw_serial.html quality="o" num="151" dwm="119" title="The Greatest Show in the Galaxy" %}
   </ul>
 
   <ul>
-  	<li class="recommended">Episode 152 - Battlefield <span class="note">(2) <span class="icon js-replace-spoiler">Brigadier</span>! Delightful story.</span> <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">146</span></li>
-  	<li class="boring">Episode 153 - Ghost Light <span class="note">Nonsensical and confusing, but Ace is great as always. <span class="icon js-replace-dwm">76</span></span></li>
-  	<li class="recommended">Episode 154 - The Curse of Fenric <span class="note">(4) <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">30</span></span></li>
-  	<li class="recommended">Episode 155 - Survival <span class="icon js-replace-nerdist">7</span> <span class="icon js-replace-dwm">80</span></li>
+	{% include dw_serial.html quality="r" num="152" dwm="146" title="Battlefield" mine="2" nerdist="7" spoiler="Brigadier!" note="Delightful story" %}
+	{% include dw_serial.html quality="b" num="153" dwm="076" title="Ghost Light" note="Nonsensical and confusing, but Ace is great as always" %}
+	{% include dw_serial.html quality="r" num="154" dwm="030" title="The Curse of Fenric" mine="4" nerdist="7" god="t" %}
+	{% include dw_serial.html quality="r" num="155" dwm="080" title="Survival" nerdist="7" %}
   </ul>
 
   <h3 id="eighth">Eighth Doctor, Paul McGann</h3>
   <ul>
-  	<li class="recommended">Episode 156 - Doctor Who <span class="note">(1)</span> <span class="icon js-replace-god"></span> <span class="icon js-replace-nerdist">8</span> <span class="icon js-replace-dwm">135</span></li>
+	{% include dw_serial.html quality="r" num="156" dwm="135" title="Doctor Who" mine="1" god="t" nerdist="8" %}
   </ul>
 </section>
 
@@ -412,19 +416,19 @@ tags: media
       $doc = $(this).html();
 
       $path = [
-        "/2010/09/doctor-who-for-newbies-the-first-doctor/",
-        "/2010/09/doctor-who-for-newbies-the-second-doctor/",
-        "/2010/09/doctor-who-for-newbies-the-third-doctor/",
-        "/2010/10/doctor-who-for-newbies-the-fourth-doctor/",
-        "/2010/10/doctor-who-for-newbies-the-fifth-doctor/",
-        "/2010/10/doctor-who-for-newbies-the-sixth-doctor/",
-        "/2010/10/doctor-who-for-newbies-the-seventh-doctor/",
-        "/2010/12/doctor-who-for-newbies-the-eighth-doctor-the-wilderness-years-2/"
+        "doctor-who-for-newbies-the-first-doctor",
+        "doctor-who-for-newbies-the-second-doctor",
+        "doctor-who-for-newbies-the-third-doctor",
+        "doctor-who-for-newbies-the-fourth-doctor",
+        "doctor-who-for-newbies-the-fifth-doctor",
+        "doctor-who-for-newbies-the-sixth-doctor",
+        "doctor-who-for-newbies-the-seventh-doctor",
+        "doctor-who-for-newbies-the-eighth-doctor-the-wilderness-years-2/"
       ];
 
-      $icon  = "<a href=\"http://www.nerdist.com";
+      $icon  = "<a href=\"http://archive.nerdist.com/";
       $icon += $path[$doc-1];
-      $icon += "\" class=\"nerdist\">Also Recommended by Nerdist.</a>";
+      $icon += "/\" class=\"nerdist\">Also Recommended by Nerdist.</a>";
       return $icon;
     });
 

@@ -1,0 +1,51 @@
+<li>
+  <span class="{% if include.missing %}missing{% endif %}">
+    <span class="
+      {% if include.quality == 'r' %}recommended
+        {% elsif include.quality == 't' %}title
+        {% elsif include.quality == 'g' %}good
+        {% elsif include.quality == 'o' %}okay
+        {% elsif include.quality == 'b' %}boring
+      {% endif %}
+    ">
+      {% if include.num %}Episode {{ include.num }} - {% endif %}
+      {{ include.title }}
+    </span>
+
+    <span class="note">
+      {% if include.mine %}({{ include.mine }}){% endif %}
+
+      {% if include.nerdist %}
+        <span class="icon js-replace-nerdist">{{ include.nerdist }}</span>
+      {% endif %}
+
+      {% if include.god %}
+        <span class="icon js-replace-god"></span>
+      {% endif %}
+
+      {% if include.dwm %}
+        <span class="icon js-replace-dwm">{{ include.dwm }}</span>
+      {% endif %}
+
+      {% if include.note %}
+        {{ include.note }}.
+      {% endif %}
+
+      {% if include.monster %}
+        Monster: <span class="icon js-replace-spoiler">{{ include.monster }}.</span>
+      {% endif %}
+
+      {% if include.camp_add %}
+        <span class="icon js-replace-spoiler">New companion: {{ include.camp_add }}.</span>
+      {% endif %}
+
+      {% if include.camp_min %}
+        <span class="icon js-replace-spoiler">Companion leaves: {{ include.camp_min }}.</span>
+      {% endif %}
+
+      {% if include.spoiler %}
+        <span class="icon js-replace-spoiler">{{ include.spoiler }}.</span>
+      {% endif %}
+    </span>
+  </span>
+</li>
