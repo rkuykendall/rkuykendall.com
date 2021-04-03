@@ -1,7 +1,0 @@
-- Introduce dataset
-- Tools for working with data
-	- head
-	- 010 Editor
-- Problems with data
-- Code to import data
-- Code to manipulate data
