@@ -1,9 +1,15 @@
 ---
 title: The History of Baseball Video Games
----
+---Atari was ready for more, and decided to take advantage of the Pac
+
+<style>
+ol {
+    list-style-position: outside;
+}
+</style>
 
 <blockquote>
-I researched and wrote this for a class on *Baseball and the American Experience*
+I researched and wrote this for a class on <em>Baseball and the American Experience</em>
 at Texas State University in San Marcos. It surprisingly difficult to find good
 information on older baseball games, so I decided to publish it online and will
 be working to improve it over the next few months.
@@ -40,7 +46,7 @@ In 1983, Realsports Baseball was released for their new Atari 5200. Realsports B
 
 ## North American Video Game Crash of 1983 or The Faith of Fifty-Million People
 
-Mirroring the dot-com sector of the late 1990s, the video game industry had experienced a period of explosive growth. Atari was ready for more, and decided to take advantage of the Pac-Man arcade game, and the much anticipated Pac-Man for the Atari 2600 was rushing it out for the 1981 holiday season. The game was received poorly by fans and critics alike, with complaints that it was nothing like the original. Despite a huge marketing push, Atari sold less than half the cartridges produced. Atari didn't to anything from their mistake. In 1982, the following year, ET sat at #1 in the box office for six weeks straight. Atari bought the rights for $20 million, and anticipating huge Christmas sales in the wake of the movie, rushed out ET for the Atari 2600 in five weeks. Buggy code and poor gameplay resulted in disappointed fans and a disaster for Atari, who produced more copies of the game than there were Atari 2600s in homes.
+Mirroring the dot-com sector of the late 1990s, the video game industry had experienced a period of explosive growth. Atari was ready for more, and decided to take advantage of the Pac-Man arcade game, and the much anticipated Pac-Man for the Atari 2600 was rushing it out for the 1981 holiday season.<sup>[Correction](#scottith-3)</sup> The game was received poorly by fans and critics alike, with complaints that it was nothing like the original. Despite a huge marketing push, Atari sold less than half the cartridges produced. Atari didn't learn anything from their mistake. In 1982, the following year, ET sat at #1 in the box office for six weeks straight. Atari bought the rights for $20 million, and anticipating huge Christmas sales in the wake of the movie, rushed out ET for the Atari 2600 in five weeks. Buggy code and poor gameplay resulted in disappointed fans and a disaster for Atari, who produced more copies of the game than there were Atari 2600s in homes.<sup>[Correction](#scottith-2)</sup>
 
 The industry was full of third party developers trying to cash in on the booming video game industry. Companies with little regard for the consumer paid poor developers to quickly write game so they could get them on the shelves fast enough. This phenomenon is well illustrated by the 1983 game Pitcher's Duel. In the early 1980s every console had their own Baseball game. Atari and Intellivision were still battling, the Odyssey2 had Baseball! (1978) and ColecoVision had Super Action Baseball (1983), but owners of the Vectrex system were out in the cold. In 1983, Vectrex hired a programmer to develop a Baseball video game for their console<sup>[13](#pink-gorilla-2009)</sup>. The developer, who knew absolutely nothing about the sport, was ordered to watch games on television until he understood enough to produce a game<sup>[13](#pink-gorilla-2009)</sup>. The development of Pitcher's Duel reflects the mindset of the industry in the early 1980s.
 
@@ -80,7 +86,18 @@ The features that make The Show interesting are the things that have been added 
 
 Wii Sports, released by Nintendo in 2006 stands in contrast to MLB '09 The Show. The game is designed to be intuitive, instantly playable and fun. There is no setup or calibration, and since swinging the bat is as simple as swinging the motion tracking controller, it plays just as you would expect<sup>[19](#marbles-2006)</sup>. Pitching is simple and flicking Wiimote will throw a fastball, but you can hold D-Pad to change pitch location, and in combination with other you can throw curveballs, screwballs, and splitters<sup>[19](#marbles-2006)</sup>. There is no running or fielding, so base runs are determined by where the ball is hit. Wii Sports reminds us of the early Coleco handhelds and simpler games like Home Run. For players might not have been introduced to video games, Wii Sports Baseball is a game that doesn't require an introduction.
 
-## References
+## Corrections
+
+These notes (along with several spelling mistakes I fixed above) were kindly emailed to me by Scott Stilphen of [ataricompendium.com](https://ataricompendium.com/). Instead of trying to re-write and correct this as a living document, I thought it would be better to list Scott's corrections here.
+
+20. <a name="scottith-1"></a> This article does not include any arcade baseball video games.  If you check out this page on my site, and scroll down to Home Run, RealSports Baseball, or Super Baseball, you'll see a list of early arcade games: http://www.ataricompendium.com/game_library/arcade_ports.html
+
+21. <a name="scottith-2"></a>VCS Pac-Man was released in late March 1982.
+
+22. <a name="scottith-3"></a>Atari produced approximately 4 million E.T. cartridges, at a time when there were at least 10 million VCS systems sold.  The rumor that Atari produced more E.T. cartridges than systems is an old rumor that keeps getting recirculated that has no basis in fact whatsoever.
+
+
+## References
 
 1. <a name="mrozek-2001"></a> Mrozek, David. 2001. The Video Game Critic's History of Baseball Video Games. The Video Game Critic. [http://www.videogamecritic.net/baseball.htm](http://www.videogamecritic.net/baseball.htm) (accessed October 7, 2009).
 
