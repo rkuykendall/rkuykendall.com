@@ -97,5 +97,15 @@
       </footer>
 
       {% include foot.html %}
+      <script>
+        document.querySelectorAll('.article img').forEach(function(img) {
+          var a = document.createElement('a');
+          a.href = img.src;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          img.parentNode.insertBefore(a, img);
+          a.appendChild(img);
+        });
+      </script>
   </body>
 </html>

@@ -146,6 +146,26 @@ p img {
 	margin: 0 0 10px 10px;
 }
 
+.article hr {
+	max-width: 40em;
+	margin: 1em 0;
+	border: none;
+	border-top: 1px solid #848484;
+}
+
+.article img {
+	display: block;
+	float: none;
+	max-width: 40em;
+	margin: 1em 0;
+}
+
+.article iframe {
+	display: block;
+	max-width: 40em;
+	margin: 1em 0;
+}
+
 blockquote cite {
   display: block;
   font-style: italic;
